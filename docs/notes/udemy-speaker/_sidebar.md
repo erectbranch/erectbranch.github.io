@@ -1,0 +1,17 @@
+- **Lecture Home**
+  - [About](notes/udemy-speaker/README.md)
+- **Lecture Notes**
+  - **Basics of Audio Processing**
+    - [History of Voice Identity Techniques](notes/udemy-speaker/Section02.md)
+    - [Acoustics, Frequency, Sound](notes/udemy-speaker/Section03-summary01.md)
+    - [Analog-to-digital](notes/udemy-speaker/Section03-summary02.md)
+    - [Short-time analysis, Post-processing](notes/udemy-speaker/Section04-summary01.md)
+    - [Time domain feature, Frequency domain feature](notes/udemy-speaker/Section04-summary02.md)
+  - **Fundamentals of Speaker Recognition**
+    - [Speaker Verification, Speaker Identification](notes/udemy-speaker/Section05-summary01.md)
+    - [Similarity Score, Evaluation](notes/udemy-speaker/Section05-summary02.md)
+  - **Early Speaker Recognition Approaches**
+    - [Gaussian Mixture Models](notes/udemy-speaker/Section06-summary01.md)
+    - [Joint Factor Analysis, i-vector](notes/udemy-speaker/Section06-summary02.md)
+  - **Speaker Recognition with Deep Learning**
+    - [Indirect/direct use of Neural Network, Inference](notes/udemy-speaker/Section08-summary01.md)

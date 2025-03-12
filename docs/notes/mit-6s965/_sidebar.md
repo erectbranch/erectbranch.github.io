@@ -1,0 +1,28 @@
+- **Lecture Home**
+  - [About](notes/mit-6s965/README.md)
+- **Lecture Notes**
+  - **Basics of Deep Learning**
+    - [Basic Terminologies, Shape of Tensors](notes/mit-6s965/lec02-summary01.md)
+    - [Efficiency Metrics](notes/mit-6s965/lec02-summary02.md)
+  - **Efficient Inference**
+    - [Pruning Granularity, Pruning Critertion](notes/mit-6s965/lec03.md)
+    - [Automatic Pruning, Lottery Ticket Hypothesis](notes/mit-6s965/lec04-summary01.md)
+    - [System & Hardware Support for Fine-grained Sparsity](notes/mit-6s965/lec04-summary02.md)
+    - [Basic Concepts of Quantization](notes/mit-6s965/lec05-summary01.md)
+    - [Vector Quantization](notes/mit-6s965/lec05-summary02.md)
+    - [Post Training Quantization](notes/mit-6s965/lec06-summary01.md)
+    - [Quantization-Aware Training, Low bit-width quantization](notes/mit-6s965/lec06-summary02.md)
+    - [Neural Architecture Search: basic concepts & manually-designed neural networks](notes/mit-6s965/lec07-summary01.md)
+    - [Neural Architecture Search: Search Space](notes/mit-6s965/lec07-summary02.md)
+    - [Neural Architecture Search: Performance Estimation & Hardware-Aware NAS](notes/mit-6s965/lec08.md)
+    - [Knowledge Distillation](notes/mit-6s965/lec10-summary01.md)
+    - [Distillation for Applications](notes/mit-6s965/lec10-summary02.md)
+    - [MCUNet](notes/mit-6s965/lec11.md)
+  - **Efficient Training and System Support**
+    - [TinyEngine](notes/mit-6s965/lec17.md)
+  - **Application-Specific Optimizations**
+    - [Efficient Video(live) Understanding](notes/mit-6s965/lec19-summary01.md)
+    - [Generative Adversarial Networks (GANs)](notes/mit-6s965/lec19-summary02.md)
+    - [Transformer](notes/mit-6s965/2023-lec12-summary01.md)
+    - [Transformer Design Variants](notes/mit-6s965/2023-lec12-summary02.md)
+    - [Efficient Vision Transformer](notes/mit-6s965/2023-lec14-summary01.md)

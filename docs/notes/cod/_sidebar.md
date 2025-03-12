@@ -1,0 +1,18 @@
+- **Lecture Home**
+  - [About](notes/cod/README.md)
+- **Lecture Notes**
+  - **Computer Abstractions**
+    - [Computer Abstractions and Technology](notes/cod/ch01.md)
+  - **RISC-V**
+    - [RISC-V Instructions(RV64I)](notes/cod/ch02-summary01.md)
+    - [Conditional Operation, Branch](notes/cod/ch02-summary02.md)
+    - [wide, branch instructions, data race](notes/cod/ch02-summary03.md)
+  - **RISC-V Processor**
+    - [RISC-V Processor datapath](notes/cod/ch04-summary01.md)
+    - [RISC-V Pipelining](notes/cod/ch04-summary02.md)
+    - [RISC-V Pipelined datapath, ILP](notes/cod/ch04-summary03.md)
+  - **Cache**
+    - [memory hierarchy, direct mapped cache](notes/cod/ch05-summary01.md)
+    - [cache miss, cache write, set-associative cache](notes/cod/ch05-summary02.md)
+  - **Parallel Processors**
+    - [interconnect, heterogeneity, thread](notes/cod/ch06-summary01.md)

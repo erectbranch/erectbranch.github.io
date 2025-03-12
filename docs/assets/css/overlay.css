@@ -1,0 +1,100 @@
+/* custom: 메인 오버레이 스타일 생성 */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(247, 247, 247, 0.98);    /* default: rgba(0, 0, 0, 0.5); -> f7f7f7*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.5s ease-out;
+  }
+
+  .overlay.fade-out {
+    opacity: 0;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    margin-top: -4rem;
+    /* padding: 20px; */
+  }
+
+  .container h1 {
+    color: #000;         /* custom: 제목 텍스트 색상 변경 */
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-family: 'Iceland'; /* custom: 제목 텍스트 폰트 변경 기본: 'Times New Roman', Times, serif; */
+    text-align: left;
+  }
+
+  .box {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 4px;
+    /* border: 0.5px solid #000; */
+    border-radius: 5px;
+    background-color: #db7667;
+  }
+
+  /* .overlay-logo {
+    width: 3rem;
+  } */
+
+  .frame-controls {
+    margin-bottom: 18px;
+    display: flex;
+    gap: 6px;
+    justify-content: right;
+  }
+  
+  .frame-controls button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 0.8rem;
+  }
+  
+  .frame-controls button:hover {
+    background: #555;
+  }
+
+  .overlay-controls {
+    position: center;
+    margin-top: 50px;
+    bottom: 0px;           /* custom: 컨트롤 버튼 3종 위치 조정 */
+    right: 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .overlay-controls button  {
+    background: #333;
+    color: #0f5acb;
+    /* border: none; */
+    padding: 15px min(20px, 5%) 15px min(20px, 5%);
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    letter-spacing: 0.15em;
+    border-width: thin;
+  }
+
+  .close-overlay {
+    background: rgba(247, 247, 247, 0) !important;
+    border-color: #0f5acb;
+  }
+
+  .github-link {
+    color: #fff;
+  }

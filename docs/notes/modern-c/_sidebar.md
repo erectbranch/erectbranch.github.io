@@ -1,0 +1,9 @@
+- **Lecture Home**
+  - [About](notes/modern-c/README.md)
+- **Lecture Notes**
+  - [**1장 들어가며**](notes/modern-c/ch01.md)
+  - [**2장 프로그램의 핵심 구조**](notes/modern-c/ch02.md)
+  - [**3장 결국은 제어**](notes/modern-c/ch03.md)
+  - [**4장 계산 표현하기**](notes/modern-c/ch04.md)
+  - [**5장 값과 데이터**](notes/modern-c/ch05.md)
+  - [**6장 파생 데이터 타입**](notes/modern-c/ch06.md)

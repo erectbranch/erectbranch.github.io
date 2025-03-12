@@ -1,0 +1,22 @@
+- **Lecture Home**
+  - [About](notes/arm-system-guide/README.md)
+- **Lecture Notes**
+  - **ARM Processor Fundamentals**
+    - [ARM Embedded System](notes/arm-system-guide/ch01.md)
+    - [Dataflow and Registers](notes/arm-system-guide/ch02-summary01.md)
+    - [Pipeline, Interrupt, Extensions](notes/arm-system-guide/ch02-summary02.md)
+  - **ARM Instruction Set**
+    - [Data Processing Instructions](notes/arm-system-guide/ch03-summary01.md)
+    - [Branch, Load-Store Instructions](notes/arm-system-guide/ch03-summary02.md)
+    - [SWI, Program Status Register  Instructions, ARMv5E Extensions](notes/arm-system-guide/ch03-summary03.md)
+  - **Efficient C Programming**
+    - [C Compiler, Data Types, Looping Structures](notes/arm-system-guide/ch05-summary01.md)
+    - [Register Allocation, Function Calls, Aliasing](notes/arm-system-guide/ch05-summary02.md)
+    - [Alignment, Endian, Division, Inline Assembly](notes/arm-system-guide/ch05-summary03.md)
+  - **Optimizing ARM Assembly Code**
+    - [Assembly Function, Instruction Scheduling](notes/arm-system-guide/ch06-summary01.md)
+    - [Conditional Execution, Looping Constructs](notes/arm-system-guide/ch06-summary03.md)
+    - [Bit Manipulation, Switch, Unaligned Data](notes/arm-system-guide/ch06-summary04.md)
+  - **Exception and Interrupt Handling**
+    - [Exception Handling](notes/arm-system-guide/ch09-summary01.md)
+    - [Interrupt, Interrupt Stack](notes/arm-system-guide/ch09-summary02.md)
