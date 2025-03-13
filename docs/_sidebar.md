@@ -1,7 +1,7 @@
-- **Home**
+- **🏠 Home**
   - [About](home.md)
   - [Projects](wip.md)
-- **Lecture Notes**
+- **📝 Lecture Notes**
   - **| Artificial Intelligence(AI)**
     - [TinyML and Efficient Deep Learning Computing](notes/mit-6s965/README.md)
     - [Speaker Recognition](notes/udemy-speaker/README.md)

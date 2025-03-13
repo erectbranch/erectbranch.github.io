@@ -34,7 +34,7 @@
 
 #### TinyML and Efficient Deep Learning Computing
 
-`MIT 6.S965` • `2022` • `https://efficientml.ai`
+`MIT 6.S965` • `2022` • `efficientml.ai`
 
 - Instructor: Song Han(Associate Professor, MIT EECS)
 
@@ -44,7 +44,7 @@
 
 #### Speaker Recognition
 
-`Udemy` • `2022` • `https://www.udemy.com/course/speaker-recognition/`
+`Udemy` • `2022` • `udemy.com/course/speaker-recognition`
 
 - Instructor: Quan Wang(Software Engineer, Google)
 
