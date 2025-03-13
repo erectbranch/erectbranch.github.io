@@ -1454,7 +1454,7 @@ body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar-thumb {
   border-width: var(--sidebar-toggle-border-width);
   border-style: var(--sidebar-toggle-border-style);
   border-color: var(--sidebar-toggle-border-color);
-  background: var(--sidebar-toggle-background, transparent);
+  background: var(--sidebar-toggle-background, transparent);  /* = sidebar-border-color */
   color: var(--sidebar-toggle-icon-color);
 }
 .sidebar-toggle span {
@@ -1482,7 +1482,7 @@ body:not([data-platform^="Mac"]) .sidebar::-webkit-scrollbar-thumb {
     transform: translateX(var(--sidebar-width));
   }
   .sidebar-toggle .sidebar-toggle-button {
-    top: 0;
+    top: -0.05rem;  /* custom: sidebar-toggle 위 button 상하 위치 조정(기본: 0) */
   }
 }
 @media print {
@@ -1908,7 +1908,7 @@ body .sidebar {
   --pagination-title-font-size: var(--font-size-l);
 }
 :root {
-  --search-margin: 1.5rem 0 0;
+  --search-margin: 1rem 0 0;    /* custom: search바 시작 지점의 마진 조절 가능 (기본: 1.5rem 0 0) */
   --search-input-background-repeat: no-repeat;
   --search-input-border-color: var(--mono-tint1);
   --search-input-border-width: 1px;
@@ -1949,7 +1949,7 @@ body .sidebar {
   --sidebar-nav-strong-margin: 1.5em 0 0.5em;
   --sidebar-nav-strong-padding: 0.25em 0;
   --sidebar-nav-indent: 1em;
-  --sidebar-nav-margin: 1.5rem 0 0;
+  --sidebar-nav-margin: 1.5rem 0 0;    /* custom: 사이드바 시작 지점의 마진 조절 가능 (기본: 1.5rem 0 0) */
   --sidebar-nav-link-border-style: solid;
   --sidebar-nav-link-border-width: 0;
   --sidebar-nav-link-color: var(--base-color);
@@ -1957,7 +1957,7 @@ body .sidebar {
   --sidebar-nav-link-padding: 0.25em 0;
   --sidebar-nav-link-text-decoration--active: underline;
   --sidebar-nav-link-text-decoration--hover: underline;
-  --sidebar-nav-link-before-margin: 0 0.35em 0 0;
+  --sidebar-nav-link-before-margin: 0 0.25em 0 0;
   --sidebar-nav-pagelink-transition: var(--sidebar-nav-link-transition);
   --sidebar-toggle-border-radius: var(--border-radius-s);
   --sidebar-toggle-border-style: solid;
@@ -1965,9 +1965,9 @@ body .sidebar {
   --sidebar-toggle-height: 36px;
   --sidebar-toggle-icon-color: var(--base-color);
   --sidebar-toggle-icon-height: 10px;
-  --sidebar-toggle-icon-stroke-width: 1px;
+  --sidebar-toggle-icon-stroke-width: 2px;
   --sidebar-toggle-icon-width: 16px;
-  --sidebar-toggle-offset-left: 0;
+  --sidebar-toggle-offset-left: -0.05rem; /* custom: 사이드바 toggle 위 button 위치 조절 (기본: 0) */
   --sidebar-toggle-offset-top: calc(35px - (var(--sidebar-toggle-height) / 2));
   --sidebar-toggle-width: 44px;
 }

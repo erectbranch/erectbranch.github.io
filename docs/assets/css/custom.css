@@ -706,10 +706,10 @@ body .markdown-section {
   }
 
   /* custom: 추가한 스타일 */
-  .sidebar-toggle,
+  /* .sidebar-toggle,
   .sidebar-toggle-button {
     display: none;
-  }
+  } */
   @keyframes octocat-wave {
     0%, 100% {
       transform: rotate(0);

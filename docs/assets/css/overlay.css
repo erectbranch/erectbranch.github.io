@@ -34,11 +34,11 @@
 
   .box {
     display: inline-block;
-    color: #fff;
+    color: #03e568;
     padding: 0px 4px;
     /* border: 0.5px solid #000; */
     border-radius: 5px;
-    background-color: #db7667;
+    background-color: #000;
   }
 
   /* .overlay-logo {
