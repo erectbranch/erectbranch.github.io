@@ -17,6 +17,10 @@
     opacity: 0;
   }
 
+  .hidden {
+    display: none;
+  }
+
   .container {
     position: relative;
     text-align: center;

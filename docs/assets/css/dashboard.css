@@ -1,0 +1,148 @@
+.toc-page-display-a {
+    border-radius: var(--global-el-border-radius, 10px);
+    display: inline-block;
+    width: calc(50% - 25px);  
+    margin-bottom: 10px;
+    margin-top: 40px;                                               /* custom: 카드 사이 margin-top 조정(기본: 5px) */
+    text-align: left;                                               /* custom: 카드 내 텍스트 정렬 변경(기본: center) */
+    background-color: var(--global-theme-color-blur, #212121);      /* custom: 카드 배경색 변경(기본: #ea6f5a1a) */
+    min-height: 270px;
+    text-decoration: none !important;                               /* custom: important 추가 */
+    color: #fff !important;                                         /* custom: 카드 텍스트 색상 변경(기본: 조절하지 않음) */
+    max-width: 400px;        /* custom: 카드 최대 너비 추가(기본: 조절하지 않음) */
+}
+
+@media screen and (max-width: 768px) {
+    .toc-page-display-a {
+        width: calc(100% - 20px);
+        display: inherit;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+
+.toc-page-display-a:nth-child(even) {
+    margin-left: 0px;        /* custom: 카드 margin 조정(기본: 7px) */
+    margin-right: 18px;
+}
+
+.toc-page-display-a:nth-child(odd) {
+    margin-left: 0px;        /* custom: 카드 margin 조정(기본: 18px) */
+    margin-right: 7px;
+}
+
+.toc-page-display-title-img {
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    border-top-left-radius: var(--global-el-border-radius, 10px);
+    border-top-right-radius: var(--global-el-border-radius, 10px);
+}
+
+.toc-page-display-a img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    transition: transform 0.4s;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.toc-page-display-a:hover {
+    cursor: pointer;
+
+    img {
+        transform: scale(1.03);
+        filter: brightness(var(--global-brightness-blur, 0.85));
+    }
+}
+
+.toc-page-display-title-div {
+    padding: 20px 20px 5px 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1rem;      /* custom: 제목 텍스트 크기 변경(기본: 1.25rem) */
+    font-weight: bolder;  /* custom: 제목 텍스트 굵기 변경(기본: 설정하지 않음) */
+}
+
+.toc-page-display-date-div {
+    padding: 0 20px 20px 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.75rem;  /* custom: 날짜 텍스트 크기 변경(기본: 1rem) */
+    color: var(--global-background-black-blur, rgba(255, 255, 255, .4));   /* custom: 날짜 텍스트 색상 변경(기본: rgba(0, 0, 0, .1)) */
+}
+
+.toc-paginator-div {
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.toc-paginator-input input {
+    outline: 0;
+    font-size: inherit;
+    color: inherit;
+    width: 2em;
+    margin: 0 0.3em;
+    text-align: center;
+    background-color: transparent;
+    border-radius: var(--global-widget-border-radius, 0.3em);
+    border: 0.1em solid var(--global-border-default-color, #eee);
+}
+
+.toc-paginator-input span {
+    margin: 0 0.3em;
+}
+
+.toc-paginator-input input:hover {
+    border-color: var(--theme-color, #ea6f5a);  
+}
+
+.toc-paginator-input input:focus {
+    border-color: var(--theme-color, #ea6f5a);
+}
+
+.toc-paginator-input input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.toc-paginator-button-div {
+    margin: 0 0.1em;
+    border: 0.1em solid transparent;
+    cursor: pointer;
+}
+
+.toc-paginator-button-div svg {
+    border-radius: var(--global-widget-border-radius, 0.3em);
+}
+
+.toc-paginator-button-div svg:hover {
+    background-color: var(--global-theme-color-blur, #ea6f5a1a);
+}
+
+body.force-close {
+    .sidebar {
+        visibility: hidden !important;
+        transform: translateX(0) !important;
+    }
+
+    .sidebar-toggle {
+        visibility: hidden !important;
+    }
+
+    .content {
+        left: 0 !important;
+        transform: translateX(0) !important;
+    }
+
+    .app-nav {
+        display: inherit !important;
+    }
+}
