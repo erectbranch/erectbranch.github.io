@@ -13,6 +13,9 @@
   - **| Programming Language**
     - [Modern C](notes/modern-c/README.md)
     - [Python Tricks](notes/python-trick/README.md)
+- **🔧 Projects**
+  - **| High Performance Computing(HPC)**
+    - [Enroot on Slurm](notes/enroot-slurm/README.md)
 
 <br/>
 <br/> 
