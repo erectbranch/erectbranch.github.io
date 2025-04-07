@@ -1,7 +1,7 @@
 - [**전체보기**](dashboard.md)
 - **🏠 Home**
   - [About](home.md)
-  - [Projects](wip.md)
+  - [Projects](projects.md)
 - **📝 Lecture Notes**
   - **| Artificial Intelligence(AI)**
     - [TinyML and Efficient Deep Learning Computing](notes/mit-6s965/README.md)
