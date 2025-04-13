@@ -47,6 +47,8 @@
   <!-- https://github.com/pikapikapikaori/pikapikapi-blog -->
   <link rel="stylesheet" href="./assets/css/dashboard.css">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider/dist/slider.min.css">
+
   <style>
     :root {
       --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -259,6 +261,11 @@
         scope: '.markdown-section',
         headings: 'h2,h3',
         title: '',
+      },
+
+      slider: {
+        auto: true,
+        intervalTime: 20000,
       },
 
       // CUSTOM PLUGINS
@@ -549,7 +556,7 @@
 
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-image-slider/dist/docsify-image-slider.min.js"></script>
 
   <!-- reference: https://github.com/pikapikapikaori/pikapikapi-blog -->
   <script src="./assets/plugins/dashboard.js"></script>
@@ -557,6 +564,9 @@
 
   <!-- custom: 작성한 오버레이 커버 페이지 스크립트 -->
   <script src="./assets/plugins/overlay-cover.js"></script>
+
+  <!-- custom: showcase 페이지 스크립트 -->
+  <script src="./assets/plugins/showcase.js"></script>
 
   <!-- custom: 루트 경로(#)인 경우, 커버 페이지인 overlay를 표시. -->
   <script>

@@ -1,4 +1,4 @@
-# Branch Log
+# Branch Log <!-- {docsify-ignore-all} -->
 
 ---
 
