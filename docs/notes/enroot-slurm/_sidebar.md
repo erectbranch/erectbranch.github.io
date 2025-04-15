@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Home**
   - [About](notes/enroot-slurm/README.md)
 - **Documentation**
@@ -7,5 +8,6 @@
   - [4 - Using Docker Container with Enroot](notes/enroot-slurm/04_enroot.md)
   - [5 - PyTorch Training with NGC Container](notes/enroot-slurm/05_ngc.md)
   - [6 - PyTorch Distributed Training on Slurm](notes/enroot-slurm/06_standalone.md)
+  - [7 - Multi-node LLM Training with Wandb](notes/enroot-slurm/07_multinode.md)
 - **Tools**
   - [Script with Push Notification](notes/enroot-slurm/notification.md)

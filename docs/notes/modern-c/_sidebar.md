@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Lecture Home**
   - [About](notes/modern-c/README.md)
 - **Lecture Notes**

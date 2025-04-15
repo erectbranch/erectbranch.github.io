@@ -13,7 +13,7 @@ Instructor : Quan Wang(Software Engineer, Google)</br>
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **화자 인식 기초 개념 공부**
 

@@ -12,7 +12,7 @@ Elsevier · 2017년 4월 13일 출시</b>
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **컴퓨터 구조를 공부한다.**
 

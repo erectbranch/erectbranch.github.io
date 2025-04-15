@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Lecture Home**
   - [About](notes/arm-system-guide/README.md)
 - **Lecture Notes**
@@ -15,8 +16,11 @@
     - [Alignment, Endian, Division, Inline Assembly](notes/arm-system-guide/ch05-summary03.md)
   - **Optimizing ARM Assembly Code**
     - [Assembly Function, Instruction Scheduling](notes/arm-system-guide/ch06-summary01.md)
+    - [Register Allocation](notes/arm-system-guide/ch06-summary02.md)
     - [Conditional Execution, Looping Constructs](notes/arm-system-guide/ch06-summary03.md)
     - [Bit Manipulation, Switch, Unaligned Data](notes/arm-system-guide/ch06-summary04.md)
+  - **Embedded System**
+    - [Firmware, Bootloader](notes/arm-system-guide/ch10-summary01.md)
   - **Exception and Interrupt Handling**
     - [Exception Handling](notes/arm-system-guide/ch09-summary01.md)
     - [Interrupt, Interrupt Stack](notes/arm-system-guide/ch09-summary02.md)

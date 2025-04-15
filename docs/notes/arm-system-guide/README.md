@@ -12,7 +12,7 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **ARM 코어의 동작 원리를 이해한다.**
 
@@ -69,9 +69,9 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
 
    > Branch Instructions(B, BL, BX, BLX)
 
-   > Single-Register Transfer(LDR, STR, LDRB, STRB, LDRH, STRH, LDRSB, LDRSH), Addressimg Mode(Preindex with writeback, Preindex, Postindex)
+   > Single-Register Transfer(LDR, STR, LDRB, STRB, LDRH, STRH, LDRSB, LDRSH), Addressing Mode(Preindex with writeback, Preindex, Postindex)
 
-   > Multiple-Register Transfer(LDM, STM), Addressimg Mode(IA, IB, DA, DB), Stack Operations(FA, FD, EA, ED)
+   > Multiple-Register Transfer(LDM, STM), Addressing Mode(IA, IB, DA, DB), Stack Operations(FA, FD, EA, ED)
   
  - [SWI, Program Status Register  Instructions, ARMv5E Extensions](notes/arm-system-guide/ch03-summary03.md)
 
@@ -116,7 +116,13 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
 
    > Assembly Function, Call Subroutine
 
-   > Instruction Scheduling(instruction cycles, ARM9TDMI pipeline), Pipeline Hazards
+   > Instruction Scheduling(instruction cycles, ARM9TDMI pipeline), Pipeline Hazards, Loop Scheduling(Preloading, Unrolling)
+
+ - [Register Allocation](https://github.com/erectbranch/ARM_System_Developers_Guide/tree/master/ch06/summary02)
+ 
+   > Procedure Call(ATPCS, AAPCS)
+    
+   > Allocating Variables, Code Implementation to Reduce Register Usage
 
  - [Conditional Execution, Looping Constructs](notes/arm-system-guide/ch06-summary03.md)
 
@@ -129,6 +135,16 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
    > Bit Manipulation(Fixed-width Packing/Unpacking, Variable-width Packing/Unpacking), Efficient Switches(switch-absolute, switch-relative, Using Hash Function)
 
    > Handling Unaligned Data
+</details>
+
+<details markdown="1">
+<summary><h3>🎛 Embedded System</h3></summary>
+ 
+ - [Firmware, Bootloader](https://github.com/erectbranch/ARM_System_Developers_Guide/tree/master/ch10/summary01)
+ 
+   > Boot Sequence, Bootloader
+ 
+   > Firmware(Set up Target Hardware, Hardware Abstraction, Load a Boot Image, Relinquish Control)
 </details>
 
 <details markdown="1">

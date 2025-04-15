@@ -12,7 +12,7 @@
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **파이썬 코드 작성법을 공부한다.**
 

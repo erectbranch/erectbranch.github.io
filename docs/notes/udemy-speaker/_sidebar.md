@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Lecture Home**
   - [About](notes/udemy-speaker/README.md)
 - **Lecture Notes**

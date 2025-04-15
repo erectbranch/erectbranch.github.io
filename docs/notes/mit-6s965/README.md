@@ -13,7 +13,7 @@ Fall 2023([[schedule](https://hanlab.mit.edu/courses/2023-fall-65940)] | [[youtu
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **효율적인 추론 방법 공부**
 

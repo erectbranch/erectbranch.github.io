@@ -6,7 +6,7 @@
 
 </div>
 
-## 💡 Introduction
+## 💡 Introduction <!-- {docsify-ignore-all} -->
 
 <h3 align="center">
   <img width="80%" src="https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/main.png" alt="Enroot on Slurm">
@@ -30,6 +30,8 @@ This project offers a comprehensive guide to using Enroot on Slurm cluster for d
 
 - [6 - PyTorch Distributed Training on Slurm](notes/enroot-slurm/06_standalone.md)
 
+- [7 - Multi-node LLM Training with Wandb](notes/enroot-slurm/07_multinode.md)
+
 ---
 
 ## 🔧 Tools
@@ -37,7 +39,6 @@ This project offers a comprehensive guide to using Enroot on Slurm cluster for d
 | Tool Name | Description |
 | --------- | ----------- |
 | [Script with Push Notification](notes/enroot-slurm/notification.md) | Send push notification to your IOS device when the Slurm job starts |
-| Wandb on Slurm | Work in progress |
 
 ---
 
@@ -50,6 +51,8 @@ This project offers a comprehensive guide to using Enroot on Slurm cluster for d
 - [The Slurm tool "pestat"](https://github.com/OleHolmNielsen/Slurm_tools/tree/master/pestat)
 
 - [UBAI HPC cluster User Manual](https://ubai.uos.ac.kr/)
+
+- [LambdaLabsML: Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide)
 
 ---
 

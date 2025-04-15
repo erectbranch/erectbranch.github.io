@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Lecture Home**
   - [About](notes/cod/README.md)
 - **Lecture Notes**

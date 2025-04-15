@@ -12,7 +12,7 @@ CRC Press · 2002년 02월 05일 출시</b>
 
 </div>
 
-## :bulb: 목표
+## :bulb: 목표 <!-- {docsify-ignore-all} -->
 
 - **실시간 커널을 이해한다.**
 

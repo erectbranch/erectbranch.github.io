@@ -1,3 +1,4 @@
+- [**전체보기**](dashboard.md)
 - **Lecture Home**
   - [About](notes/mit-6s965/README.md)
 - **Lecture Notes**
