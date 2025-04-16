@@ -44,8 +44,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- https://github.com/pikapikapikaori/pikapikapi-blog -->
-  <link rel="stylesheet" href="./assets/css/dashboard.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard/dist/dashboard.min.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider/dist/slider.min.css">
 
@@ -240,6 +239,11 @@
         depth: 3,
         namespace: 'docsify-open-publishing-starter-kit',
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      },
+
+      dashboard: {
+        numTabContent: 9,
+        metadataUrl: 'metadata/posts'
       },
 
       pagination: {
@@ -493,6 +497,8 @@
     }
   </script>
 
+  <script src="//cdn.jsdelivr.net/npm/docsify-dashboard/dist/docsify-dashboard.min.js"></script>
+
   <!-- Customizable Theme-->
   <script src="assets/vendor/themeable/docsify-themeable.min.js"></script>
 
@@ -557,10 +563,6 @@
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-image-slider/dist/docsify-image-slider.min.js"></script>
-
-  <!-- reference: https://github.com/pikapikapikaori/pikapikapi-blog -->
-  <script src="./assets/plugins/dashboard.js"></script>
-  <script src="./assets/plugins/toc-page.js"></script>
 
   <!-- custom: 작성한 오버레이 커버 페이지 스크립트 -->
   <script src="./assets/plugins/overlay-cover.js"></script>
