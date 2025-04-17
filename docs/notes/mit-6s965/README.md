@@ -8,22 +8,8 @@
 <b>강의 주제: TinyML and Efficient Deep Learning Computing</b>
 <br>
 Instructor : Song Han(Associate Professor, MIT EECS)
-<br>
-Fall 2023([[schedule](https://hanlab.mit.edu/courses/2023-fall-65940)] | [[youtube](https://youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB&si=TmPWEvwUR79TVxrz)]) | Fall 2022([[schedule](https://hanlab.mit.edu/courses/2022-fall-6s965)] | [[youtube](https://www.youtube.com/playlist?list=PL80kAHvQbh-ocildRaxjjBy6MR1ZsNCU7)])
 
 </div>
-
-## :bulb: 목표 <!-- {docsify-ignore-all} -->
-
-- **효율적인 추론 방법 공부**
-
-  > 딥러닝 연산에 있어서 효율성을 높일 수 있는 알고리즘을 공부한다.
-
-- **제한된 성능에서의 딥러닝 모델 구성**
-
-  > 디바이스의 제약에 맞춘 효율적인 딥러닝 모델을 구성한다.
-
-<br>
 
 ## 🚩 정리한 문서 목록
 
@@ -180,46 +166,3 @@ Fall 2023([[schedule](https://hanlab.mit.edu/courses/2023-fall-65940)] | [[youtu
 - [Efficient Vision Transformer](notes/mit-6s965/2023-lec14-summary01.md)
 
   > Vision Transformer, Window Attention(Swin Transformer), Sparse Window Attention(FlatFormer), ReLU Linear Attention(EfficientViT), Sparsity-Aware Adaptation(SparseViT)
-
-<br>
-
-## :mag: Schedule (6.S965 • Fall 2022)
-
-| Date | Lecture | Youtube | Slide |
-| --- | --- | --- | --- |
-| **Sep 8** | Lecture 1: **Introduction** | - | [[slides](https://www.dropbox.com/scl/fi/ym2frcworou622a7wrghb/lec01.pdf?rlkey=nbnjyn0wyyvhmoti7jvqbfa9s&dl=0)] |
-| **Sep 13** | Lecture 2: **Basics of Deep Learning** | [[video](https://youtu.be/5HpLyZd1h0Q)] | [[slides](https://www.dropbox.com/scl/fi/7q21t5meajse0mapbtice/lec02.pdf?rlkey=x1ls1ktyv8taomitdkhl7etqq&dl=0)] |
-| | | | |
-| | **Efficient Inference** | | |
-| | | | |
-| **Sep 15** | Lecture 3: **Pruning and Sparsity (Part I)** | [[video](https://youtu.be/sZzc6tAtTrM)] | [[slides](https://www.dropbox.com/scl/fi/vns8vgzfrjjqrjovqtrxw/lec03.pdf?rlkey=nwofk3suges17224m7idg9nwm&dl=0)] |
-| **Sep 20** | Lecture 4: **Pruning and Sparsity (Part II)** | [[video](https://youtu.be/1njtOcYNAmg)][[video(live)](https://youtu.be/fWP3Q6tNtYU)] | [[slides](https://www.dropbox.com/scl/fi/3ghge1dxv1lu74mnj5ktv/lec04.pdf?rlkey=afa5so7ybdu60o4zbkstr80pd&dl=0)] |
-| **Sep 22** | Lecture 5: **Quantization (Part I)** | [[video](https://youtu.be/91stHPsxwig)][[video(live)](https://youtu.be/AlASZb93rrc)] | [[slides](https://www.dropbox.com/scl/fi/i4wmuy1wgs0urtqezzr7w/lec05.pdf?rlkey=iqme56qke3zb5g5cq7zxmvmhn&dl=0)]  |
-| **Sep 27** | Lecture 6: **Quantization (Part II)** | [[video](https://youtu.be/sYpl97ToNdg)][[video(live)](https://hanlab.mit.edu/courses/2022-fall-6s965#)] | [[slides](https://www.dropbox.com/scl/fi/j8x1g500rvkd1pbjw84m3/lec06.pdf?rlkey=d9i4d2k0q6nu38lp2r7nlaw4b&dl=0)] |
-| **Sep 29** | Lecture 7: **Neural Architecture Search (Part I)** | [[video](https://youtu.be/NQj5TkqX48Q)][[video(live)](https://youtu.be/NQj5TkqX48Q)] | [[slides](https://www.dropbox.com/scl/fi/fnzeebhd9227pzr0opgol/lec07.pdf?rlkey=c612kexszsjbd3jkubyzb4jah&dl=0)] |
-| **Oct 4** | Lecture 8: **Neural Architecture Search (Part II)** | [[video](https://youtu.be/UlvkBZdOhpg)][[video(live)](https://youtu.be/PFitZnPIKoc)] | [[slides](https://www.dropbox.com/scl/fi/mnamxcqlnglm35q1y20wz/lec08.pdf?rlkey=q3ckspu8o7vauuloh3ostlotc&dl=0)] |
-| **Oct 6** | Lecture 9: **Neural Architecture Search (Part III)** | [[video](https://youtu.be/_cvn9pflblk)][[video(live)](https://youtu.be/_cvn9pflblk)] | [[slides](https://www.dropbox.com/scl/fi/t5dhodsg2wqkn1rgsf1lx/lec09.pdf?rlkey=xzz8vrwlwjc6vm8foinnbecpv&dl=0)] |
-| **Oct 13** | Lecture 10: **Knowledge Distillation** | [[video](https://youtu.be/IIqf-oUTHe0)][[video(live)](https://youtu.be/tT9Lnt6stwA)] | [[slides](https://www.dropbox.com/scl/fi/7x4i8bf3ush5bdt0mu57k/lec10.pdf?rlkey=7viyngsy60imiilpkxqbmva1l&dl=0)] |
-| **Oct 18** | Lecture 11: **MCUNet - Tiny Neural Network Design for Microcontrollers** | [[video](https://youtu.be/Hi4I0ZtPsbY)][[video(live)](https://youtu.be/YBER-SNlkqs)] | [[slides](https://www.dropbox.com/scl/fi/1b9ozxzrzk8x3lwh4lc0b/lec11.pdf?rlkey=g4wbzq8h88l9dnl94svsnn8fs&dl=0)] |
-| | | | |
-| | **Efficient Training and System Support** |  | |
-| | | | |
-| **Oct 25** | Lecture 13: **Distributed Training and Gradient Compression (Part I)** | [[video](https://youtu.be/oIIy6nmMoeM)][[video(live)](https://youtu.be/WYY1nbTWAk4)] | [[slides](https://www.dropbox.com/scl/fi/qv7luhv8v0qnj94jpafnt/lec13.pdf?rlkey=djzxg2wbglrthzdtamr8e0zv1&dl=0)] |
-| **Oct 27** | Lecture 14: **Distributed Training and Gradient Compression (Part II)** | [[video](https://youtu.be/7W0MCjc8OD4)][[video(live)](https://youtu.be/2VdmlWxY1fE)] | [[slides](https://www.dropbox.com/scl/fi/tmpdgvy6we0vrj9s9q3a4/lec14.pdf?rlkey=lmi6y79y5w5hy67arx647jhh5&dl=0)] |
-| **Nov 1** | Lecture 15: **On-Device Training and Transfer Learning (Part I)** | [[video](https://youtu.be/P_tVABpgb6w)][[video(live)](https://youtu.be/VW_6V0k_i30)] | [[slides](https://www.dropbox.com/scl/fi/l26nz3e8yyh4friogs9yf/lec15.pdf?rlkey=wbgijgrbgdfkjs27j34t5mvrl&dl=0)] |
-| **Nov 3** | Lecture 16: **On-Device Training and Transfer Learning (Part II)** | [[video](https://youtu.be/rG-KM8eVzj8)][[video(live)](https://youtu.be/h_55fEBf6Fs)] | [[slides](https://www.dropbox.com/scl/fi/cbmnpivl6hibs5mj2tf50/lec16.pdf?rlkey=j3i0op9yd9vdfbxgt3gvrcd9u&dl=0)] |
-| **Nov 8** | Lecture 17: **TinyEngine - Efficient Training and Inference on Microcontrollers** | [[video](https://youtu.be/oCMnJXH0c50)][[video(live)](https://youtu.be/usPxjVC7pr0)] | [[slides](https://www.dropbox.com/scl/fi/qioqdqdszys02v1upp25p/lec17.pdf?rlkey=yuffskefckc8oab0ntyi64on5&dl=0)] |
-| | | | |
-| | **Application-Specific Optimizations** |  | |
-| | | | |
-| **Nov 10** | Lecture 18: **Efficient Point Cloud Recognition** | [[video](https://youtu.be/fKIxpM-F0zw)][[video(live)](https://youtu.be/xtxRKbd_2W0)] | [[slides](https://www.dropbox.com/scl/fi/os1kyo9eixyvezajpt5tw/lec18.pdf?rlkey=d8cvpn6tjivu98fhnxdu0yl04&dl=0)] |
-| **Nov 15** | Lecture 19: **Efficient Video(live) Understanding and GANs** | [[video](https://youtu.be/J4olmnIwgtk)][[video(live)](https://youtu.be/0WZSzStMgLk)] | [[slides](https://www.dropbox.com/scl/fi/a17vu1ujgxvuemev43k42/lec19.pdf?rlkey=1c9ljnyjdrtueljkp7xd4gunf&dl=0)] |
-| **Nov 17** | Lecture 20: **Efficient Transformers** | [[video](https://youtu.be/RGUCmX1fvOE)][[video(live)](https://youtu.be/UYaJKavtCbU)] | [[slides](https://www.dropbox.com/scl/fi/ohk1emmjcfga0roafm2rk/lec20.pdf?rlkey=far16xdpurr900vzdrizg17mw&dl=0)] |
-| | | | |
-| | **Quantum ML** |  | |
-| | | | |
-| **Nov 22** | Lecture 21: **Basics of Quantum Computing** | [[video](https://youtu.be/8eT1QTVb1uo)][[video(live)](https://youtu.be/evTGcFnLu1g)] | [[slides](https://www.dropbox.com/scl/fi/emcqog86lsp18ku5fza0p/lec21.pdf?rlkey=co0nbj1wovxwvvvtlqogl9x15&dl=0)] |
-| **Nov 29** | Lecture 22: **Quantum Machine Learning** | [[video](https://youtu.be/20ftuhSV4sk)][[video(live)](https://youtu.be/20ftuhSV4sk)] | [[slides](https://www.dropbox.com/scl/fi/x71s8rrffjrcnrpdc50w0/lec22.pdf?rlkey=9d14pbcey0do8nsac6uvu72x2&dl=0)] |
-| **Dec 1** | Lecture 23: **Noise Robust Quantum ML** | [[video](https://youtu.be/1gV0u8SfXe8)][[video(live)](https://youtu.be/1gV0u8SfXe8)] | [[slides](https://www.dropbox.com/scl/fi/gllgdkus2717mrqjg8rab/lec23.pdf?rlkey=u6pqg98ppvlmfs5t6ev6l3wma&dl=0)] |
-| **Dec 13** | Lecture 26: **Course Summary & Guest Lecture** | [[video](https://youtu.be/NCuLGvCeYl8)] | [[slides](https://www.dropbox.com/scl/fi/3svdkacflj9hv2yupsmpt/lec25.pdf?rlkey=r3q0kofbu06fw7ud0ihqboy0k&dl=0)] |
-| | | | |

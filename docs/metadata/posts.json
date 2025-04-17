@@ -94,21 +94,21 @@
     "time": "2024.06.14",
     "title": "Basic Terminologies, Shape of Tensors",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec02/summary01/images/1D_conv.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec02/summary01/images/1D_conv.png",
     "href": "#/notes/mit-6s965/lec02-summary01"
   },
   {
     "time": "2024.06.11",
     "title": "System & Hardware Support for Fine-grained Sparsity",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec04/summary02/images/CSR_1.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec04/summary02/images/CSR_1.png",
     "href": "#/notes/mit-6s965/lec04-summary02"
   },
   {
     "time": "2024.06.09",
     "title": "Automatic Pruning, Lottery Ticket Hypothesis",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec04/summary01/images/AMC.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec04/summary01/images/AMC.png",
     "href": "#/notes/mit-6s965/lec04-summary01"
   },
   {
@@ -262,112 +262,112 @@
     "time": "2024.03.08",
     "title": "TinyEngine",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec17/images/Cmix-NN_graph.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec17/images/Cmix-NN_graph.png",
     "href": "#/notes/mit-6s965/lec17"
   },
   {
     "time": "2024.03.04",
     "title": "Post Training Quantization",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec06/summary01/images/K-means_and_Linear_quantization.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec06/summary01/images/K-means_and_Linear_quantization.png",
     "href": "#/notes/mit-6s965/lec06-summary01"
   },
   {
     "time": "2024.03.01",
     "title": "Vector Quantization",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec05/summary02/images/ATBGD_1.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec05/summary02/images/ATBGD_1.png",
     "href": "#/notes/mit-6s965/lec05-summary02"
   },
   {
     "time": "2024.02.28",
     "title": "Basic Concepts of Quantization",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec05/summary01/images/linear_quantization_mapping.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec05/summary01/images/linear_quantization_mapping.png",
     "href": "#/notes/mit-6s965/lec05-summary01"
   },
   {
     "time": "2024.02.27",
     "title": "Efficiency Metrics",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec02/summary02/images/2D_conv.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec02/summary02/images/2D_conv.png",
     "href": "#/notes/mit-6s965/lec02-summary02"
   },
   {
     "time": "2024.02.22",
     "title": "Efficient Vision Transformer",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023-lec14/summary01/images/two_successive_block.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec14/summary01/images/two_successive_block.png",
     "href": "#/notes/mit-6s965/2023-lec14-summary01"
   },
   {
     "time": "2024.02.13",
     "title": "MCUNet",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec11/images/ARM_Cortex-M_series.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec11/images/ARM_Cortex-M_series.png",
     "href": "#/notes/mit-6s965/lec11"
   },
   {
     "time": "2024.02.02",
     "title": "Neural Architecture Search: Search Space",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec07/summary02/images/DARTS.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec07/summary02/images/DARTS.png",
     "href": "#/notes/mit-6s965/lec07-summary02"
   },
   {
     "time": "2024.01.30",
     "title": "Neural Architecture Search: basic concepts & manually-designed neural networks",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec07/summary01/images/AlexNet_arch.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec07/summary01/images/AlexNet_arch.png",
     "href": "#/notes/mit-6s965/lec07-summary01"
   },
   {
     "time": "2024.01.04",
     "title": "Generative Adversarial Networks (GANs)",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec19/summary02/images/Anycost_GANs_channel.gif",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec19/summary02/images/Anycost_GANs_channel.gif",
     "href": "#/notes/mit-6s965/lec19-summary02"
   },
   {
     "time": "2024.01.03",
     "title": "Pruning Granularity, Pruning Critertion",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec03/images/8_8_matrix.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec03/images/8_8_matrix.png",
     "href": "#/notes/mit-6s965/lec03"
   },
   {
     "time": "2024.01.01",
     "title": "Efficient Video Understanding",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec19/summary01/images/C3D_1.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec19/summary01/images/C3D_1.png",
     "href": "#/notes/mit-6s965/lec19-summary01"
   },
   {
     "time": "2023.11.21",
     "title": "Transformer",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023-lec12/summary01/images/attention_masking.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec12/summary01/images/attention_masking.png",
     "href": "#/notes/mit-6s965/2023-lec12-summary01"
   },
   {
     "time": "2023.11.21",
     "title": "Transformer Design Variants",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023-lec12/summary02/images/ALiBi.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec12/summary02/images/ALiBi.png",
     "href": "#/notes/mit-6s965/2023-lec12-summary02"
   },
   {
     "time": "2023.11.18",
     "title": "Distillation for Applications",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec10/summary02/images/BYOT_results.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec10/summary02/images/BYOT_results.png",
     "href": "#/notes/mit-6s965/lec10-summary02"
   },
   {
     "time": "2023.11.14",
     "title": "Knowledge Distillation",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec10/summary01/images/BYOT.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec10/summary01/images/BYOT.png",
     "href": "#/notes/mit-6s965/lec10-summary01"
   },
   {
@@ -381,14 +381,14 @@
     "time": "2023.09.28",
     "title": "Quantization-Aware Training, Low bit-width quantization",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec06/summary02/images/BNN_QAT.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec06/summary02/images/BNN_QAT.png",
     "href": "#/notes/mit-6s965/lec06-summary02"
   },
   {
     "time": "2023.08.20",
     "title": "Neural Architecture Search: Performance Estimation & Hardware-Aware NAS",
     "tag": "Artificial Intelligence",
-    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/lec08/images/AttentiveNAS_comparing.jpg",
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec08/images/AttentiveNAS_comparing.jpg",
     "href": "#/notes/mit-6s965/lec08"
   },
   {
