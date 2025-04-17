@@ -1,4 +1,5 @@
 :root {
+  --clock-container-bg-color: #f3f3f3;
   /* clock time */
   --clock-time-font-size: 30px;
   --clock-time-font-family: "Black Ops One", system-ui;
@@ -6,7 +7,7 @@
   --clock-time-am-pm-font-family: var(--base-font-family);
   /* days, date */
   --clock-days-font-color: #505d6b;
-  --clock-date-bg-color: #000;    /* 03d25fff */
+  --clock-date-bg-color: #000;
   --clock-date-font-color: #fff;
   --clock-date-font-size: 10px;
 }
@@ -16,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color:#f3f3f3;
+  background-color: var(--clock-container-bg-color);
 }
 
 .time {

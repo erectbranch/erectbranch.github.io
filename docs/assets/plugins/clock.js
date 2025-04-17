@@ -49,7 +49,7 @@ function clockPlugin(hook, vm) {
 
         // {HH(24)}:{MM} or {hh(12)}:{MM} {AM/PM}
         if (displayAMPM) {
-            timeElement.innerHTML = `${hoursForClockWithZero}:${minuteSeconds} <span class="am-pm">${ampm}</span> `;
+            timeElement.innerHTML = `${hoursForClockWithZero}:${minuteSeconds} <span class="am-pm">${ampm}</span>`;
         } else {
             timeElement.innerHTML = `${hours}:${minuteSeconds}`;
         }
