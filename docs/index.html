@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/overlay.css">
+  <link rel="stylesheet" href="assets/css/clock.css">
 
   <!-- Font Awesome Stylesheets -->
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
@@ -35,6 +36,7 @@
   <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 
   <!-- My Stylesheets -->
   <!-- https://docsify-darklight-theme.boopathikumar.me/#/docsifyThemeable -->
@@ -258,13 +260,17 @@
         noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 3,
-        namespace: 'docsify-open-publishing-starter-kit',
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
       },
 
       dashboard: {
         numTabContent: 9,
         metadataUrl: 'metadata/posts'
+      },
+
+      clock: {
+        displaySecond: false,
+        displayAMPM: true,
       },
 
       pagination: {
@@ -590,6 +596,9 @@
 
   <!-- custom: showcase 페이지 스크립트 -->
   <script src="./assets/plugins/showcase.js"></script>
+
+  <!-- custom: clock 스크립트 -->
+  <script src="./assets/plugins/clock.js"></script>
 
   <!-- custom: 루트 경로(#)인 경우, 커버 페이지인 overlay를 표시. -->
   <script>

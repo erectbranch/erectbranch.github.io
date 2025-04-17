@@ -687,7 +687,7 @@ body .markdown-section {
     body.close .sidebar-toggle {
       background-color: rgba(255, 255, 255, 0.89);
       transition: 1s background-color;
-      width: 254px;
+      /* width: 254px; */
       padding: 10px 10px 8px;
     }
     body.close .content {
