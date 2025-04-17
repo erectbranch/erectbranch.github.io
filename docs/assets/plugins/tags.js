@@ -21,10 +21,18 @@ function tagPlugin(hook, vm) {
         });
     }
 
+
     function getTagList() {
         const tagList = [];
         jsonVariable.forEach(item => {
-            if (item.tag) {
+            // item.tag가 리스트인 경우, (e.g., "tag": ["High Performance Computing", "Artificial Intelligence"],)
+            if (typeof item.tag === 'object' && item.tag.length > 0) {
+                item.tag.forEach(tag => {
+                    if (!tagList.includes(tag)) {
+                        tagList.push(tag);
+                    }
+                });
+            } else if (typeof item.tag === 'string' && item.tag.length > 0) {
                 if (!tagList.includes(item.tag)) {
                     tagList.push(item.tag);
                 }
