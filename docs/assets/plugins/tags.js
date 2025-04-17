@@ -88,7 +88,7 @@ function tagPlugin(hook, vm) {
             tagPageDiv.innerHTML = tagBoardContent + tagPageDiv.innerHTML;
         } else {
             tagBoardContent = `<h1>Tags</h1>\n<hr>`;
-            tagBoardContent += `\n${tagList.map(tag => `<a href="#/tags?tag=${tag}">${tag}</a>`).join(' | ')}\n`;
+            tagBoardContent += `\n${tagList.map(tag => `<a href="#/tags?tag=${tag}" target="_blank">${tag}</a>`).join(' | ')}\n`;
             tagPageDiv.innerHTML = tagBoardContent + tagPageDiv.innerHTML;
         }
 
@@ -101,7 +101,7 @@ function tagPlugin(hook, vm) {
         renderTagPage();
 
         const tagElement = document.getElementsByClassName("tag-list")[0];
-        tagElement.innerHTML = `${tagList.map(tag => `<a class="tag-element" href="#/tags?tag=${tag}">${tag}</a>`).join('\n')}`;
+        tagElement.innerHTML = `${tagList.map(tag => `<a class="tag-element" href="#/tags?tag=${tag}" target="_blank">${tag}</a>`).join('\n')}`;
     });
 
 };
