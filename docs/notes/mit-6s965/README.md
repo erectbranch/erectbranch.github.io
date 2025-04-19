@@ -11,7 +11,7 @@ Instructor : Song Han(Associate Professor, MIT EECS)
 
 </div>
 
-## 🚩 정리한 문서 목록
+## 🚩 정리한 문서 목록 <!-- {docsify-ignore-all} -->
 
 ### 📖 Basics of Deep Learning
 
