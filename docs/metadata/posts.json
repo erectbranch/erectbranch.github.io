@@ -2,371 +2,413 @@
   {
     "time": "2025.04.16",
     "title": "7 - Multi-node LLM Training with Wandb",
-    "tag": "Enroot on Slurm",
+    "tag": ["High Performance Computing", "Large Language Model"],
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/wandb.png",
     "href": "#/notes/enroot-slurm/07_multinode"
   },
   {
     "time": "2025.04.06",
     "title": "Script with Push Notification",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/prowl_push.png",
     "href": "#/notes/enroot-slurm/notification"
   },
   {
     "time": "2025.01.12",
     "title": "6 - PyTorch Distributed Training on Slurm",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/enroot_conf.png",
     "href": "#/notes/enroot-slurm/06_standalone"
   },
   {
     "time": "2025.01.11",
     "title": "5 - PyTorch Training with NGC Container",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/ngc_api_key.png",
     "href": "#/notes/enroot-slurm/05_ngc"
   },
   {
     "time": "2025.01.10",
     "title": "4 - Using Docker Container with Enroot",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/enroot_start.png",
     "href": "#/notes/enroot-slurm/04_enroot"
   },
   {
     "time": "2025.01.08",
     "title": "3 - Using Jupyter Lab on Slurm",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/miniconda.png",
     "href": "#/notes/enroot-slurm/03_jupyterlab"
   },
   {
     "time": "2025.01.07",
     "title": "2 - Slurm Job Scheduler",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/slurm.png",
     "href": "#/notes/enroot-slurm/02_slurm"
   },
   {
     "time": "2025.01.06",
     "title": "1 - Introduction to UBAI HPC Cluster",
-    "tag": "Enroot on Slurm",
+    "tag": "High Performance Computing",
     "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/module_avail.png",
     "href": "#/notes/enroot-slurm/01_UBAI"
   },
   {
-    "time": "2025.01.05",
-    "title": "Enroot on Slurm for Distributed Deep Learning",
-    "tag": "Enroot on Slurm",
-    "image": "https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/main.png",
-    "href": "#/notes/enroot-slurm/README"
-  },
-  {
     "time": "2024.06.28",
     "title": "Firmware, Bootloader",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch10/summary01/images/boot_sequence.png",
     "href": "#/notes/arm-system-guide/ch10-summary01"
   },
   {
     "time": "2024.06.25",
     "title": "Register Allocation",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary02/images/word_align.jpg",
     "href": "#/notes/arm-system-guide/ch06-summary02"
   },
   {
     "time": "2024.06.17",
     "title": "Interrupt, Interrupt Stack",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch09/summary02/images/FIQ.png",
     "href": "#/notes/arm-system-guide/ch09-summary02"
   },
   {
     "time": "2024.06.15",
     "title": "Assembly Function, Instruction Scheduling",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary01/images/ARM9_pipeline.png",
     "href": "#/notes/arm-system-guide/ch06-summary01"
   },
   {
     "time": "2024.06.14",
     "title": "Basic Terminologies, Shape of Tensors",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec02/summary01/images/1D_conv.png",
     "href": "#/notes/mit-6s965/lec02-summary01"
   },
   {
     "time": "2024.06.11",
     "title": "System & Hardware Support for Fine-grained Sparsity",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec04/summary02/images/CSR_1.png",
     "href": "#/notes/mit-6s965/lec04-summary02"
   },
   {
     "time": "2024.06.09",
     "title": "Automatic Pruning, Lottery Ticket Hypothesis",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec04/summary01/images/AMC.png",
     "href": "#/notes/mit-6s965/lec04-summary01"
   },
   {
     "time": "2024.06.08",
     "title": "Dataflow and Registers",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch02/summary01/images/ARM_core_dataflow.png",
     "href": "#/notes/arm-system-guide/ch02-summary01"
   },
   {
     "time": "2024.06.03",
     "title": "Alignment, Endian, Division, Inline Assembly",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch05/summary03/images/endian_big.jpg",
     "href": "#/notes/arm-system-guide/ch05-summary03"
   },
   {
     "time": "2024.05.30",
     "title": "Pipeline, Interrupt, Extensions",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch02/summary02/images/Von_Neumann_architecture.png",
     "href": "#/notes/arm-system-guide/ch02-summary02"
   },
   {
     "time": "2024.05.26",
     "title": "ARM Embedded System",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch01/images/RISC_vs_CISC_1.png",
     "href": "#/notes/arm-system-guide/ch01"
   },
   {
     "time": "2024.05.23",
     "title": "C Compiler, Data Types, Looping Structures",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "./images/branch.gif",
     "href": "#/notes/arm-system-guide/ch05-summary01"
   },
   {
     "time": "2024.05.23",
     "title": "Bit Manipulation, Switch, Unaligned Data",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary04/images/big-endian_bitcodes_packed.png",
     "href": "#/notes/arm-system-guide/ch06-summary04"
   },
   {
     "time": "2024.05.20",
     "title": "Register Allocation, Function Calls, Aliasing",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch05/summary02/images/APCS_argument_passing.png",
     "href": "#/notes/arm-system-guide/ch05-summary02"
   },
   {
     "time": "2024.05.19",
     "title": "Data Processing Instructions",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary01/images/ARM_instruction_set_1.png",
     "href": "#/notes/arm-system-guide/ch03-summary01"
   },
   {
     "time": "2024.05.17",
     "title": "Exception Handling",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch09/summary01/images/banked_register.png",
     "href": "#/notes/arm-system-guide/ch09-summary01"
   },
   {
     "time": "2024.05.14",
     "title": "Branch, Load-Store Instructions",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary02/images/LDR_LDRH_LDRB.png",
     "href": "#/notes/arm-system-guide/ch03-summary02"
   },
   {
     "time": "2024.05.14",
     "title": "SWI, Program Status Register  Instructions, ARMv5E Extensions",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary03/images/ARM_instruction_format.jpeg",
     "href": "#/notes/arm-system-guide/ch03-summary03"
   },
   {
     "time": "2024.05.13",
     "title": "Conditional Execution, Looping Constructs",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary03/images/multiple_nested_loop.png",
     "href": "#/notes/arm-system-guide/ch06-summary03"
   },
   {
     "time": "2024.04.26",
     "title": "Real-time System Concepts",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch02/summary01/images/context_switching.png",
     "href": "#/notes/ucos2/ch02-summary01"
   },
   {
     "time": "2024.04.26",
     "title": "Task Priority, Mutual Exclusion, Interrupt",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch02/summary02/images/delaying_1_tick_case_1.png",
     "href": "#/notes/ucos2/ch02-summary02"
   },
   {
     "time": "2024.03.25",
     "title": "Memory Management",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch08/images/OSMemCreate.png",
     "href": "#/notes/ucos2/ch08"
   },
   {
     "time": "2024.03.24",
     "title": "Semaphore Management",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch07/images/ECB_before_OSSemCreate.png",
     "href": "#/notes/ucos2/ch07"
   },
   {
     "time": "2024.03.21",
     "title": "Event Control Blocks",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch06/images/ECB_structure_1.png",
     "href": "#/notes/ucos2/ch06"
   },
   {
     "time": "2024.03.20",
     "title": "Time Management",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch05/images/delay_resolution.png",
     "href": "#/notes/ucos2/ch05"
   },
   {
     "time": "2024.03.19",
     "title": "Critical Section, TCB, Ready List",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
     "href": "#/notes/ucos2/ch03-summary01"
   },
   {
     "time": "2024.03.19",
     "title": "Task Scheduling, Initialize Task, Clock Tick",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
     "href": "#/notes/ucos2/ch03-summary01"
   },
   {
     "time": "2024.03.18",
     "title": "Task Management",
-    "tag": "Hardware & System",
+    "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch04/images/stack_checking.png",
     "href": "#/notes/ucos2/ch04"
   },
   {
     "time": "2024.03.08",
     "title": "TinyEngine",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "TinyML"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec17/images/Cmix-NN_graph.png",
     "href": "#/notes/mit-6s965/lec17"
   },
   {
     "time": "2024.03.04",
     "title": "Post Training Quantization",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec06/summary01/images/K-means_and_Linear_quantization.png",
     "href": "#/notes/mit-6s965/lec06-summary01"
   },
   {
     "time": "2024.03.01",
     "title": "Vector Quantization",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec05/summary02/images/ATBGD_1.png",
     "href": "#/notes/mit-6s965/lec05-summary02"
   },
   {
     "time": "2024.02.28",
     "title": "Basic Concepts of Quantization",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec05/summary01/images/linear_quantization_mapping.png",
     "href": "#/notes/mit-6s965/lec05-summary01"
   },
   {
     "time": "2024.02.27",
     "title": "Efficiency Metrics",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec02/summary02/images/2D_conv.png",
     "href": "#/notes/mit-6s965/lec02-summary02"
   },
   {
     "time": "2024.02.22",
     "title": "Efficient Vision Transformer",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "Computer Vision"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec14/summary01/images/two_successive_block.png",
     "href": "#/notes/mit-6s965/2023-lec14-summary01"
   },
   {
     "time": "2024.02.13",
     "title": "MCUNet",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "TinyML"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec11/images/ARM_Cortex-M_series.png",
     "href": "#/notes/mit-6s965/lec11"
   },
   {
     "time": "2024.02.02",
     "title": "Neural Architecture Search: Search Space",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec07/summary02/images/DARTS.png",
     "href": "#/notes/mit-6s965/lec07-summary02"
   },
   {
     "time": "2024.01.30",
     "title": "Neural Architecture Search: basic concepts & manually-designed neural networks",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec07/summary01/images/AlexNet_arch.png",
     "href": "#/notes/mit-6s965/lec07-summary01"
   },
   {
+    "time": "2024.01.28",
+    "title": "Prompt Engineering",
+    "tag": ["Natural Language Processing", "Large Language Model"],
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec09/summary01/images/prompt_tuning.png",
+    "href": "#/notes/cs11-711/lec09-summary01"
+  },
+  {
+    "time": "2024.01.26",
+    "title": "Multi-task, Multi-domain Learning",
+    "tag": "Natural Language Processing",
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec08/images/adapter.png",
+    "href": "#/notes/cs11-711/lec08"
+  },
+  {
+    "time": "2024.01.25",
+    "title": "Pre-training Design Choices",
+    "tag": ["Natural Language Processing", "Large Language Model"],
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec07/summary02/images/scaling_laws.png",
+    "href": "#/notes/cs11-711/lec07-summary02"
+  },
+  {
+    "time": "2024.01.25",
+    "title": "Pre-training",
+    "tag": ["Natural Language Processing", "Large Language Model"],
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec07/summary01/images/BERT.png",
+    "href": "#/notes/cs11-711/lec07-summary01"
+  },
+  {
+    "time": "2024.01.15",
+    "title": "Attention, Transformer",
+    "tag": ["Natural Language Processing", "Transformer"],
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec06/images/self_attention.png",
+    "href": "#/notes/cs11-711/lec06"
+  },
+  {
+    "time": "2024.01.15",
+    "title": "Methods of Generation, Evaluation",
+    "tag": "Natural Language Processing",
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec05/images/seq2seq.png",
+    "href": "#/notes/cs11-711/lec05"
+  },
+  {
+    "time": "2024.01.10",
+    "title": "Generative, Discriminative Text Classfication",
+    "tag": "Natural Language Processing",
+    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec02/images/bag-of-words_generative.png",
+    "href": "#/notes/cs11-711/lec02"
+  },
+  {
     "time": "2024.01.04",
     "title": "Generative Adversarial Networks (GANs)",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "Computer Vision"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec19/summary02/images/Anycost_GANs_channel.gif",
     "href": "#/notes/mit-6s965/lec19-summary02"
   },
   {
     "time": "2024.01.03",
     "title": "Pruning Granularity, Pruning Critertion",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec03/images/8_8_matrix.png",
     "href": "#/notes/mit-6s965/lec03"
   },
   {
     "time": "2024.01.01",
     "title": "Efficient Video Understanding",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "Computer Vision"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec19/summary01/images/C3D_1.png",
     "href": "#/notes/mit-6s965/lec19-summary01"
   },
   {
     "time": "2023.11.21",
     "title": "Transformer",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "Transformer"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec12/summary01/images/attention_masking.png",
     "href": "#/notes/mit-6s965/2023-lec12-summary01"
   },
   {
     "time": "2023.11.21",
     "title": "Transformer Design Variants",
-    "tag": "Artificial Intelligence",
+    "tag": ["Efficient AI", "Large Language Model"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2023/lec12/summary02/images/ALiBi.png",
     "href": "#/notes/mit-6s965/2023-lec12-summary02"
   },
   {
     "time": "2023.11.18",
     "title": "Distillation for Applications",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec10/summary02/images/BYOT_results.png",
     "href": "#/notes/mit-6s965/lec10-summary02"
   },
   {
     "time": "2023.11.14",
     "title": "Knowledge Distillation",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec10/summary01/images/BYOT.png",
     "href": "#/notes/mit-6s965/lec10-summary01"
   },
@@ -380,119 +422,119 @@
   {
     "time": "2023.09.28",
     "title": "Quantization-Aware Training, Low bit-width quantization",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec06/summary02/images/BNN_QAT.png",
     "href": "#/notes/mit-6s965/lec06-summary02"
   },
   {
     "time": "2023.08.20",
     "title": "Neural Architecture Search: Performance Estimation & Hardware-Aware NAS",
-    "tag": "Artificial Intelligence",
+    "tag": "Efficient AI",
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2022/lec08/images/AttentiveNAS_comparing.jpg",
     "href": "#/notes/mit-6s965/lec08"
   },
   {
     "time": "2023.08.16",
     "title": "Indirect/direct use of Neural Network, Inference",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section08/summary01/images/DNN_i-vector.png",
     "href": "#/notes/udemy-speaker/Section08-summary01"
   },
   {
     "time": "2023.08.14",
     "title": "Joint Factor Analysis, i-vector",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section06/summary02/images/FA.png",
     "href": "#/notes/udemy-speaker/Section06-summary02"
   },
   {
     "time": "2023.08.13",
     "title": "Gaussian Mixture Models",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section06/summary01/images/Bayesian_adaptation.png",
     "href": "#/notes/udemy-speaker/Section06-summary01"
   },
   {
     "time": "2023.08.10",
     "title": "Similarity Score, Evaluation",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section05/summary02/images/DET_curve.png",
     "href": "#/notes/udemy-speaker/Section05-summary02"
   },
   {
     "time": "2023.08.06",
     "title": "Speaker Verification, Speaker Identification",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section05/summary01/images/enrollment_stage.png",
     "href": "#/notes/udemy-speaker/Section05-summary01"
   },
   {
     "time": "2023.07.31",
     "title": "Time domain feature, Frequency domain feature",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section04/summary02/images/AGC_ex.png",
     "href": "#/notes/udemy-speaker/Section04-summary02"
   },
   {
     "time": "2023.07.30",
     "title": "Short-time analysis, Post-processing",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section04/summary01/images/Gibbs_phenomenon.gif",
     "href": "#/notes/udemy-speaker/Section04-summary01"
   },
   {
     "time": "2023.07.25",
     "title": "Acoustics, Frequency, Sound",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section03/summary01/images/F0.png",
     "href": "#/notes/udemy-speaker/Section03-summary01"
   },
   {
     "time": "2023.07.25",
     "title": "Analog-to-digital",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section03/summary02/images/LPC_model.png",
     "href": "#/notes/udemy-speaker/Section03-summary02"
   },
   {
     "time": "2023.07.24",
     "title": "History of Voice Identity Techniques",
-    "tag": "Artificial Intelligence",
+    "tag": "Audio Processing",
     "image": "https://raw.githubusercontent.com/erectbranch/Speaker_Recognition_Basic/master/Section02/images/GMM.png",
     "href": "#/notes/udemy-speaker/Section02"
   },
   {
     "time": "2023.06.24",
     "title": "RISC-V Pipelined datapath, ILP",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary03/images/branch_taken_ex.png",
     "href": "#/notes/cod/ch04-summary03"
   },
   {
     "time": "2023.06.20",
     "title": "interconnect, heterogeneity, thread",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch06/summary01/images/SMP.png",
     "href": "#/notes/cod/ch06-summary01"
   },
   {
     "time": "2023.06.19",
     "title": "RISC-V Pipelining",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary02/images/2bit_predictor.png",
     "href": "#/notes/cod/ch04-summary02"
   },
   {
     "time": "2023.06.17",
     "title": "memory hierarchy, direct mapped cache",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch05/summary01/images/address_subdivision.png",
     "href": "#/notes/cod/ch05-summary01"
   },
   {
     "time": "2023.06.17",
     "title": "cache miss, cache write, set-associative cache",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch05/summary02/images/2-way_set_example.png",
     "href": "#/notes/cod/ch05-summary02"
   },
@@ -506,7 +548,7 @@
   {
     "time": "2023.05.21",
     "title": "RISC-V Processor datapath",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary01/images/PC.png",
     "href": "#/notes/cod/ch04-summary01"
   },
@@ -520,30 +562,79 @@
   {
     "time": "2023.05.11",
     "title": "Conditional Operation, Branch",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary02/images/leaf_example.png",
     "href": "#/notes/cod/ch02-summary02"
   },
   {
+    "time": "2023.05.09",
+    "title": "Heterogeneous Computing with CUDA",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch01/summary02/images/heterogeneous_architecture.png",
+    "href": "#/notes/pro-cuda-c/ch01-summary02"
+  },
+  {
+    "time": "2023.05.09",
+    "title": "Parallel Computing",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch01/summary01/images/sequential_parallel_programming.png",
+    "href": "#/notes/pro-cuda-c/ch01-summary01"
+  },
+  {
+    "time": "2023.05.06",
+    "title": "Managing Devices",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary03/images/nvidia_smi_2.png",
+    "href": "#/notes/pro-cuda-c/ch02-summary03"
+  },
+  {
     "time": "2023.05.04",
     "title": "RISC-V Instructions(RV64I)",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary01/images/I-format_instruction.png",
     "href": "#/notes/cod/ch02-summary01"
   },
   {
+    "time": "2023.04.30",
+    "title": "CUDA Programming Model",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary01/images/execute_on_CPU_GPU.png",
+    "href": "#/notes/pro-cuda-c/ch02-summary01"
+  },
+  {
+    "time": "2023.04.28",
+    "title": "CUDA handling",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary02/images/matrix_ex_indices.png",
+    "href": "#/notes/pro-cuda-c/ch02-summary02"
+  },
+  {
     "time": "2023.04.27",
     "title": "Computer Abstractions and Technology",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch01/images/1-core_vs_2-core_processor.png",
     "href": "#/notes/cod/ch01"
   },
   {
     "time": "2023.04.24",
     "title": "wide, branch instructions, data race",
-    "tag": "Hardware & System",
+    "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary03/images/S-type_B-type.png",
     "href": "#/notes/cod/ch02-summary03"
+  },
+  {
+    "time": "2023.01.09",
+    "title": "CUDA Execution Model",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch03/summary01/images/littles_law.png",
+    "href": "#/notes/pro-cuda-c/ch03-summary01"
+  },
+  {
+    "time": "2023.01.06",
+    "title": "Avoid branch, Dynamic parallelism",
+    "tag": "CUDA Programming",
+    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch03/summary02/images/divergent_thread.png",
+    "href": "#/notes/pro-cuda-c/ch03-summary02"
   },
   {
     "time": "2022.12.18",

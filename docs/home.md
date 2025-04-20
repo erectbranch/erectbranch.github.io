@@ -1,118 +1,232 @@
-# Branch Log <!-- {docsify-ignore-all} -->
+# Hello! <!-- {docsify-ignore-all} -->
 
----
+#### 🧑🏻‍💻 I'm Sungjae Jeon, — AI Researcher
 
-<img style="float: right; margin: auto;" src="images/branch.gif"/>
+<br>
 
-## About
+I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms and systems for resource-constrained hardware</U>.
 
-🧑🏻‍💻 AI Engineer **Sungjae Jeon**(erectbranch)의 블로그. 주로 연구 자료 및 강의 내용을 정리하여 작성합니다.
+![hardware-nn](images/hardware-nn.svg)
 
-## Research Interests
+### Research Interests
 
-🔍 주된 관심사는 "효율적인 AI 모델을 위한 경량화 알고리즘"과 "임베디드 시스템 소프트웨어 설계"입니다.
+<div id="research" style="text-align: center;">
 
-- [**Model Compression and TinyML**](wip.md)
+  <a class="toc-page-display-a" id="no-img">
+    <div class="toc-page-display-title-img" id="no-img"></div>
+    <div class="toc-page-display-div">
+        <div class="toc-page-display-title-div">
+            <i class="fa-solid fa-microchip"></i> Model Compression and TinyML
+        </div>
+        <div class="toc-page-display-date-div">
+            Neural Architecture Search ⋅ Pruning<br>
+            Quantization ⋅ Knowledge Distillation
+        </div>
+    </div>
+  </a>
 
-  `Neural Architecture Search (NAS)` `Distillation` `Quantization` `Pruning` `On-sensor AI`
+  <a class="toc-page-display-a" id="no-img">
+    <div class="toc-page-display-title-img" id="no-img"></div>
+    <div class="toc-page-display-div">
+        <div class="toc-page-display-title-div">
+            <i class="fa-solid fa-diagram-project"></i> Sparse Neural Network
+        </div>
+        <div class="toc-page-display-date-div">
+            Activation Sparsification<br>
+            Inference Engine using Sparsity
+        </div>
+    </div>
+  </a>
 
-- [**Sparse Neural Network**](wip.md)
+  <div style="clear: both;">
 
-  `Activation Sparsification` `Inference Optimization with Sparsity`
+  <a class="toc-page-display-a" id="paper" href="https://kdas.or.kr/board/confevent/article/251998" target="_blank">
+    <div class="toc-page-display-title-img">
+      <center>
+          <img class="ignore-view-full-image-img" src="images/kdas2024.png" loading="lazy">
+      </center>
+    </div>
+    <div class="toc-page-display-div">
+        <div class="toc-page-display-title-div" id="paper">
+            Transfer Learning-based<br>Neural Architecture Search for<br>On-sensor Audio Classification
+        </div>
+        <div class="toc-page-display-date-div" id="paper">
+            2024.12.06 &nbsp; Proceedings of the Korean Data Analysis Society
+        </div>
+    </div>
+  </a>
 
----
+  <a class="toc-page-display-a" id="paper" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705323" target="_blank">
+    <div class="toc-page-display-title-img">
+      <center>
+          <img class="ignore-view-full-image-img" src="images/ksc2023.png" loading="lazy">
+      </center>
+    </div>
+    <div class="toc-page-display-div">
+        <div class="toc-page-display-title-div" id="paper">
+            Neural Architecture Search for<br>Efficient On-Sensor Inference<br>&nbsp;
+        </div>
+        <div class="toc-page-display-date-div" id="paper">
+            2023.12.20 &nbsp; Korea Software Congress(KSC) 2023
+        </div>
+    </div>
+  </a>
 
-## Lecture Notes
+</div>
 
-> 📝 직접 정리한 인공지능 알고리즘, 하드웨어 시스템 연구 및 강의 노트를 다룹니다.
+<div id="projects" style="margin-top: 2.5rem; margin-left: -1rem; border-radius: 0.5rem; padding: 1rem; background-color: #f8f9fa; text-align: left;">
 
----
+  ### Recent Projects
 
-### 인공지능 관련
+  - **On-sensor AI**: [**STM32 Cloud Latency Lookup Table**](https://github.com/erectbranch/stm32ai-latency-lookup-table) is an **AI benchmark pipeline** on ST Edge AI Cloud MCU. [**ImageNet Validation with Microcontroller**](https://github.com/erectbranch/mcu-imagenet-tutorial) is a ImageNet validation on microcontroller with X-CUBE-AI inference engine.
 
----
+  - **Parallel and Distributed Deep Learning**: [**Enroot on Slurm for Distributed Deep Learning**](https://github.com/erectbranch/enroot-on-slurm) is a comprehensive guide to using **Enroot on Slurm cluster** for deep learning tasks.
 
-#### TinyML and Efficient Deep Learning Computing
+  <div class="image-slider">
+      [[slider]](https://raw.githubusercontent.com/erectbranch/stm32ai-latency-lookup-table/master/main.png|https://raw.githubusercontent.com/erectbranch/mcu-imagenet-tutorial/main/assets/figures/main.png|https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/main.png)
+  </div>
 
-`MIT 6.S965` • `2022` • `efficientml.ai`
+</div>
 
-- Instructor: Song Han(Associate Professor, MIT EECS)
+<div id="study-notes" style="margin-top: 2.5rem; text-align: left;">
 
-- Model compression, pruning, quantization, neural architecture search, distributed training, data/model parallelism, gradient compression, and on-device fine-tuning.
+  ### Study Notes
 
----
+</div>
 
-#### Speaker Recognition
+<a class="toc-page-display-a" id="no-img" href="#/notes/mit-6s965/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          TinyML and Efficient Deep Learning Computing
+      </div>
+      <div class="toc-page-display-date-div">
+          MIT 6.S965 • 2022 • efficientml.ai
+      </div>
+  </div>
+</a>
 
-`Udemy` • `2022` • `udemy.com/course/speaker-recognition`
+<a class="toc-page-display-a" id="no-img" href="#/notes/udemy-speaker/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Speaker Recognition
+      </div>
+      <div class="toc-page-display-date-div">
+          Udemy • 2022 • udemy.com/course/speaker-recognition
+      </div>
+  </div>
+</a>
 
-- Instructor: Quan Wang(Software Engineer, Google)
+<div style="clear: both;">
 
-- Audio processing, feature extraction, speaker recognition, machine learning, and neural networks with coding examples
+<a class="toc-page-display-a" id="no-img" href="#/notes/cs11-711/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Advanced NLP
+      </div>
+      <div class="toc-page-display-date-div">
+          CMU CS 11-711 • 2022 • phontron.com/class/anlp2022
+      </div>
+  </div>
+</a>
 
----
+<a class="toc-page-display-a" id="no-img" href="#/notes/arm-system-guide/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          ARM System Developer's Guide
+      </div>
+      <div class="toc-page-display-date-div">
+          Morgan Kaufmann • 2004
+      </div>
+  </div>
+</a>
 
-### 하드웨어 & 시스템 관련
+<div style="clear: both;">
 
----
+<a class="toc-page-display-a" id="no-img" href="#/notes/cod/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Computer Organization and Design RISC-V Edition
+      </div>
+      <div class="toc-page-display-date-div">
+          Elsevier • 2017
+      </div>
+  </div>
+</a>
 
-#### ARM System Developer's Guide
+<a class="toc-page-display-a" id="no-img" href="#/notes/ucos2/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          MicroC/OS-II The Real-Time Kernel
+      </div>
+      <div class="toc-page-display-date-div">
+          CRC Press • 2002
+      </div>
+  </div>
+</a>
 
-`Morgan Kaufmann` • `2004`
+<div style="clear: both;">
 
-- Authors: Andrew N. Sloss, Dominic Symes, Chris Wright
+<a class="toc-page-display-a" id="no-img" href="#/notes/modern-c/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Modern C
+      </div>
+      <div class="toc-page-display-date-div">
+          길벗 • 2022
+      </div>
+  </div>
+</a>
 
-- system and software for an ARM-based system
+<a class="toc-page-display-a" id="no-img" href="#/notes/python-trick/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Python Tricks
+      </div>
+      <div class="toc-page-display-date-div">
+          인사이트 • 2019
+      </div>
+  </div>
+</a>
 
----
+<div style="clear: both;">
 
-#### Computer Organization and Design RISC-V Edition
+<a class="toc-page-display-a" id="no-img" href="#/notes/pro-cuda-c/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Professional CUDA C Programming
+      </div>
+      <div class="toc-page-display-date-div">
+          Wrox • 2014
+      </div>
+  </div>
+</a>
 
-`Elsevier` • `2017`
+<a class="toc-page-display-a" id="no-img" href="#/notes/enroot-slurm/README" target="_blank">
+  <div class="toc-page-display-title-img" id="no-img"></div>
+  <div class="toc-page-display-div">
+      <div class="toc-page-display-title-div">
+          Enroot on Slurm for Distributed Deep Learning
+      </div>
+      <div class="toc-page-display-date-div">
+          Sungjae Jeon • 2025
+      </div>
+  </div>
+</a>
 
-- Authors: David Patterson, John Hennessy
+<div style="clear: both;">
 
-- RISC-V architecture, assembly language, and computer organization
+<div id="contact" style="margin-top: 2.5rem; text-align: left;">
 
----
+  ### Contact
+  ✉️ erectbranch@gmail.com
 
-#### MicroC/OS-II The Real-Time Kernel
-
-`CRC Press` • `2002`
-
-- Author: Labrosse, Jean J.
-
-- Real-time operating system, embedded systems, and microcontroller
-
----
-
-### 프로그래밍 언어 관련
-
----
-
-#### Modern C
-
-`길벗` • `2022`
-
-- Author: Jens Gustedt
-
-- C programming language, modern C programming
-
----
-
-#### Python Tricks
-
-`인사이트` • `2019`
-
-- Author: Dan Bader
-
-- Python tricks, Python programming
-
----
-
-## Contact
-✉️ Email: erectbranch@gmail.com
-
-## Acknowledgements
-
-[docsify](https://docsify.js.org/#/?id=docsify)와 [docsify-this](https://docsify-this.net/#/)를 활용해 제작한 블로그입니다. • Originally, this blog was based on the [docsify-open-publishing-starter-kit](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit) theme (published by Paul Hibbitts and under the MIT license).
+</div>
