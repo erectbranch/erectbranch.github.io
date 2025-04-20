@@ -51,6 +51,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider/dist/slider.min.css">
 
+  <link rel="stylesheet" href="assets/css/cards.css">
+
   <style>
     :root {
       --base-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -526,8 +528,9 @@
   </script>
 
   <script src="./assets/plugins/tags.js"></script>
+  <script src="./assets/plugins/addTocPage.js"></script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify-dashboard/dist/docsify-dashboard.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-dashboard/dist/docsify-dashboard.min.js"></script> -->
 
   <!-- Customizable Theme-->
   <script src="assets/vendor/themeable/docsify-themeable.min.js"></script>
@@ -604,6 +607,7 @@
   <script src="./assets/plugins/clock.js"></script>
 
   <!-- custom: 루트 경로(#)인 경우, 커버 페이지인 overlay를 표시. -->
+  <!-- custom: (임시) 루트 경로에서 markdown-section width 제한-->
   <script>
     window.addEventListener('load', () => {
       const overlay = document.getElementById('overlay');
@@ -611,6 +615,9 @@
 
       if (path.endsWith('/#/')) {
         overlay.classList.remove('hidden');
+        var editCSS = document.createElement('style')
+        editCSS.innerHTML = ".markdown-section {max-width: 900px;} .slider {max-width: 800px;}";
+        document.body.appendChild(editCSS);
       }
     });
   </script>

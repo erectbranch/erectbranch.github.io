@@ -1,0 +1,25 @@
+/* no image card */
+.toc-page-display-a#no-img {
+    margin-top: 10px !important;
+    min-height: 0px !important;
+}
+
+.toc-page-display-title-img#no-img {
+    min-height: 0px !important;
+}
+
+/* paper card */
+.toc-page-display-a#paper {
+    margin-top: 10px !important;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0.3em 0.3em rgba(0,0,0,0.2);
+}
+
+.toc-page-display-title-div#paper {
+    color: #000;
+}
+
+.toc-page-display-date-div#paper {
+    color: #808080;
+}

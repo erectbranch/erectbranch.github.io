@@ -21,11 +21,9 @@ function tagPlugin(hook, vm) {
         });
     }
 
-
     function getTagList() {
         const tagList = [];
         jsonVariable.forEach(item => {
-            // item.tag가 리스트인 경우, (e.g., "tag": ["High Performance Computing", "Artificial Intelligence"],)
             if (typeof item.tag === 'object' && item.tag.length > 0) {
                 item.tag.forEach(tag => {
                     if (!tagList.includes(tag)) {
@@ -67,13 +65,17 @@ function tagPlugin(hook, vm) {
 
         // Get the filtered items based on the tag name
         const filteredItems = filterByTag(tagName);
-        console.log("filteredItems", filteredItems);
 
         if (filteredItems && filteredItems.length > 0) {
             let tagBoardContent = `<h1>${tagName}</h1>\n<hr>`;
             tagBoardContent += `\n<div class="toc-page-div">\n`;
             for (let i = 0; i < filteredItems.length; i++) {
-                const { time, title, tag, image, href } = filteredItems[i];
+                var { time, title, tag, image, href } = filteredItems[i];
+
+                if (Array.isArray(tag)) {
+                    tag = tag.join(' ⋅ ');
+                }
+                
                 tagBoardContent += `    <a class="toc-page-display-a" href="${href}" target="_blank">
         <div class="toc-page-display-div">
             <div class="toc-page-display-title-img">
@@ -91,7 +93,6 @@ function tagPlugin(hook, vm) {
     </a>`
             }
             tagBoardContent += `\n</div>\n`;
-            console.log("tagBoardContent", tagBoardContent);
 
             tagPageDiv.innerHTML = tagBoardContent + tagPageDiv.innerHTML;
         } else {
