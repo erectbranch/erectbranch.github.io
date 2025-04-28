@@ -49,7 +49,11 @@ Instructor : Song Han(Associate Professor, MIT EECS)
 
   > Efficient Inference Engine(EIE format: relative index, column pointer)
 
-  > Sparse Matrix-Matrix Multiplication(SpMM), Sparse Coding(CSR format)
+- [Sparse Matrix-Matrix Multiplication, GPU Support for Sparsity](notes/mit-6s965/lec04-summary03.md)
+
+  > Sparse Matrix-Matrix Multiplication(SpMM), CSR format
+
+  > GPU Support for Sparsity: Hierarchical 1-Dimensional Tiling, Row Swizzle, M:N Sparsity, Block SpMM(Blocked-ELL format), PatDNN(FKW format)
 
   ---
 
@@ -87,7 +91,7 @@ Instructor : Song Han(Associate Professor, MIT EECS)
   
   > AlexNet, VGGNet, SqueezeNet(fire module), ResNet(bottleneck block, residual connection), ResNeXt(grouped convolution)
   
-  > MobileNet(depthwise-separable convolution, width/resolution multiplier), MobileNetV2(inverted bottleneck block), ShuffleNet(channel shuffle), SENet(squeeze-and-excitation block), MobileNetV3(redesigning expensive layers, h-swish)
+  > MobileNet(depthwise-separable convolution, width/resolution multiplier), MobileNetV2(inverted bottleneck block), ShuffleNet(channel shuffle), SENet(squeeze-and-excitation block), MobileNetV3(h-swish)
 
 - [Neural Architecture Search: Search Space](notes/mit-6s965/lec07-summary02.md)
 
@@ -137,11 +141,65 @@ Instructor : Song Han(Associate Professor, MIT EECS)
 
   ---
 
-### 🔧 Application-Specific Optimizations
+### 🔧 Domain-Specific Optimizations
 
-- [Efficient Video(live) Understanding](notes/mit-6s965/lec19-summary01.md)
+- [Transformer](notes/mit-6s965/2023-lec12-summary01.md)
 
-  > 2D CNNs for Video(live) Understanding, 3D CNNs for Video(live) Understanding(I3D), Temporal Shift Module(TSM)
+  > NLP Task(Discriminative, Generative), Pre-Transformer Era(RNN/LSTM, CNN)
+
+  > Transformer: Tokenizer, Embedding, Multi-Head Attention(self-attention), Feed-Forward Network, Layer Normalization(Pre-Norm, Post-Norm), Positional Encoding
+
+- [Transformer Design Variants](notes/mit-6s965/2023-lec12-summary02.md)
+
+  > Types of Transformer-based Models: Encoder-Decoder(T5), Encoder-only(BERT), Decoder-only(GPT)
+  
+  > Relative Positional Encoding(ALiBi, RoPE, interpolating RoPE), KV cache optimization(Multi-query Attention, Grouped-query Attention), Gated Linear Unit
+
+  ---
+
+- [LLM Quantization](notes/mit-6s965/2024-lec13-summary01.md)
+  
+  > Quantization Difficulty of LLMs, Bottleneck of edge LLM Inference(Memory-bounded, Memory footprint of Weights)
+  
+  > Weight-activation Quantization: SmoothQuant(Activation Smoothing)
+  
+  > Weight-only Quantization: AWQ(1% Salient Weights, Activation-aware Scaling)
+
+- [Efficient System Support for LLM Quantization](notes/mit-6s965/2024-lec13-summary02.md)
+  
+  > System for Edge: TinyChat(Hardware-aware Weight Packing, Kernel Fusion)
+
+  > System for Cloud: Overhead in Quantized GEMM, QServe(SmoothAttention, Dequantization with Reg-Level Parallelism)
+
+- [LLM Pruning & Sparsity](notes/mit-6s965/2024-lec13-summary03.md)
+  
+  > Weight Sparsity: Wanda
+
+  > Contextual Sparsity: Deja Vu, Mixture-of-Experts
+
+  > Attention Sparsity: SpAtten, H2O
+
+  ---
+
+- [LLM Post Training](notes/mit-6s965/2024-lec14-summary01.md)
+
+  > Supervised Fine-Tuning, Reinforcement Learning from Human Feedback, Direct Preference Optimization
+
+  > Parameter-Efficient Fine-Tuning: Additive(Adapter, Prompt/Prefix Tuning) Selective(BitFit), Reparameterized(LoRA)
+
+  > PEFT Quantization: QLoRA, BitDelta
+
+  ---
+
+- [Vision Transformer](notes/mit-6s965/2023-lec14-summary01.md)
+
+  > Vision Transformer, High-Resolution Dense Prediction, Segment Anything
+  
+  > Window Attention(Swin Transformer, FlatFormer), ReLU Linear Attention(EfficientViT), Sparse Attention(SparseViT)
+
+- [Efficient Video Understanding](notes/mit-6s965/lec19-summary01.md)
+
+  > 2D CNNs for Video Understanding, 3D CNNs for Video Understanding(I3D), Temporal Shift Module(TSM)
 
   > Other Efficient Methods: Kernel Decomposition, Multi-Scale Modeling, Neural Architecture Search(X3D), Skipping Redundant Frames/Clips, Utilizing Spatial Redundancy
 
@@ -150,19 +208,3 @@ Instructor : Song Han(Associate Professor, MIT EECS)
   > GANs(Generator, Discriminator), Conditional/Unconditional GANs, Difficulties in GANs
 
   > Compress Generator(GAN Compression), Dynamic Cost GANs(Anycost GANs), Data-Efficient GANs(Differentiable Augmenatation)
-
-  ---
-
-- [Transformer](notes/mit-6s965/2023-lec12-summary01.md)
-
-  > NLP Task(Discriminative, Generative), Pre-Transformer Era(RNN, LSTM, CNN)
-
-  > Transformer: Tokenizer, Embedding, Multi-Head Attention, Feed-Forward Network, Layer Normalization(Pre-Norm, Post-Norm), Positional Encoding
-
-- [Transformer Design Variants](notes/mit-6s965/2023-lec12-summary02.md)
-
-  > Encoder-Decoder(T5), Encoder-only(BERT), Decoder-only(GPT), Relative Positional Encoding, KV cache optimization, Gated Linear Unit
-
-- [Efficient Vision Transformer](notes/mit-6s965/2023-lec14-summary01.md)
-
-  > Vision Transformer, Window Attention(Swin Transformer), Sparse Window Attention(FlatFormer), ReLU Linear Attention(EfficientViT), Sparsity-Aware Adaptation(SparseViT)

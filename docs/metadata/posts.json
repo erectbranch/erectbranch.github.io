@@ -1,8 +1,15 @@
 [
   {
+    "time": "2025.04.23",
+    "title": "LLM Post Training",
+    "tag": ["Efficient AI", "Large Language Model"],
+    "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2024/lec14/summary01/images/LoRA.png",
+    "href": "#/notes/mit-6s965/2024-lec14-summary01"
+  },
+  {
     "time": "2025.04.21",
     "title": "LLM Pruning & Sparsity",
-    "tag": "Efficient AI",
+    "tag": ["Efficient AI", "Large Language Model"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2024/lec13/summary03/images/MoE.png",
     "href": "#/notes/mit-6s965/2024-lec13-summary03"
   },
@@ -23,14 +30,14 @@
   {
     "time": "2025.04.01",
     "title": "Efficient System Support for LLM Quantization",
-    "tag": "Efficient AI",
+    "tag": ["Efficient AI", "Large Language Model"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2024/lec13/summary02/images/tinychat_kernel_fusion.png",
     "href": "#/notes/mit-6s965/2024-lec13-summary02"
   },
   {
     "time": "2025.03.30",
     "title": "LLM Quantization",
-    "tag": "Efficient AI",
+    "tag": ["Efficient AI", "Large Language Model"],
     "image": "https://raw.githubusercontent.com/erectbranch/TinyML_and_Efficient_DLC/master/2024/lec13/summary01/images/smoothquant_before.png",
     "href": "#/notes/mit-6s965/2024-lec13-summary01"
   },
