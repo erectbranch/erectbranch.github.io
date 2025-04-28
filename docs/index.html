@@ -49,7 +49,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard/dist/dashboard.min.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider/dist/slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider@1.2.1/dist/slider.min.css">
 
   <link rel="stylesheet" href="assets/css/cards.css">
 
@@ -109,6 +109,9 @@
       --pagination-title-color: #0374B5;
 
       --docsifytabs-tab-color: var(--base-color);
+      
+      --sidebar-toggle-offset-top: 0px;
+      --sidebar-padding: 15px;
 
       /* card style */
       --dashboard-card-border-radius: 10px;
@@ -267,7 +270,7 @@
       },
 
       dashboard: {
-        numTabContent: 9,
+        numTabContent: 6,
         metadataUrl: 'metadata/posts'
       },
 
@@ -615,9 +618,6 @@
 
       if (path.endsWith('/#/')) {
         overlay.classList.remove('hidden');
-        var editCSS = document.createElement('style')
-        editCSS.innerHTML = ".markdown-section {max-width: 900px;} .slider {max-width: 800px;}";
-        document.body.appendChild(editCSS);
       }
     });
   </script>
