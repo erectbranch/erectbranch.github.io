@@ -10,55 +10,37 @@ A plugin for [Docsify](https://docsify.js.org/#/) that allows you to create a sl
 
 </div>
 
-## 🔨 Import
+## Import
 
 To use the image slider, you need to include the plugin in your Docsify `index.html` file:
 
 **Add stylesheet**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider/dist/slider.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider@latest/dist/slider.min.css">
 ```
 
 **Add script**
 
 ```html
-<script src="//cdn.jsdelivr.net/npm/docsify-image-slider/dist/docsify-image-slider.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-image-slider@latest/dist/docsify-image-slider.min.js"></script>
 ```
 
 ---
 
-## 💡 Demo
+## Demo
 
-<div class="image-slider">
-    [[slider]](./images/slide_1.jpg|./images/slide_2.jpg|./images/slide_3.jpg)
-</div>
+[[slider]](./images/slide_1.jpg|./images/slide_2.jpg|./images/slide_3.jpg)
 
 ---
 
-## 📋 Usage
+## Syntax
 
-1. Define a `<div class="image-slider"> </div>` wrapper for the slider.
-
-    ```markdown
-    <div class="image-slider">
-        ...
-    </div>
-    ```
-
-2. Inside the wrapper, use the `[[slider]]` syntax followed by the image URLs separated by a pipe (`|`). The URLs can be relative or absolute.
-
-    **Syntax**: \[\[**slider**\]\]**(img url 1|img url 2|img url 3)**
-
-    ```markdown
-    <div class="image-slider">
-        Syntax
-    </div>
-    ```
+> \[\[**slider**\]\]**(img url 1|img url 2|...|img url n)**
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 To configure the slider, you can set options in your `index.html` file. The available options are:
 
@@ -79,7 +61,7 @@ window.$docsify = {
 
 ---
 
-## 🎨 Customization
+## Customization
 
 The slider can be customized using CSS. You can override the following CSS variables.
 
@@ -90,8 +72,10 @@ The slider can be customized using CSS. You can override the following CSS varia
 | `--docsify-image-slider-height` | Height of the slide. |
 | `--docsify-image-slider-max-width` | Maximum width of the slide. |
 | `--docsify-image-slider-overflow` | Overflow property for the slide. |
+| `--docsify-image-slider-left-right-margin` | Margin for the left and right sides of the slider buttons. |
 | `--docsify-image-slider-button-color` | Color of the slider arrows. |
 | `--docsify-image-slider-button-bg-color` | Background color of the slider buttons. |
+| `--docsify-image-slider-button-bg-hover-color` | Background color of the slider buttons on hover. |
 | `--docsify-image-slider-button-border-color` | Border color of the slider buttons. |
 
 To change the transition effect and the size of the slider, you can add the following styles to your `index.html` file:
@@ -99,16 +83,26 @@ To change the transition effect and the size of the slider, you can add the foll
 ```html
 <style>
   :root {
+    /* slider */
+    --docsify-image-slider-transition: 0.4s ease-in-out;
+    --docsify-image-slider-width: 50vw;
+    --docsify-image-slider-height: 50vh;
+    --docsify-image-slider-max-width: 768px;
+    --docsify-image-slider-overflow: hidden;
+    --docsify-image-slider-left-right-margin: -3rem;
+
     /* slider-buttons */
-    --docsify-image-slider-button-color: #000000;
-    --docsify-image-slider-button-border-color: #000000;
+    --docsify-image-slider-button-color: #a0a0a0;
+    --docsify-image-slider-button-bg-color: transparent;
+    --docsify-image-slider-button-bg-hover-color: #a0a0a01A;
+    --docsify-image-slider-button-border-color: #a0a0a0;
   }
 </style>
 ```
 
 ---
 
-## ✨ Contribution
+## Contribution
 
 Please feel free to submit a pull request or open an issue on the GitHub repository. Your contributions are welcome and appreciated!
 
