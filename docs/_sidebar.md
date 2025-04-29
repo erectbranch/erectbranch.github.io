@@ -14,9 +14,7 @@
 <br/>
 
 - **🏷️ Tags**
-<div class="tag-container">
-  <div class="tag-list"></div>
-</div>
+<!-- tag-list -->
 
 <br/>
 <br/> 
