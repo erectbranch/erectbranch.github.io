@@ -27,7 +27,7 @@ Instructor : Song Han(Associate Professor, MIT EECS)
 
   > Memory-Related(\#parameters, model size, \#activations), Computation(MACs, FLOP)
 
-### 📔 Efficient Inference
+### 📙 Efficient Inference
 
 - [Pruning Granularity, Pruning Critertion](notes/mit-6s965/lec03.md)
 

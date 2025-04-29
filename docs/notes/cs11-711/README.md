@@ -47,7 +47,7 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > Extensions to Attention: Incorporating Markov Properties, Hard Attention, Monotonic Attention, Coverage, Bidirectional Training, Alignment Attention
 
-### 📔 Representation
+### 📙 Representation
 
 - [Pre-training](notes/cs11-711/lec07-summary01.md)
 

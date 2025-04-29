@@ -22,7 +22,7 @@ Elsevier · 2017년 4월 13일 출시</b>
 
 ## 🚩 정리한 문서 목록
 
-### 📔 Computer Abstractions
+### 📙 Computer Abstractions
 
  - [Computer Abstractions and Technology](notes/cod/ch01.md)
 

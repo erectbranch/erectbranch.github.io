@@ -39,7 +39,7 @@ Wrox(現 Willy) · 2014년 9월 9일 출시</br>
   
   > CUDA Programming: Hello World
 
-### 📔 Basic CUDA Programming
+### 📙 Basic CUDA Programming
 
 - [CUDA Programming Model](notes/pro-cuda-c/ch02-summary01.md)
 

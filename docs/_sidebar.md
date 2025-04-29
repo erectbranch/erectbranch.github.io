@@ -1,5 +1,5 @@
 - [**전체보기**](dashboard.md)
-- **📔 Wiki**
+- **📙 Wiki**
   - [TinyML and Efficient Deep Learning Computing](notes/mit-6s965/README.md)
   - [Speaker Recognition](notes/udemy-speaker/README.md)
   - [Advanced NLP](notes/cs11-711/README.md)
@@ -13,7 +13,7 @@
 
 <br/>
 
-- **🔖 Tags**
+- **🏷️ Tags**
 <div class="tag-container">
   <div class="tag-list"></div>
 </div>
