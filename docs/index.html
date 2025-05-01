@@ -46,7 +46,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@latest/dist/dashboard.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@2.2.1/dist/dashboard.min.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-image-slider@latest/dist/slider.min.css">
 
@@ -111,27 +111,6 @@
       
       --sidebar-toggle-offset-top: 0px;
       --sidebar-padding: 15px;
-
-      /* card style */
-      --dashboard-card-border-radius: 10px;
-      --dashboard-card-margin-top: 40px; 
-      --dashboard-card-bg-color: #212121; 
-      --dashboard-card-max-width: 400px;
-      --dashboard-card-min-height: 270px;
-      --dashboard-card-shadow: none;
-
-      /* card text */
-      --dashboard-card-text-align: left; 
-      --dashboard-card-text-color: #fff;
-      --dashboard-card-title-font-size: 1rem; 
-      --dashboard-card-title-font-weight: bolder; 
-      --dashboard-card-date-font-size: 0.75rem; 
-      --dashboard-card-date-color: rgba(255, 255, 255, .4);
-
-      /* card image */
-      --dashboard-card-img-min-width: 100%;
-      --dashboard-card-img-min-height: 200px;
-      --dashboard-card-img-max-height: 200px;
 
       /* tag style */
       --tags-font-size: 12px;
@@ -273,7 +252,10 @@
 
       dashboard: {
         numTabContent: 6,
-        metadataUrl: 'metadata/posts'
+        metadataUrl: 'metadata/posts',
+        sort: false,
+        theme: 'default',         // default, cards, list
+        tagboardTheme: 'default'
       },
 
       clock: {
@@ -532,7 +514,7 @@
     }
   </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify-dashboard@latest/dist/docsify-dashboard.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-dashboard@2.2.1/dist/docsify-dashboard.min.js"></script>
 
   <!-- Customizable Theme-->
   <script src="assets/vendor/themeable/docsify-themeable.min.js"></script>
