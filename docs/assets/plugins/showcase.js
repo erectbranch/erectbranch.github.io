@@ -40,7 +40,7 @@ function renderShowcaseTagPage() {
       "subtitle": "Introducing new docsify plugin that creates a slider for images",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-image-slider/master/demo.gif",
-      "href": "#/showcase/docsify-image-slider/README"
+      "href": "#/showcase/docsify-image-slider/guide"
     },
     {
       "time": "2025.04.01",
@@ -48,7 +48,7 @@ function renderShowcaseTagPage() {
       "subtitle": "How to create a dashboard with docsify-dashboard plugin, and how to customize the dashboard theme",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-dashboard/master/demo.png",
-      "href": "#/showcase/docsify-dashboard/README"
+      "href": "#/showcase/docsify-dashboard/guide"
     }
   ]`);
 
@@ -78,6 +78,10 @@ function renderShowcaseTagPage() {
       for (let i = 0; i < filteredItems.length; i++) {
         var { time, title, subtitle, tag, image, href } = filteredItems[i];
         
+        if (Array.isArray(tag)) {
+          tag = tag.join(' ⋅ ');
+        }
+
         showcaseTagBoardContent += `<a class="toc-page-display-a" id="list" href="${href}" target="_blank">
         <div class="toc-page-display-div" id="list">
             <div class="toc-page-display-title-img" id="list">

@@ -10,7 +10,7 @@ A plugin for [Docsify](https://docsify.js.org/#/) that allows you to create a sl
 
 </div>
 
-## Import
+## 1. Import
 
 To use the image slider, you need to include the plugin in your Docsify `index.html` file:
 
@@ -26,19 +26,13 @@ To use the image slider, you need to include the plugin in your Docsify `index.h
 <script src="//cdn.jsdelivr.net/npm/docsify-image-slider@latest/dist/docsify-image-slider.min.js"></script>
 ```
 
----
-
-## Demo
+## 2. Demo
 
 [[slider]](./images/slide_1.jpg|./images/slide_2.jpg|./images/slide_3.jpg)
 
----
-
-## Syntax
+## 3. Usage
 
 > \[\[**slider**\]\]**(img url 1|img url 2|...|img url n)**
-
----
 
 ## Configuration
 
@@ -59,9 +53,7 @@ window.$docsify = {
 };
 ```
 
----
-
-## Customization
+## 4. Customization
 
 The slider can be customized using CSS. You can override the following CSS variables.
 
@@ -100,10 +92,6 @@ To change the transition effect and the size of the slider, you can add the foll
 </style>
 ```
 
----
+## 5. Contribution
 
-## Contribution
-
-Please feel free to submit a pull request or open an issue on the GitHub repository. Your contributions are welcome and appreciated!
-
----
+Your contributions are welcome and appreciated!

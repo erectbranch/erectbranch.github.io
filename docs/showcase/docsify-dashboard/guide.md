@@ -31,7 +31,7 @@ A plugin for [Docsify](https://docsify.js.org/#/) that creates a dashboard from 
       "subtitle": "Introducing new docsify plugin that creates a slider for images",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-image-slider/master/demo.gif",
-      "href": "#/showcase/docsify-image-slider/README"
+      "href": "#/showcase/docsify-image-slider/guide"
     },
     {
       "time": "2025.04.01",
@@ -39,7 +39,7 @@ A plugin for [Docsify](https://docsify.js.org/#/) that creates a dashboard from 
       "subtitle": "How to create a dashboard with docsify-dashboard plugin, and how to customize the dashboard theme",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-dashboard/master/demo.png",
-      "href": "#/showcase/docsify-dashboard/README"
+      "href": "#/showcase/docsify-dashboard/guide"
     }
 ]
 ```
@@ -71,7 +71,7 @@ A plugin for [Docsify](https://docsify.js.org/#/) that creates a dashboard from 
             </div>
         </div>
     </a>
-    <a class="toc-page-display-a" id="default" href="#/showcase/docsify-image-slider/README" target="_blank">
+    <a class="toc-page-display-a" id="default" href="#/showcase/docsify-image-slider/guide" target="_blank">
         <div class="toc-page-display-div" id="default">
             <div class="toc-page-display-title-img" id="default">
                 <center>
@@ -94,7 +94,7 @@ A plugin for [Docsify](https://docsify.js.org/#/) that creates a dashboard from 
 #### **2**
 
 <div class="toc-page-div">
-    <a class="toc-page-display-a" id="list" href="#/showcase/docsify-dashboard/README" target="_blank">
+    <a class="toc-page-display-a" id="list" href="#/showcase/docsify-dashboard/guide" target="_blank">
         <div class="toc-page-display-div" id="list">
             <div class="toc-page-display-title-img" id="list">
                 <center>
@@ -262,7 +262,7 @@ window.$docsify = {
             </div>
         </div>
     </a>
-    <a class="toc-page-display-a" id="default" href="#/showcase/docsify-image-slider/README" target="_blank">
+    <a class="toc-page-display-a" id="default" href="#/showcase/docsify-image-slider/guide" target="_blank">
         <div class="toc-page-display-div" id="default">
             <div class="toc-page-display-title-img" id="default">
                 <center>
@@ -303,7 +303,7 @@ window.$docsify = {
             </div>
         </div>
     </a>
-    <a class="toc-page-display-a" id="cards" href="#/showcase/docsify-image-slider/README" target="_blank">
+    <a class="toc-page-display-a" id="cards" href="#/showcase/docsify-image-slider/guide" target="_blank">
         <div class="toc-page-display-div" id="cards">
             <div class="toc-page-display-title-img" id="cards">
                 <center>
@@ -344,7 +344,7 @@ window.$docsify = {
             </div>
         </div>
     </a>
-    <a class="toc-page-display-a" id="list" href="#/showcase/docsify-image-slider/README" target="_blank">
+    <a class="toc-page-display-a" id="list" href="#/showcase/docsify-image-slider/guide" target="_blank">
         <div class="toc-page-display-div" id="list">
             <div class="toc-page-display-title-img" id="list">
                 <center>

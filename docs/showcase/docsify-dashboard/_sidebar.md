@@ -1,6 +1,6 @@
 <p style="font-size:22px; font-weight: lighter;">docsify-dashboard</p>
 
-- [Documentation](showcase/docsify-dashboard/README.md) <!-- markdownlint-disable-line first-line-heading -->
+- [Documentation](showcase/docsify-dashboard/guide.md) <!-- markdownlint-disable-line first-line-heading -->
 
 - **Links**
 - [![github logo](../../images/github.svg)GitHub](https://github.com/erectbranch/docsify-dashboard)

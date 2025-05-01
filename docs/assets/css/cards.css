@@ -10,6 +10,7 @@
 
 /* paper card */
 .toc-page-display-a#paper {
+    padding: 15px 20px 5px 20px;
     margin-top: 10px !important;
     background-color: #fff;
     color: #000;
