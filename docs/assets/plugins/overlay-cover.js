@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const text = "AI research with a global perspective. Pioneering ";
       const centerX = canvas.width / 2;
       const centerY = canvas.height / 2;
-      const textRadius = radius * 1.2; // Slightly larger than the globe
+      const textRadius = radius * 1.15; // Slightly larger than the globe
       
       ctx.save();
-      ctx.font = "bold 24px serif";  // custom: 와이어 프레임을 감싼 텍스트 폰트(Arial -> serif) 및 크기 변경
+      ctx.font = "bold 1.2em serif";  // custom: 와이어 프레임을 감싼 텍스트 폰트(Arial -> serif) 및 크기 변경
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
       ctx.fillStyle = "#0f5acb";     // custom: 와이어 프레임을 감싼 텍스트 색상 변경
