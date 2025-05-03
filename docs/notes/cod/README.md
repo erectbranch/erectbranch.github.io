@@ -3,7 +3,7 @@
 <h1 align="center">
   <p align="center">Computer Organization and Design RISC-V Edition</p>
   <a href="https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-812275-4">
-    <img width="50%" src="https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/cover.jpg" />
+    <img width="50%" src="https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/cover.jpg" />
   </a>
 </h1>
   

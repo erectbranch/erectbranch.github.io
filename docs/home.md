@@ -78,12 +78,12 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
   ### Recent Projects
 
-  - **On-sensor AI**: [**STM32 Cloud Latency Lookup Table**](https://github.com/erectbranch/stm32ai-latency-lookup-table) is an **AI benchmark pipeline** on ST Edge AI Cloud MCU. [**ImageNet Validation with Microcontroller**](https://github.com/erectbranch/mcu-imagenet-tutorial) is a ImageNet validation on microcontroller with X-CUBE-AI inference engine.
+  - **On-sensor AI**: [**STM32 Cloud Latency Lookup Table**](https://github.com/erectbranch/stm32ai-latency-lookup-table) is an **AI benchmark pipeline** on ST Edge AI Cloud MCU. [**ImageNet Validation with Microcontroller**](https://github.com/erectbranch/mcu-imagenet-benchmark) is a ImageNet validation on microcontroller with X-CUBE-AI inference engine.
 
   - **Parallel and Distributed Deep Learning**: [**Enroot on Slurm for Distributed Deep Learning**](https://github.com/erectbranch/enroot-on-slurm) is a comprehensive guide to using **Enroot on Slurm cluster** for deep learning tasks.
 
   <div class="image-slider">
-      [[slider]](https://raw.githubusercontent.com/erectbranch/stm32ai-latency-lookup-table/master/main.png|https://raw.githubusercontent.com/erectbranch/mcu-imagenet-tutorial/main/assets/figures/main.png|https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/main.png)
+      [[slider]](https://raw.githubusercontent.com/erectbranch/stm32ai-latency-lookup-table/master/main.png|https://raw.githubusercontent.com/erectbranch/mcu-imagenet-benchmark/main/assets/figures/main.png|https://raw.githubusercontent.com/erectbranch/enroot-on-slurm/master/images/main.png)
   </div>
 
 </div>

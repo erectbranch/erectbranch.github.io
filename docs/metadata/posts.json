@@ -94,28 +94,28 @@
     "time": "2024.06.28",
     "title": "Firmware, Bootloader",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch10/summary01/images/boot_sequence.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch10/summary01/images/boot_sequence.png",
     "href": "#/notes/arm-system-guide/ch10-summary01"
   },
   {
     "time": "2024.06.25",
     "title": "Register Allocation",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary02/images/word_align.jpg",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary02/images/word_align.jpg",
     "href": "#/notes/arm-system-guide/ch06-summary02"
   },
   {
     "time": "2024.06.17",
     "title": "Interrupt, Interrupt Stack",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch09/summary02/images/FIQ.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch09/summary02/images/FIQ.png",
     "href": "#/notes/arm-system-guide/ch09-summary02"
   },
   {
     "time": "2024.06.15",
     "title": "Assembly Function, Instruction Scheduling",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary01/images/ARM9_pipeline.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary01/images/ARM9_pipeline.png",
     "href": "#/notes/arm-system-guide/ch06-summary01"
   },
   {
@@ -143,28 +143,28 @@
     "time": "2024.06.08",
     "title": "Dataflow and Registers",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch02/summary01/images/ARM_core_dataflow.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch02/summary01/images/ARM_core_dataflow.png",
     "href": "#/notes/arm-system-guide/ch02-summary01"
   },
   {
     "time": "2024.06.03",
     "title": "Alignment, Endian, Division, Inline Assembly",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch05/summary03/images/endian_big.jpg",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch05/summary03/images/endian_big.jpg",
     "href": "#/notes/arm-system-guide/ch05-summary03"
   },
   {
     "time": "2024.05.30",
     "title": "Pipeline, Interrupt, Extensions",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch02/summary02/images/Von_Neumann_architecture.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch02/summary02/images/Von_Neumann_architecture.png",
     "href": "#/notes/arm-system-guide/ch02-summary02"
   },
   {
     "time": "2024.05.26",
     "title": "ARM Embedded System",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch01/images/RISC_vs_CISC_1.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch01/images/RISC_vs_CISC_1.png",
     "href": "#/notes/arm-system-guide/ch01"
   },
   {
@@ -178,49 +178,49 @@
     "time": "2024.05.23",
     "title": "Bit Manipulation, Switch, Unaligned Data",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary04/images/big-endian_bitcodes_packed.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary04/images/big-endian_bitcodes_packed.png",
     "href": "#/notes/arm-system-guide/ch06-summary04"
   },
   {
     "time": "2024.05.20",
     "title": "Register Allocation, Function Calls, Aliasing",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch05/summary02/images/APCS_argument_passing.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch05/summary02/images/APCS_argument_passing.png",
     "href": "#/notes/arm-system-guide/ch05-summary02"
   },
   {
     "time": "2024.05.19",
     "title": "Data Processing Instructions",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary01/images/ARM_instruction_set_1.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary01/images/ARM_instruction_set_1.png",
     "href": "#/notes/arm-system-guide/ch03-summary01"
   },
   {
     "time": "2024.05.17",
     "title": "Exception Handling",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch09/summary01/images/banked_register.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch09/summary01/images/banked_register.png",
     "href": "#/notes/arm-system-guide/ch09-summary01"
   },
   {
     "time": "2024.05.14",
     "title": "Branch, Load-Store Instructions",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary02/images/LDR_LDRH_LDRB.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary02/images/LDR_LDRH_LDRB.png",
     "href": "#/notes/arm-system-guide/ch03-summary02"
   },
   {
     "time": "2024.05.14",
     "title": "SWI, Program Status Register  Instructions, ARMv5E Extensions",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch03/summary03/images/ARM_instruction_format.jpeg",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary03/images/ARM_instruction_format.jpeg",
     "href": "#/notes/arm-system-guide/ch03-summary03"
   },
   {
     "time": "2024.05.13",
     "title": "Conditional Execution, Looping Constructs",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/ch06/summary03/images/multiple_nested_loop.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary03/images/multiple_nested_loop.png",
     "href": "#/notes/arm-system-guide/ch06-summary03"
   },
   {
@@ -542,35 +542,35 @@
     "time": "2023.06.24",
     "title": "RISC-V Pipelined datapath, ILP",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary03/images/branch_taken_ex.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary03/images/branch_taken_ex.png",
     "href": "#/notes/cod/ch04-summary03"
   },
   {
     "time": "2023.06.20",
     "title": "interconnect, heterogeneity, thread",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch06/summary01/images/SMP.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch06/summary01/images/SMP.png",
     "href": "#/notes/cod/ch06-summary01"
   },
   {
     "time": "2023.06.19",
     "title": "RISC-V Pipelining",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary02/images/2bit_predictor.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary02/images/2bit_predictor.png",
     "href": "#/notes/cod/ch04-summary02"
   },
   {
     "time": "2023.06.17",
     "title": "memory hierarchy, direct mapped cache",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch05/summary01/images/address_subdivision.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch05/summary01/images/address_subdivision.png",
     "href": "#/notes/cod/ch05-summary01"
   },
   {
     "time": "2023.06.17",
     "title": "cache miss, cache write, set-associative cache",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch05/summary02/images/2-way_set_example.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch05/summary02/images/2-way_set_example.png",
     "href": "#/notes/cod/ch05-summary02"
   },
   {
@@ -584,7 +584,7 @@
     "time": "2023.05.21",
     "title": "RISC-V Processor datapath",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch04/summary01/images/PC.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary01/images/PC.png",
     "href": "#/notes/cod/ch04-summary01"
   },
   {
@@ -598,7 +598,7 @@
     "time": "2023.05.11",
     "title": "Conditional Operation, Branch",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary02/images/leaf_example.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary02/images/leaf_example.png",
     "href": "#/notes/cod/ch02-summary02"
   },
   {
@@ -626,7 +626,7 @@
     "time": "2023.05.04",
     "title": "RISC-V Instructions(RV64I)",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary01/images/I-format_instruction.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary01/images/I-format_instruction.png",
     "href": "#/notes/cod/ch02-summary01"
   },
   {
@@ -647,14 +647,14 @@
     "time": "2023.04.27",
     "title": "Computer Abstractions and Technology",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch01/images/1-core_vs_2-core_processor.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch01/images/1-core_vs_2-core_processor.png",
     "href": "#/notes/cod/ch01"
   },
   {
     "time": "2023.04.24",
     "title": "wide, branch instructions, data race",
     "tag": "Computer Architecture",
-    "image": "https://raw.githubusercontent.com/erectbranch/Computer_Organization_and_Design/master/ch02/summary03/images/S-type_B-type.png",
+    "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary03/images/S-type_B-type.png",
     "href": "#/notes/cod/ch02-summary03"
   },
   {

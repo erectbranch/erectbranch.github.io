@@ -3,7 +3,7 @@
 <h1 align="center">
   <p align="center">ARM System Developer's Guide</p>
   <a href="https://www.sciencedirect.com/book/9781558608740/arm-system-developers-guide">
-    <img width="50%" src="https://raw.githubusercontent.com/erectbranch/ARM_System_Developers_Guide/master/cover.png" />
+    <img width="50%" src="https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/cover.png" />
   </a>
 </h1>
   
@@ -118,7 +118,7 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
 
    > Instruction Scheduling(instruction cycles, ARM9TDMI pipeline), Pipeline Hazards, Loop Scheduling(Preloading, Unrolling)
 
- - [Register Allocation](https://github.com/erectbranch/ARM_System_Developers_Guide/tree/master/ch06/summary02)
+ - [Register Allocation](https://github.com/erectbranch/arm-system-developers-guide/tree/master/ch06/summary02)
  
    > Procedure Call(ATPCS, AAPCS)
     
@@ -140,7 +140,7 @@ Morgan Kaufmann · 2004년 04월 08일 출간</b>
 <details markdown="1">
 <summary><h3>🎛 Embedded System</h3></summary>
  
- - [Firmware, Bootloader](https://github.com/erectbranch/ARM_System_Developers_Guide/tree/master/ch10/summary01)
+ - [Firmware, Bootloader](https://github.com/erectbranch/arm-system-developers-guide/tree/master/ch10/summary01)
  
    > Boot Sequence, Bootloader
  
