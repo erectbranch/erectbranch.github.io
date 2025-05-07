@@ -244,10 +244,14 @@
       skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
 
       alias: {
+        // showcases
         '/docsify-(.*)/demo': '/#/demo/docsify-$1/guide.md',
         '/docsify-(.*)/changelog': 'https://raw.githubusercontent.com/erectbranch/docsify-$1/master/CHANGELOG.md',
         '/docsify-(.*)/_sidebar.md': '/#/demo/docsify-$1/_sidebar.md',
         '/docsify-(.*)/nav.md': '/nav.md',
+        // notes repository
+        '/(.*)/notes/((?!.*_sidebar).*)': 'https://raw.githubusercontent.com/erectbranch/$1/master/$2/README.md',
+        '/MIT-Efficient-AI/_sidebar.md': '/#/notes/mit-6.5940/_sidebar.md',
       },
 
       // PLUGIN SETTINGS
@@ -412,6 +416,7 @@
 
           });
 
+          
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
             var hasEmbedly = document.getElementsByClassName('embedly-card');
@@ -600,13 +605,16 @@
   <!-- custom: demo 페이지 스크립트 -->
   <script src="./assets/plugins/showcase.js"></script>
 
+  <!-- custom: notes title 작성 스크립트 -->
   <script src="./assets/plugins/notes.js"></script>
+
+  <!-- custom: github page 임포트 스크립트 -->
+  <script src="./assets/plugins/github-page.js"></script>
 
   <!-- custom: clock 스크립트 -->
   <script src="./assets/plugins/clock.js"></script>
 
   <!-- custom: 루트 경로(#)인 경우, 커버 페이지인 overlay를 표시. -->
-  <!-- custom: (임시) 루트 경로에서 markdown-section width 제한-->
   <script>
     window.addEventListener('load', () => {
       const overlay = document.getElementById('overlay');

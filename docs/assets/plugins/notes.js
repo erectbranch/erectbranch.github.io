@@ -47,9 +47,6 @@ function noteTitlePlugin(hook, vm) {
     hook.init(() => {
         try {
             jsonVariable = getJson(metadataUrl);
-            if (sortPosts) {
-                jsonVariable = sortJsonByTime(jsonVariable);
-            }
         } catch (e) {
             console.error(`Failed to fetch ${metadataUrl}.json.`, e);
         }

@@ -1,6 +1,6 @@
 - [**전체보기**](dashboard.md)
 - **📙 Wiki**
-  - [TinyML and Efficient Deep Learning Computing](notes/mit-6s965/README.md)
+  - [TinyML and Efficient Deep Learning Computing](MIT-Efficient-AI/notes/)
   - [Speaker Recognition](notes/udemy-speaker/README.md)
   - [Advanced NLP](notes/cs11-711/README.md)
   - [ARM System Developer's Guide](notes/arm-system-guide/README.md)

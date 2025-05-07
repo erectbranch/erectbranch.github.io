@@ -1,0 +1,33 @@
+- [**전체보기**](dashboard)
+- **Lecture Home**
+  - [About](MIT-Efficient-AI/notes/)
+- **Basics of Deep Learning**
+  - [Basic Terminologies, Shape of Tensors](MIT-Efficient-AI/notes/2022/lec02/summary01)
+  - [Efficiency Metrics](MIT-Efficient-AI/notes/2022/lec02/summary02)
+- **Efficient Inference**
+  - [Pruning Granularity, Pruning Critertion](MIT-Efficient-AI/notes/2022/lec03)
+  - [Automatic Pruning, Lottery Ticket Hypothesis](MIT-Efficient-AI/notes/2022/lec04/summary01)
+  - [System & Hardware Support for Fine-grained Sparsity](MIT-Efficient-AI/notes/2022/lec04/summary02)
+  - [Sparse Matrix-Matrix Multiplication, GPU Support for Sparsity](MIT-Efficient-AI/notes/2022/lec04/summary03)
+  - [Basic Concepts of Quantization](MIT-Efficient-AI/notes/2022/lec05/summary01)
+  - [Vector Quantization](MIT-Efficient-AI/notes/2022/lec05/summary02)
+  - [Post Training Quantization](MIT-Efficient-AI/notes/2022/lec06/summary01)
+  - [Quantization-Aware Training, Low bit-width quantization](MIT-Efficient-AI/notes/2022/lec06/summary02)
+  - [Neural Architecture Search: basic concepts & manually-designed neural networks](MIT-Efficient-AI/notes/2022/lec07/summary01)
+  - [Neural Architecture Search: Search Space](MIT-Efficient-AI/notes/2022/lec07/summary02)
+  - [Neural Architecture Search: Performance Estimation & Hardware-Aware NAS](MIT-Efficient-AI/notes/2022/lec08)
+  - [Knowledge Distillation](MIT-Efficient-AI/notes/2022/lec10/summary01)
+  - [Distillation for Applications](MIT-Efficient-AI/notes/2022/lec10/summary02)
+  - [MCUNet](MIT-Efficient-AI/notes/2022/lec11)
+- **Efficient Training and System Support**
+  - [TinyEngine](MIT-Efficient-AI/notes/2022/lec17)
+- **Domain-Specific Optimizations**
+  - [Transformer](MIT-Efficient-AI/notes/2023/lec12/summary01)
+  - [Transformer Design Variants](MIT-Efficient-AI/notes/2023/lec12/summary02)
+  - [LLM Quantization](MIT-Efficient-AI/notes/2024/lec13/summary01)
+  - [Efficient System Support for LLM Quantization](MIT-Efficient-AI/notes/2024/lec13/summary02)
+  - [LLM Pruning & Sparsity](MIT-Efficient-AI/notes/2024/lec13/summary03)
+  - [LLM Post Training](MIT-Efficient-AI/notes/2024/lec14/summary01)
+  - [Vision Transformer](MIT-Efficient-AI/notes/2023/lec14/summary01)
+  - [Efficient Video Understanding](MIT-Efficient-AI/notes/2022/lec19/summary01)
+  - [Generative Adversarial Networks (GANs)](MIT-Efficient-AI/notes/2022/lec19/summary02)
