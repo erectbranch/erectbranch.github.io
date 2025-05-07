@@ -243,6 +243,13 @@
 
       skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
 
+      alias: {
+        '/docsify-(.*)/demo': '/#/demo/docsify-$1/guide.md',
+        '/docsify-(.*)/changelog': 'https://raw.githubusercontent.com/erectbranch/docsify-$1/master/CHANGELOG.md',
+        '/docsify-(.*)/_sidebar.md': '/#/demo/docsify-$1/_sidebar.md',
+        '/docsify-(.*)/nav.md': '/nav.md',
+      },
+
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
       search: {
@@ -590,7 +597,7 @@
   <!-- custom: 작성한 오버레이 커버 페이지 스크립트 -->
   <script src="./assets/plugins/overlay-cover.js"></script>
 
-  <!-- custom: showcase 페이지 스크립트 -->
+  <!-- custom: demo 페이지 스크립트 -->
   <script src="./assets/plugins/showcase.js"></script>
 
   <script src="./assets/plugins/notes.js"></script>

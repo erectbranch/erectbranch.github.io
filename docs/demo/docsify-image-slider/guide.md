@@ -34,7 +34,7 @@ To use the image slider, you need to include the plugin in your Docsify `index.h
 
 > \[\[**slider**\]\]**(img url 1|img url 2|...|img url n)**
 
-## Configuration
+## 4. Configuration
 
 To configure the slider, you can set options in your `index.html` file. The available options are:
 
@@ -55,7 +55,7 @@ window.$docsify = {
 };
 ```
 
-## 4. Customization
+## 5. Customization
 
 The slider can be customized using CSS. You can override the following CSS variables in your `index.html` file.
 
@@ -132,7 +132,7 @@ The slider can be customized using CSS. You can override the following CSS varia
 | `--docsify-image-slider-toolbar-bg-color` | Background color of the slider toolbar buttons. |
 | `--docsify-image-slider-toolbar-top` | Top position of the slider toolbar. |
 
-## 5. Contribution
+## 6. Contribution
 
 Your contributions are welcome and appreciated!
 

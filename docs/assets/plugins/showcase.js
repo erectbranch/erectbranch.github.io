@@ -1,20 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const path = window.location.href;
 
-    if (path.includes('showcase')) {
+    if (path.includes('docsify-')) {
       // document.body.classList.add('close');
       var editCSS = document.createElement('style')
       editCSS.innerHTML = ".content {left: 250px;} .markdown-section {padding-top: 0rem !important; height: 100%;} .app-name {display: none;} .search {display: none;} nav {display: none;}";
-      editCSS.innerHTML += " .anchor {font-family: sans-serif; font-weight: lighter;} .anchor span {color: #333333;}  .markdown-section h2 {border-bottom: 1px solid #dee2e6;}";
+      editCSS.innerHTML += " .anchor {font-family: sans-serif; font-weight: lighter;} .anchor span {color: #333333;}";
+      editCSS.innerHTML += " .markdown-section h1 {padding: 0 0 0.5rem 0;} .markdown-section h2 {border-bottom: 1px solid #dee2e6;}";
       document.body.appendChild(editCSS);
     }
     
-    // showcase 페이지에서 다른 페이지로 이동 시 새로고침 & 반대의 경우에도 새로고침
+    // demo 페이지에서 다른 페이지로 이동 시 새로고침 & 반대의 경우에도 새로고침
     window.addEventListener('hashchange', () => {
       const newPath = window.location.href;
-      if (path.includes('showcase') && !newPath.includes('showcase')) {
+      if (path.includes('docsify-') && !newPath.includes('docsify-')) {
         location.reload();
-      } else if (!path.includes('showcase') && newPath.includes('showcase')) {
+      } else if (!path.includes('docsify-') && newPath.includes('docsify-')) {
         location.reload();
       }
     });
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function renderShowcaseTagPage() {
   const path = window.location.href;
-  isShowcaseTag = path.includes('tag-demo') && path.includes('showcase');
+  isShowcaseTag = path.includes('tag-demo') && path.includes('docsify-');
   tagPageDiv = document.getElementsByClassName('markdown-section')[0]
   const showcaseMetadata = JSON.parse(`[
     {
@@ -40,7 +41,7 @@ function renderShowcaseTagPage() {
       "subtitle": "Introducing new docsify plugin that creates a slider for images",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-image-slider/master/demo.gif",
-      "href": "#/showcase/docsify-image-slider/guide"
+      "href": "#/demo/docsify-image-slider/guide"
     },
     {
       "time": "2025.04.01",
@@ -48,15 +49,13 @@ function renderShowcaseTagPage() {
       "subtitle": "How to create a dashboard with docsify-dashboard plugin, and how to customize the dashboard theme",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-dashboard/master/demo.png",
-      "href": "#/showcase/docsify-dashboard/guide"
+      "href": "#/demo/docsify-dashboard/guide"
     }
   ]`);
 
   if (!isShowcaseTag) {
       return;
   }
-
-  console.log('showcaseTagPage');
   
   var tagName = path.split('?tag=')[1];
   if (tagName.includes('%20')) {
@@ -108,8 +107,8 @@ function renderShowcaseTagPage() {
   } else {
     tagPageDiv.innerHTML = `<div class="tag-container">
     <div class="tag-list">
-        <a class="tag-element" href="#/showcase/docsify-dashboard/tag-demo?tag=docsify" target="_blank" style="font-size: 21px;">docsify</a>
-        <a class="tag-element" href="#/showcase/docsify-dashboard/tag-demo?tag=plugin" target="_blank" style="font-size: 21px;">plugin</a>
+        <a class="tag-element" href="#/demo/docsify-dashboard/tag-demo?tag=docsify" target="_blank" style="font-size: 21px;">docsify</a>
+        <a class="tag-element" href="#/demo/docsify-dashboard/tag-demo?tag=plugin" target="_blank" style="font-size: 21px;">plugin</a>
     </div>
 </div>`
   }
