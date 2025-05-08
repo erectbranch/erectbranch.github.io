@@ -228,63 +228,63 @@
     "title": "Real-time System Concepts",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch02/summary01/images/context_switching.png",
-    "href": "#/notes/ucos2/ch02-summary01"
+    "href": "#/MicroC_OS-II/notes/ch02/summary01"
   },
   {
     "time": "2024.04.26",
     "title": "Task Priority, Mutual Exclusion, Interrupt",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch02/summary02/images/delaying_1_tick_case_1.png",
-    "href": "#/notes/ucos2/ch02-summary02"
+    "href": "#/MicroC_OS-II/notes/ch02/summary02"
   },
   {
     "time": "2024.03.25",
     "title": "Memory Management",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch08/images/OSMemCreate.png",
-    "href": "#/notes/ucos2/ch08"
+    "href": "#/MicroC_OS-II/notes/ch08"
   },
   {
     "time": "2024.03.24",
     "title": "Semaphore Management",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch07/images/ECB_before_OSSemCreate.png",
-    "href": "#/notes/ucos2/ch07"
+    "href": "#/MicroC_OS-II/notes/ch07"
   },
   {
     "time": "2024.03.21",
     "title": "Event Control Blocks",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch06/images/ECB_structure_1.png",
-    "href": "#/notes/ucos2/ch06"
+    "href": "#/MicroC_OS-II/notes/ch06"
   },
   {
     "time": "2024.03.20",
     "title": "Time Management",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch05/images/delay_resolution.png",
-    "href": "#/notes/ucos2/ch05"
+    "href": "#/MicroC_OS-II/notes/ch05"
   },
   {
     "time": "2024.03.19",
     "title": "Critical Section, TCB, Ready List",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
-    "href": "#/notes/ucos2/ch03-summary01"
+    "href": "#/MicroC_OS-II/notes/ch03/summary01"
   },
   {
     "time": "2024.03.19",
     "title": "Task Scheduling, Initialize Task, Clock Tick",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
-    "href": "#/notes/ucos2/ch03-summary01"
+    "href": "#/MicroC_OS-II/notes/ch03/summary01"
   },
   {
     "time": "2024.03.18",
     "title": "Task Management",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch04/images/stack_checking.png",
-    "href": "#/notes/ucos2/ch04"
+    "href": "#/MicroC_OS-II/notes/ch04"
   },
   {
     "time": "2024.03.08",
