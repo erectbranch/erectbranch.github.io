@@ -543,35 +543,35 @@
     "title": "RISC-V Pipelined datapath, ILP",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary03/images/branch_taken_ex.png",
-    "href": "#/notes/cod/ch04-summary03"
+    "href": "#/COD-RISC-V/notes/ch04/summary03"
   },
   {
     "time": "2023.06.20",
     "title": "interconnect, heterogeneity, thread",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch06/summary01/images/SMP.png",
-    "href": "#/notes/cod/ch06-summary01"
+    "href": "#/COD-RISC-V/notes/ch06/summary01"
   },
   {
     "time": "2023.06.19",
     "title": "RISC-V Pipelining",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary02/images/2bit_predictor.png",
-    "href": "#/notes/cod/ch04-summary02"
+    "href": "#/COD-RISC-V/notes/ch04/summary02"
   },
   {
     "time": "2023.06.17",
     "title": "memory hierarchy, direct mapped cache",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch05/summary01/images/address_subdivision.png",
-    "href": "#/notes/cod/ch05-summary01"
+    "href": "#/COD-RISC-V/notes/ch05/summary01"
   },
   {
     "time": "2023.06.17",
     "title": "cache miss, cache write, set-associative cache",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch05/summary02/images/2-way_set_example.png",
-    "href": "#/notes/cod/ch05-summary02"
+    "href": "#/COD-RISC-V/notes/ch05/summary02"
   },
   {
     "time": "2023.05.23",
@@ -585,7 +585,7 @@
     "title": "RISC-V Processor datapath",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch04/summary01/images/PC.png",
-    "href": "#/notes/cod/ch04-summary01"
+    "href": "#/COD-RISC-V/notes/ch04/summary01"
   },
   {
     "time": "2023.05.13",
@@ -599,7 +599,7 @@
     "title": "Conditional Operation, Branch",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary02/images/leaf_example.png",
-    "href": "#/notes/cod/ch02-summary02"
+    "href": "#/COD-RISC-V/notes/ch02/summary02"
   },
   {
     "time": "2023.05.09",
@@ -627,7 +627,7 @@
     "title": "RISC-V Instructions(RV64I)",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary01/images/I-format_instruction.png",
-    "href": "#/notes/cod/ch02-summary01"
+    "href": "#/COD-RISC-V/notes/ch02/summary01"
   },
   {
     "time": "2023.04.30",
@@ -648,14 +648,14 @@
     "title": "Computer Abstractions and Technology",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch01/images/1-core_vs_2-core_processor.png",
-    "href": "#/notes/cod/ch01"
+    "href": "#/COD-RISC-V/notes/ch01"
   },
   {
     "time": "2023.04.24",
     "title": "wide, branch instructions, data race",
     "tag": "Computer Architecture",
     "image": "https://raw.githubusercontent.com/erectbranch/COD-RISC-V/master/ch02/summary03/images/S-type_B-type.png",
-    "href": "#/notes/cod/ch02-summary03"
+    "href": "#/COD-RISC-V/notes/ch02/summary03"
   },
   {
     "time": "2023.01.09",

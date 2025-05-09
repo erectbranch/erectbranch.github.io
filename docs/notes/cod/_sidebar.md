@@ -1,19 +1,19 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/cod/README.md)
+  - [About](COD-RISC-V/notes/README)
 - **Lecture Notes**
   - **Computer Abstractions**
-    - [Computer Abstractions and Technology](notes/cod/ch01.md)
+    - [Computer Abstractions and Technology](COD-RISC-V/notes/ch01)
   - **RISC-V**
-    - [RISC-V Instructions(RV64I)](notes/cod/ch02-summary01.md)
-    - [Conditional Operation, Branch](notes/cod/ch02-summary02.md)
-    - [wide, branch instructions, data race](notes/cod/ch02-summary03.md)
+    - [RISC-V Instructions(RV64I)](COD-RISC-V/notes/ch02/summary01)
+    - [Conditional Operation, Branch](COD-RISC-V/notes/ch02/summary02)
+    - [wide, branch instructions, data race](COD-RISC-V/notes/ch02/summary03)
   - **RISC-V Processor**
-    - [RISC-V Processor datapath](notes/cod/ch04-summary01.md)
-    - [RISC-V Pipelining](notes/cod/ch04-summary02.md)
-    - [RISC-V Pipelined datapath, ILP](notes/cod/ch04-summary03.md)
+    - [RISC-V Processor datapath](COD-RISC-V/notes/ch04/summary01)
+    - [RISC-V Pipelining](COD-RISC-V/notes/ch04/summary02)
+    - [RISC-V Pipelined datapath, ILP](COD-RISC-V/notes/ch04/summary03)
   - **Cache**
-    - [memory hierarchy, direct mapped cache](notes/cod/ch05-summary01.md)
-    - [cache miss, cache write, set-associative cache](notes/cod/ch05-summary02.md)
+    - [memory hierarchy, direct mapped cache](COD-RISC-V/notes/ch05/summary01)
+    - [cache miss, cache write, set-associative cache](COD-RISC-V/notes/ch05/summary02)
   - **Parallel Processors**
-    - [interconnect, heterogeneity, thread](notes/cod/ch06-summary01.md)
+    - [interconnect, heterogeneity, thread](COD-RISC-V/notes/ch06/summary01)
