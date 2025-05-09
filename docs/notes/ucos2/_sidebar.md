@@ -1,6 +1,6 @@
 - [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](MicroC_OS-II/notes/README)
+  - [About](MicroC_OS-II/notes/)
 - **Lecture Notes**
   - [**Real-time System Concepts**](MicroC_OS-II/notes/ch02/summary01)
   - [**Task Priority, Mutual Exclusion, Interrupt**](MicroC_OS-II/notes/ch02/summary02)

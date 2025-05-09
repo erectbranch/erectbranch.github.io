@@ -1,6 +1,6 @@
 - [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](COD-RISC-V/notes/README)
+  - [About](COD-RISC-V/notes/)
 - **Lecture Notes**
   - **Computer Abstractions**
     - [Computer Abstractions and Technology](COD-RISC-V/notes/ch01)
