@@ -95,28 +95,28 @@
     "title": "Firmware, Bootloader",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch10/summary01/images/boot_sequence.png",
-    "href": "#/notes/arm-system-guide/ch10-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch10/summary01"
   },
   {
     "time": "2024.06.25",
     "title": "Register Allocation",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary02/images/word_align.jpg",
-    "href": "#/notes/arm-system-guide/ch06-summary02"
+    "href": "#/arm-system-developers-guide/notes/ch06/summary02"
   },
   {
     "time": "2024.06.17",
     "title": "Interrupt, Interrupt Stack",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch09/summary02/images/FIQ.png",
-    "href": "#/notes/arm-system-guide/ch09-summary02"
+    "href": "#/arm-system-developers-guide/notes/ch09/summary02"
   },
   {
     "time": "2024.06.15",
     "title": "Assembly Function, Instruction Scheduling",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary01/images/ARM9_pipeline.png",
-    "href": "#/notes/arm-system-guide/ch06-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch06/summary01"
   },
   {
     "time": "2024.06.14",
@@ -144,84 +144,84 @@
     "title": "Dataflow and Registers",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch02/summary01/images/ARM_core_dataflow.png",
-    "href": "#/notes/arm-system-guide/ch02-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch02/summary01"
   },
   {
     "time": "2024.06.03",
     "title": "Alignment, Endian, Division, Inline Assembly",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch05/summary03/images/endian_big.jpg",
-    "href": "#/notes/arm-system-guide/ch05-summary03"
+    "href": "#/arm-system-developers-guide/notes/ch05/summary03"
   },
   {
     "time": "2024.05.30",
     "title": "Pipeline, Interrupt, Extensions",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch02/summary02/images/Von_Neumann_architecture.png",
-    "href": "#/notes/arm-system-guide/ch02-summary02"
+    "href": "#/arm-system-developers-guide/notes/ch02/summary02"
   },
   {
     "time": "2024.05.26",
     "title": "ARM Embedded System",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch01/images/RISC_vs_CISC_1.png",
-    "href": "#/notes/arm-system-guide/ch01"
+    "href": "#/arm-system-developers-guide/notes/ch01"
   },
   {
     "time": "2024.05.23",
     "title": "C Compiler, Data Types, Looping Structures",
     "tag": "Embedded System",
     "image": "./images/branch.gif",
-    "href": "#/notes/arm-system-guide/ch05-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch05/summary01"
   },
   {
     "time": "2024.05.23",
     "title": "Bit Manipulation, Switch, Unaligned Data",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary04/images/big-endian_bitcodes_packed.png",
-    "href": "#/notes/arm-system-guide/ch06-summary04"
+    "href": "#/arm-system-developers-guide/notes/ch06/summary04"
   },
   {
     "time": "2024.05.20",
     "title": "Register Allocation, Function Calls, Aliasing",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch05/summary02/images/APCS_argument_passing.png",
-    "href": "#/notes/arm-system-guide/ch05-summary02"
+    "href": "#/arm-system-developers-guide/notes/ch05/summary02"
   },
   {
     "time": "2024.05.19",
     "title": "Data Processing Instructions",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary01/images/ARM_instruction_set_1.png",
-    "href": "#/notes/arm-system-guide/ch03-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch03/summary01"
   },
   {
     "time": "2024.05.17",
     "title": "Exception Handling",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch09/summary01/images/banked_register.png",
-    "href": "#/notes/arm-system-guide/ch09-summary01"
+    "href": "#/arm-system-developers-guide/notes/ch09/summary01"
   },
   {
     "time": "2024.05.14",
     "title": "Branch, Load-Store Instructions",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary02/images/LDR_LDRH_LDRB.png",
-    "href": "#/notes/arm-system-guide/ch03-summary02"
+    "href": "#/arm-system-developers-guide/notes/ch03/summary02"
   },
   {
     "time": "2024.05.14",
     "title": "SWI, Program Status Register  Instructions, ARMv5E Extensions",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch03/summary03/images/ARM_instruction_format.jpeg",
-    "href": "#/notes/arm-system-guide/ch03-summary03"
+    "href": "#/arm-system-developers-guide/notes/ch03/summary03"
   },
   {
     "time": "2024.05.13",
     "title": "Conditional Execution, Looping Constructs",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/arm-system-developers-guide/master/ch06/summary03/images/multiple_nested_loop.png",
-    "href": "#/notes/arm-system-guide/ch06-summary03"
+    "href": "#/arm-system-developers-guide/notes/ch06/summary03"
   },
   {
     "time": "2024.04.26",

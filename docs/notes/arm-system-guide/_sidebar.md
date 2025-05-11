@@ -1,26 +1,26 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/arm-system-guide/README.md)
+  - [About](arm-system-developers-guide/notes/)
 - **Lecture Notes**
   - **ARM Processor Fundamentals**
-    - [ARM Embedded System](notes/arm-system-guide/ch01.md)
-    - [Dataflow and Registers](notes/arm-system-guide/ch02-summary01.md)
-    - [Pipeline, Interrupt, Extensions](notes/arm-system-guide/ch02-summary02.md)
+    - [ARM Embedded System](arm-system-developers-guide/notes/ch01)
+    - [Dataflow and Registers](arm-system-developers-guide/notes/ch02/summary01)
+    - [Pipeline, Interrupt, Extensions](arm-system-developers-guide/notes/ch02/summary02)
   - **ARM Instruction Set**
-    - [Data Processing Instructions](notes/arm-system-guide/ch03-summary01.md)
-    - [Branch, Load-Store Instructions](notes/arm-system-guide/ch03-summary02.md)
-    - [SWI, Program Status Register  Instructions, ARMv5E Extensions](notes/arm-system-guide/ch03-summary03.md)
+    - [Data Processing Instructions](arm-system-developers-guide/notes/ch03/summary01)
+    - [Branch, Load-Store Instructions](arm-system-developers-guide/notes/ch03/summary02)
+    - [SWI, Program Status Register  Instructions, ARMv5E Extensions](arm-system-developers-guide/notes/ch03/summary03)
   - **Efficient C Programming**
-    - [C Compiler, Data Types, Looping Structures](notes/arm-system-guide/ch05-summary01.md)
-    - [Register Allocation, Function Calls, Aliasing](notes/arm-system-guide/ch05-summary02.md)
-    - [Alignment, Endian, Division, Inline Assembly](notes/arm-system-guide/ch05-summary03.md)
+    - [C Compiler, Data Types, Looping Structures](arm-system-developers-guide/notes/ch05/summary01)
+    - [Register Allocation, Function Calls, Aliasing](arm-system-developers-guide/notes/ch05/summary02)
+    - [Alignment, Endian, Division, Inline Assembly](arm-system-developers-guide/notes/ch05/summary03)
   - **Optimizing ARM Assembly Code**
-    - [Assembly Function, Instruction Scheduling](notes/arm-system-guide/ch06-summary01.md)
-    - [Register Allocation](notes/arm-system-guide/ch06-summary02.md)
-    - [Conditional Execution, Looping Constructs](notes/arm-system-guide/ch06-summary03.md)
-    - [Bit Manipulation, Switch, Unaligned Data](notes/arm-system-guide/ch06-summary04.md)
+    - [Assembly Function, Instruction Scheduling](arm-system-developers-guide/notes/ch06/summary01)
+    - [Register Allocation](arm-system-developers-guide/notes/ch06/summary02)
+    - [Conditional Execution, Looping Constructs](arm-system-developers-guide/notes/ch06/summary03)
+    - [Bit Manipulation, Switch, Unaligned Data](arm-system-developers-guide/notes/ch06/summary04)
   - **Embedded System**
-    - [Firmware, Bootloader](notes/arm-system-guide/ch10-summary01.md)
+    - [Firmware, Bootloader](arm-system-developers-guide/notes/ch10/summary01)
   - **Exception and Interrupt Handling**
-    - [Exception Handling](notes/arm-system-guide/ch09-summary01.md)
-    - [Interrupt, Interrupt Stack](notes/arm-system-guide/ch09-summary02.md)
+    - [Exception Handling](arm-system-developers-guide/notes/ch09/summary01)
+    - [Interrupt, Interrupt Stack](arm-system-developers-guide/notes/ch09/summary02)
