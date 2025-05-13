@@ -5,7 +5,7 @@
   - [**Real-time System Concepts**](MicroC_OS-II/notes/ch02/summary01)
   - [**Task Priority, Mutual Exclusion, Interrupt**](MicroC_OS-II/notes/ch02/summary02)
   - [**Critical Section, TCB, Ready List**](MicroC_OS-II/notes/ch03/summary01)
-  - [**Task Scheduling, Initialize Task, Clock Tick**](MicroC_OS-II/notes/ch03/summary01)
+  - [**Task Scheduling, Initialize Task, Clock Tick**](MicroC_OS-II/notes/ch03/summary02)
   - [**Task Management**](MicroC_OS-II/notes/ch04)
   - [**Time Management**](MicroC_OS-II/notes/ch05)
   - [**Event Control Blocks**](MicroC_OS-II/notes/ch06)

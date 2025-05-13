@@ -267,14 +267,14 @@
   },
   {
     "time": "2024.03.19",
-    "title": "Critical Section, TCB, Ready List",
+    "title": "Task Scheduling, Initialize Task, Clock Tick",
     "tag": "Embedded System",
-    "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
-    "href": "#/MicroC_OS-II/notes/ch03/summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary02/images/OS_TASK_SW_1.png",
+    "href": "#/MicroC_OS-II/notes/ch03/summary02"
   },
   {
     "time": "2024.03.19",
-    "title": "Task Scheduling, Initialize Task, Clock Tick",
+    "title": "Critical Section, TCB, Ready List",
     "tag": "Embedded System",
     "image": "https://raw.githubusercontent.com/erectbranch/MicroC_OS-II/master/ch03/summary01/images/OSTCBFreeList.png",
     "href": "#/MicroC_OS-II/notes/ch03/summary01"
