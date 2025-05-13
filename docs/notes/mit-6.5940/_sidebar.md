@@ -20,7 +20,8 @@
   - [Distillation for Applications](MIT-Efficient-AI/notes/2022/lec10/summary02)
   - [MCUNet](MIT-Efficient-AI/notes/2022/lec11)
 - **Efficient Training and System Support**
-  - [TinyEngine](MIT-Efficient-AI/notes/2022/lec17)
+  - [Microcontroller, Loop Optimization](MIT-Efficient-AI/notes/2022/lec17/summary01)
+  - [Inference Optimization](MIT-Efficient-AI/notes/2022/lec17/summary02)
 - **Domain-Specific Optimizations**
   - [Transformer](MIT-Efficient-AI/notes/2023/lec12/summary01)
   - [Transformer Design Variants](MIT-Efficient-AI/notes/2023/lec12/summary02)
