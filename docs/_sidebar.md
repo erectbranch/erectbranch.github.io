@@ -1,7 +1,7 @@
 - [**전체보기**](dashboard.md)
 - **📙 Wiki**
   - [TinyML and Efficient Deep Learning Computing](MIT-Efficient-AI/notes/)
-  - [Speaker Recognition](notes/udemy-speaker/README.md)
+  - [Speaker Recognition](udemy-speaker-recognition/notes/)
   - [Advanced NLP](notes/cs11-711/README.md)
   - [ARM System Developer's Guide](arm-system-developers-guide/notes/)
   - [Computer Organization and Design RISC-V Edition](COD-RISC-V/notes/)

@@ -1,18 +1,18 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/udemy-speaker/README.md)
+  - [About](udemy-speaker-recognition/notes/)
 - **Lecture Notes**
   - **Basics of Audio Processing**
-    - [History of Voice Identity Techniques](notes/udemy-speaker/Section02.md)
-    - [Acoustics, Frequency, Sound](notes/udemy-speaker/Section03-summary01.md)
-    - [Analog-to-digital](notes/udemy-speaker/Section03-summary02.md)
-    - [Short-time analysis, Post-processing](notes/udemy-speaker/Section04-summary01.md)
-    - [Time domain feature, Frequency domain feature](notes/udemy-speaker/Section04-summary02.md)
+    - [History of Voice Identity Techniques](udemy-speaker-recognition/notes/Section02)
+    - [Acoustics, Frequency, Sound](udemy-speaker-recognition/notes/Section03/summary01)
+    - [Analog-to-digital](udemy-speaker-recognition/notes/Section03/summary02)
+    - [Short-time analysis, Post-processing](udemy-speaker-recognition/notes/Section04/summary01)
+    - [Time domain feature, Frequency domain feature](udemy-speaker-recognition/notes/Section04/summary02)
   - **Fundamentals of Speaker Recognition**
-    - [Speaker Verification, Speaker Identification](notes/udemy-speaker/Section05-summary01.md)
-    - [Similarity Score, Evaluation](notes/udemy-speaker/Section05-summary02.md)
+    - [Speaker Verification, Speaker Identification](udemy-speaker-recognition/notes/Section05/summary01)
+    - [Similarity Score, Evaluation](udemy-speaker-recognition/notes/Section05/summary02)
   - **Early Speaker Recognition Approaches**
-    - [Gaussian Mixture Models](notes/udemy-speaker/Section06-summary01.md)
-    - [Joint Factor Analysis, i-vector](notes/udemy-speaker/Section06-summary02.md)
+    - [Gaussian Mixture Models](udemy-speaker-recognition/notes/Section06/summary01)
+    - [Joint Factor Analysis, i-vector](udemy-speaker-recognition/notes/Section06/summary02)
   - **Speaker Recognition with Deep Learning**
-    - [Indirect/direct use of Neural Network, Inference](notes/udemy-speaker/Section08-summary01.md)
+    - [Indirect/direct use of Neural Network, Inference](udemy-speaker-recognition/notes/Section08/summary01)
