@@ -2,7 +2,7 @@
 - **📙 Wiki**
   - [TinyML and Efficient Deep Learning Computing](MIT-Efficient-AI/notes/)
   - [Speaker Recognition](udemy-speaker-recognition/notes/)
-  - [Advanced NLP](notes/cs11-711/README.md)
+  - [Advanced NLP](CMU-Advanced-NLP/notes/)
   - [ARM System Developer's Guide](arm-system-developers-guide/notes/)
   - [Computer Organization and Design RISC-V Edition](COD-RISC-V/notes/)
   - [MicroC/OS-II The Real-Time Kernel](MicroC_OS-II/notes/)

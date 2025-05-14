@@ -360,50 +360,50 @@
     "time": "2024.01.28",
     "title": "Prompt Engineering",
     "tag": ["Natural Language Processing", "Large Language Model"],
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec09/summary01/images/prompt_tuning.png",
-    "href": "#/notes/cs11-711/lec09-summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec09/summary01/images/prompt_tuning.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec09/summary01"
   },
   {
     "time": "2024.01.26",
     "title": "Multi-task, Multi-domain Learning",
     "tag": "Natural Language Processing",
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec08/images/adapter.png",
-    "href": "#/notes/cs11-711/lec08"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec08/images/adapter.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec08"
   },
   {
     "time": "2024.01.25",
     "title": "Pre-training Design Choices",
     "tag": ["Natural Language Processing", "Large Language Model"],
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec07/summary02/images/scaling_laws.png",
-    "href": "#/notes/cs11-711/lec07-summary02"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec07/summary02/images/scaling_laws.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec07/summary02"
   },
   {
     "time": "2024.01.25",
     "title": "Pre-training",
     "tag": ["Natural Language Processing", "Large Language Model"],
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec07/summary01/images/BERT.png",
-    "href": "#/notes/cs11-711/lec07-summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec07/summary01/images/BERT.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec07/summary01"
   },
   {
     "time": "2024.01.15",
     "title": "Attention, Transformer",
     "tag": ["Natural Language Processing", "Transformer"],
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec06/images/self_attention.png",
-    "href": "#/notes/cs11-711/lec06"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec06/images/self_attention.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec06"
   },
   {
     "time": "2024.01.15",
     "title": "Methods of Generation, Evaluation",
     "tag": "Natural Language Processing",
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec05/images/seq2seq.png",
-    "href": "#/notes/cs11-711/lec05"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec05/images/seq2seq.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec05"
   },
   {
     "time": "2024.01.10",
     "title": "Generative, Discriminative Text Classfication",
     "tag": "Natural Language Processing",
-    "image": "https://raw.githubusercontent.com/erectbranch/Advanced_NLP/master/lec02/images/bag-of-words_generative.png",
-    "href": "#/notes/cs11-711/lec02"
+    "image": "https://raw.githubusercontent.com/erectbranch/CMU-Advanced-NLP/master/lec02/images/bag-of-words_generative.png",
+    "href": "#/CMU-Advanced-NLP/notes/lec02"
   },
   {
     "time": "2024.01.04",

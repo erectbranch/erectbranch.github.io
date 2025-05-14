@@ -1,14 +1,14 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/cs11-711/README.md)
+  - [About](CMU-Advanced-NLP/notes/)
 - **Lecture Notes**
   - **Basics of Natural Language Processing**
-    - [Generative, Discriminative Text Classfication](notes/cs11-711/lec02.md)
+    - [Generative, Discriminative Text Classfication](CMU-Advanced-NLP/notes/lec02)
   - **Modeling**
-    - [Methods of Generation, Evaluation](notes/cs11-711/lec05.md)
-    - [Attention, Transformer](notes/cs11-711/lec06.md)
+    - [Methods of Generation, Evaluation](CMU-Advanced-NLP/notes/lec05)
+    - [Attention, Transformer](CMU-Advanced-NLP/notes/lec06)
   - **Representation**
-    - [Pre-training](notes/cs11-711/lec07-summary01.md)
-    - [Pre-training Design Choices](notes/cs11-711/lec07-summary02.md)
-    - [Multi-task, Multi-domain Learning](notes/cs11-711/lec08.md)
-    - [Prompt Engineering](notes/cs11-711/lec09-summary01.md)
+    - [Pre-training](CMU-Advanced-NLP/notes/lec07/summary01)
+    - [Pre-training Design Choices](CMU-Advanced-NLP/notes/lec07/summary02)
+    - [Multi-task, Multi-domain Learning](CMU-Advanced-NLP/notes/lec08)
+    - [Prompt Engineering](CMU-Advanced-NLP/notes/lec09/summary01)
