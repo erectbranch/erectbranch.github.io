@@ -434,7 +434,7 @@ This project is licensed under the GNU General Public License v3.0.
 
 - Modified work © 2025 Sungjae Jeon ([@erectbranch](https://github.com/erectbranch))
 
-See [LICENSE](LICENSE) for more details.
+See [LICENSE](https://github.com/erectbranch/docsify-dashboard/blob/master/LICENSE) for more details.
 
 ## 7. Contribution
 
