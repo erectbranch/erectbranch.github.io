@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       var editCSS = document.createElement('style')
       editCSS.innerHTML = ".content {left: 250px;} .markdown-section {padding-top: 0rem !important; height: 100%;} .app-name {display: none;} .search {display: none;} nav {display: none;}";
       editCSS.innerHTML += " .anchor {font-family: sans-serif; font-weight: lighter;} .anchor span {color: #333333;}";
-      editCSS.innerHTML += " .markdown-section h1 {padding: 0 0 0.5rem 0;} .markdown-section h2 {border-bottom: 1px solid #dee2e6;}";
+      editCSS.innerHTML += " .markdown-section h1 {padding: 0 0 0.5rem 0;} .markdown-section h2 {border-bottom: 1px solid #dee2e6;} .markdown-section p {line-height: 1rem;}";
       document.body.appendChild(editCSS);
     }
     
