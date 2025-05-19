@@ -689,42 +689,42 @@
     "time": "2022.12.18",
     "title": "6장 파생 데이터 타입",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch06/images/FLA_E_and_F.png",
-    "href": "#/notes/modern-c/ch06"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch06/images/FLA_E_and_F.png",
+    "href": "#/modern-c/notes/ch06"
   },
   {
     "time": "2022.12.16",
     "title": "4장 계산 표현하기",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch04/images/isset_array.png",
-    "href": "#/notes/modern-c/ch04"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch04/images/isset_array.png",
+    "href": "#/modern-c/notes/ch04"
   },
   {
     "time": "2022.12.16",
     "title": "5장 값과 데이터",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch05/images/basic_type_table.png",
-    "href": "#/notes/modern-c/ch05"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch05/images/basic_type_table.png",
+    "href": "#/modern-c/notes/ch05"
   },
   {
     "time": "2022.12.15",
     "title": "2장 프로그램의 핵심 구조",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch02/images/A_array.png",
-    "href": "#/notes/modern-c/ch02"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch02/images/A_array.png",
+    "href": "#/modern-c/notes/ch02"
   },
   {
     "time": "2022.12.15",
     "title": "3장 결국은 제어",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch03/images/scalar_type.png",
-    "href": "#/notes/modern-c/ch03"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch03/images/scalar_type.png",
+    "href": "#/modern-c/notes/ch03"
   },
   {
     "time": "2022.12.13",
     "title": "1장 들어가며",
     "tag": "Programming Language",
-    "image": "https://raw.githubusercontent.com/erectbranch/modern_C/master/ch01/images/executable_result.png",
-    "href": "#/notes/modern-c/ch01"
+    "image": "https://raw.githubusercontent.com/erectbranch/modern-c/master/ch01/images/executable_result.png",
+    "href": "#/modern-c/notes/ch01"
   }
 ]

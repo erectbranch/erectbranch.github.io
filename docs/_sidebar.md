@@ -6,7 +6,7 @@
   - [ARM System Developer's Guide](arm-system-developers-guide/notes/)
   - [Computer Organization and Design RISC-V Edition](COD-RISC-V/notes/)
   - [MicroC/OS-II The Real-Time Kernel](MicroC_OS-II/notes/)
-  - [Modern C](notes/modern-c/README.md)
+  - [Modern C](modern-c/notes/)
   - [Python Tricks](notes/python-trick/README.md)
   - [CUDA C Programming](notes/pro-cuda-c/README.md)
   - [Enroot on Slurm](notes/enroot-slurm/README.md)
