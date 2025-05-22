@@ -1,7 +1,7 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/python-trick/README.md)
+  - [About](python-tricks/notes/)
 - **Lecture Notes**
-  - [**4장 클래스, 클래스 메서드**](notes/python-trick/ch04.md)
-  - [**6장 반복문, 이터레이션**](notes/python-trick/ch06.md)
-  - [**9장 타이핑, 정적 타입 검사**](notes/python-trick/ch09.md)
+  - [**4장 클래스, 클래스 메서드**](python-tricks/notes/ch04)
+  - [**6장 반복문, 이터레이션**](python-tricks/notes/ch06)
+  - [**9장 타이핑, 정적 타입 검사**](python-tricks/notes/ch09)

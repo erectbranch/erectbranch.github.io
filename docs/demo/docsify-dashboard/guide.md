@@ -443,7 +443,7 @@ To change the styles, you can add the following CSS to your `index.html` file:
 </style>
 ```
 
-### Tag-Dashboard
+### Tag-dashboard
 
 To change the tag-list styles, add the following CSS:
 

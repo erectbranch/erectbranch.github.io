@@ -7,7 +7,7 @@
   - [Computer Organization and Design RISC-V Edition](COD-RISC-V/notes/)
   - [MicroC/OS-II The Real-Time Kernel](MicroC_OS-II/notes/)
   - [Modern C](modern-c/notes/)
-  - [Python Tricks](notes/python-trick/README.md)
+  - [Python Tricks](python-tricks/notes/)
   - [CUDA C Programming](notes/pro-cuda-c/README.md)
   - [Enroot on Slurm](notes/enroot-slurm/README.md)
 

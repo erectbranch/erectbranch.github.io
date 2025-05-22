@@ -465,8 +465,8 @@
     "time": "2023.10.11",
     "title": "타이핑, 정적 타입 검사",
     "tag": "Programming Language",
-    "image": "./images/branch.gif",
-    "href": "#/notes/python-trick/ch09"
+    "image": "https://raw.githubusercontent.com/erectbranch/python-tricks/master/cover.jpg",
+    "href": "#/python-tricks/notes/ch09"
   },
   {
     "time": "2023.09.28",
@@ -591,8 +591,8 @@
     "time": "2023.05.23",
     "title": "클래스, 클래스 메서드",
     "tag": "Programming Language",
-    "image": "./images/branch.gif",
-    "href": "#/notes/python-trick/ch04"
+    "image": "https://raw.githubusercontent.com/erectbranch/python-tricks/master/cover.jpg",
+    "href": "#/python-tricks/notes/ch04"
   },
   {
     "time": "2023.05.21",
@@ -605,8 +605,8 @@
     "time": "2023.05.13",
     "title": "반복문, 이터레이션",
     "tag": "Programming Language",
-    "image": "./images/branch.gif",
-    "href": "#/notes/python-trick/ch06"
+    "image": "https://raw.githubusercontent.com/erectbranch/python-tricks/master/cover.jpg",
+    "href": "#/python-tricks/notes/ch06"
   },
   {
     "time": "2023.05.11",
