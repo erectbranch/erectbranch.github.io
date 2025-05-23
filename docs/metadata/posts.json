@@ -619,22 +619,22 @@
     "time": "2023.05.09",
     "title": "Heterogeneous Computing with CUDA",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch01/summary02/images/heterogeneous_architecture.png",
-    "href": "#/notes/pro-cuda-c/ch01-summary02"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch01/summary02/images/heterogeneous_architecture.png",
+    "href": "#/pro-cuda-c/notes/ch01/summary02"
   },
   {
     "time": "2023.05.09",
     "title": "Parallel Computing",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch01/summary01/images/sequential_parallel_programming.png",
-    "href": "#/notes/pro-cuda-c/ch01-summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch01/summary01/images/sequential_parallel_programming.png",
+    "href": "#/pro-cuda-c/notes/ch01/summary01"
   },
   {
     "time": "2023.05.06",
     "title": "Managing Devices",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary03/images/nvidia_smi_2.png",
-    "href": "#/notes/pro-cuda-c/ch02-summary03"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch02/summary03/images/nvidia_smi_2.png",
+    "href": "#/pro-cuda-c/notes/ch02/summary03"
   },
   {
     "time": "2023.05.04",
@@ -647,15 +647,15 @@
     "time": "2023.04.30",
     "title": "CUDA Programming Model",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary01/images/execute_on_CPU_GPU.png",
-    "href": "#/notes/pro-cuda-c/ch02-summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch02/summary01/images/execute_on_CPU_GPU.png",
+    "href": "#/pro-cuda-c/notes/ch02/summary01"
   },
   {
     "time": "2023.04.28",
     "title": "CUDA handling",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch02/summary02/images/matrix_ex_indices.png",
-    "href": "#/notes/pro-cuda-c/ch02-summary02"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch02/summary02/images/matrix_ex_indices.png",
+    "href": "#/pro-cuda-c/notes/ch02/summary02"
   },
   {
     "time": "2023.04.27",
@@ -675,15 +675,15 @@
     "time": "2023.01.09",
     "title": "CUDA Execution Model",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch03/summary01/images/littles_law.png",
-    "href": "#/notes/pro-cuda-c/ch03-summary01"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch03/summary01/images/littles_law.png",
+    "href": "#/pro-cuda-c/notes/ch03/summary01"
   },
   {
     "time": "2023.01.06",
     "title": "Avoid branch, Dynamic parallelism",
     "tag": "CUDA Programming",
-    "image": "https://raw.githubusercontent.com/erectbranch/CUDA_Basic/master/ch03/summary02/images/divergent_thread.png",
-    "href": "#/notes/pro-cuda-c/ch03-summary02"
+    "image": "https://raw.githubusercontent.com/erectbranch/pro-cuda-c/master/ch03/summary02/images/divergent_thread.png",
+    "href": "#/pro-cuda-c/notes/ch03/summary02"
   },
   {
     "time": "2022.12.18",

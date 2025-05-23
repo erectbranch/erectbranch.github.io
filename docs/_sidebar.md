@@ -8,7 +8,7 @@
   - [MicroC/OS-II The Real-Time Kernel](MicroC_OS-II/notes/)
   - [Modern C](modern-c/notes/)
   - [Python Tricks](python-tricks/notes/)
-  - [CUDA C Programming](notes/pro-cuda-c/README.md)
+  - [CUDA C Programming](pro-cuda-c/notes/)
   - [Enroot on Slurm](notes/enroot-slurm/README.md)
 
 <br/>

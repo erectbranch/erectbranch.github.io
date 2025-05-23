@@ -1,14 +1,14 @@
-- [**전체보기**](dashboard.md)
+- [**전체보기**](dashboard)
 - **Lecture Home**
-  - [About](notes/pro-cuda-c/README.md)
+  - [About](pro-cuda-c/notes/)
 - **Lecture Notes**
   - **CPU-GPU Heterogeneous System**
-    - [Parallel computing](notes/pro-cuda-c/ch01-summary01.md)
-    - [Heterogeneous computing with CUDA](notes/pro-cuda-c/ch01-summary02.md)
+    - [Parallel computing](pro-cuda-c/notes/ch01/summary01)
+    - [Heterogeneous computing with CUDA](pro-cuda-c/notes/ch01/summary02)
   - **Basic CUDA Programming**
-    - [CUDA programming model](notes/pro-cuda-c/ch02-summary01.md)
-    - [CUDA handling](notes/pro-cuda-c/ch02-summary02.md)
-    - [Query GPU information](notes/pro-cuda-c/ch02-summary03.md)
+    - [CUDA programming model](pro-cuda-c/notes/ch02/summary01)
+    - [CUDA handling](pro-cuda-c/notes/ch02/summary02)
+    - [Query GPU information](pro-cuda-c/notes/ch02/summary03)
   - **GPU Architecture, CUDA Execution Model**
-    - [CUDA Execution Model](notes/pro-cuda-c/ch03-summary01.md)
-    - [Avoid branch, Dynamic parallelism](notes/pro-cuda-c/ch03-summary02.md)
+    - [CUDA Execution Model](pro-cuda-c/notes/ch03/summary01)
+    - [Avoid branch, Dynamic parallelism](pro-cuda-c/notes/ch03/summary02)
