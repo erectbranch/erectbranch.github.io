@@ -133,7 +133,7 @@ To use the dashboard, you need to include the plugin in your Docsify `index.html
 **Add stylesheet**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@2.3.1/dist/dashboard.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@3.0.0/dist/dashboard.min.css">
 ```
 
 **Add script**
@@ -142,7 +142,7 @@ To use the dashboard, you need to include the plugin in your Docsify `index.html
 > This plugin requires [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/#/) plugin. Make sure to import docsify-tabs after the docsify-dashboard.
 
 ```html
-<script src="//cdn.jsdelivr.net/npm/docsify-dashboard@2.3.1/dist/docsify-dashboard.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-dashboard@3.0.0/dist/docsify-dashboard.min.js"></script>
 
 <!-- The docsify-tabs plugin (must be included after the docsify-dashboard plugin) -->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
@@ -152,7 +152,7 @@ To use the dashboard, you need to include the plugin in your Docsify `index.html
 
 The following directory structure is used:
 
-- `tags.md`: Empty file for rendering a dashboard by tags in the URL. (e.g., `#/tags?tag=travel`)
+- `tags.md`: Empty file for rendering a dashboard by tags in the URL. (e.g., `#/tags?tag=plugin`)
 
 - `posts.json`: Metadata file containing the posts information.
 
@@ -168,7 +168,7 @@ The following directory structure is used:
 The metadata should be structured as follows:
 
 > [!NOTE]
-> "*subtitle*" is optional
+> "*subtitle*", "*category*" is optional
 
 ```json
 [
@@ -178,7 +178,8 @@ The metadata should be structured as follows:
         "subtitle": "...",
         "tag": "...",
         "image": "...",
-        "href": "#/..."
+        "href": "#/...",
+        "category": "..."
     },
     {
         "time": "YYYY.MM.DD",
@@ -203,6 +204,10 @@ You can create a dashboard by adding the following code to your markdown file:
 > \<\!-- dashboard --\>
 >
 > \<\!-- tabs:end --\>
+
+To display posts from a specific category only, you can use the following code:
+
+> \<\!-- dashboard:categoryName --\>
 
 ### Tag-dashboard
 
@@ -252,7 +257,7 @@ To configure the dashboard, you can set options in your `index.html` file. The a
 | `sort` | `Boolean` | false | Sort the posts by time. (`YYYY.MM.DD`, `YYYY/MM/DD`) |
 | `theme` | `String` | 'default' | Theme for the dashboard. |
 | `tagboardTheme` | `String` | 'default' | Theme for the tag-dashboard. |
-
+| `pagination` | `Boolean` | false | Enable pagination for the dashboard tabs. |
 
 ```javascript
 window.$docsify = {
@@ -261,12 +266,9 @@ window.$docsify = {
     metadataUrl: 'metadata/posts',       // do not include '.json' extension
     sort: false,                         // sort the posts by time
     theme: 'default',                    // (1) default, (2) cards, (3) list
-    tagboardTheme: 'default'             // options are same as above
-  },
-
-  tabs: {
-    theme: 'material' // We recommend 'material' theme for the docsify-tabs
-  },
+    tagboardTheme: 'default',            // options are same as above
+    pagination: false                    // enable pagination for the dashboard tabs
+  }
 };
 ```
 
@@ -439,6 +441,10 @@ To change the styles, you can add the following CSS to your `index.html` file:
     /* list theme */
     --dashboard-list-theme-max-width: var(--content-max-width, 100%);
     --dashboard-list-theme-img-max-width: 200px;
+
+    /* pagination style */
+    --pagination-tab-font-size: 1.1rem;
+    --pagination-tab-highlight-color: var(--theme-color, #dbe8f0);
   }
 </style>
 ```

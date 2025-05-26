@@ -118,9 +118,32 @@ function renderShowcaseTagPage() {
   });
 };
 
+function renderDemoPagination() {
+  const path = window.location.href;
+  isDemoPage = path.includes('docsify-dashboard') && path.includes('demo');
+  if (!isDemoPage) return;
+  
+  const dashboardDemoTabDiv = document.getElementsByClassName('docsify-tabs')[0];
+  dashboardDemoTabDiv.classList.add('pagination');
+
+  const dashboardChildElements = dashboardDemoTabDiv.querySelectorAll('*');
+  dashboardChildElements.forEach((element) => {
+    element.classList.add('pagination');
+  });
+
+  const dashboardButtonDiv = dashboardDemoTabDiv.querySelectorAll('.docsify-tabs__tab');
+
+  for (let i = 0; i < 2; i++) {
+    if (dashboardButtonDiv[i]) {
+        dashboardButtonDiv[i].classList.add('current');
+    }
+  }
+}
+
 function showcasePlugin(hook, vm) {
   hook.doneEach(() => {        
     renderShowcaseTagPage();
+    renderDemoPagination();
   });
 }
 
