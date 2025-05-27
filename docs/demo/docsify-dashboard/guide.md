@@ -133,7 +133,7 @@ To use the dashboard, you need to include the plugin in your Docsify `index.html
 **Add stylesheet**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@3.0.2/dist/dashboard.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-dashboard@3.0.3/dist/dashboard.min.css">
 ```
 
 **Add script**
@@ -142,7 +142,7 @@ To use the dashboard, you need to include the plugin in your Docsify `index.html
 > This plugin requires [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/#/) plugin. Make sure to import docsify-tabs after the docsify-dashboard.
 
 ```html
-<script src="//cdn.jsdelivr.net/npm/docsify-dashboard@3.0.2/dist/docsify-dashboard.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-dashboard@3.0.3/dist/docsify-dashboard.min.js"></script>
 
 <!-- The docsify-tabs plugin (must be included after the docsify-dashboard plugin) -->
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
