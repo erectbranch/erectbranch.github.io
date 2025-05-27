@@ -41,7 +41,7 @@ function renderShowcaseTagPage() {
       "subtitle": "Introducing new docsify plugin that creates a slider for images",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-image-slider/master/demo.gif",
-      "href": "#/demo/docsify-image-slider/guide"
+      "href": "#/docsify-image-slider/demo"
     },
     {
       "time": "2025.04.01",
@@ -49,7 +49,7 @@ function renderShowcaseTagPage() {
       "subtitle": "How to create a dashboard with docsify-dashboard plugin, and how to customize the dashboard theme",
       "tag": ["docsify", "plugin"],
       "image": "https://raw.githubusercontent.com/erectbranch/docsify-dashboard/master/demo.png",
-      "href": "#/demo/docsify-dashboard/guide"
+      "href": "#/docsify-dashboard/demo"
     }
   ]`);
 
