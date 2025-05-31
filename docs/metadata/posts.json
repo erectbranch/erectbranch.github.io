@@ -1,5 +1,12 @@
 [
   {
+    "time": "2025.05.24",
+    "title": "Prompt Engineering",
+    "tag": ["Efficient AI", "Large Language Model"],
+    "image": "https://raw.githubusercontent.com/erectbranch/MIT-Efficient-AI/master/2024/lec14/summary02/images/LLM_cannot_remember_all.png",
+    "href": "#/MIT-Efficient-AI/notes/2024/lec14/summary02"
+  },
+  {
     "time": "2025.05.16",
     "title": "LLM Serving Systems",
     "tag": ["Efficient AI", "Large Language Model"],
