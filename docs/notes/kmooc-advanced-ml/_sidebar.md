@@ -1,0 +1,11 @@
+- [**전체보기**](dashboard)
+- **Lecture Home**
+  - [About](kmooc-advanced-ml/notes/)
+- **Lecture Notes**
+  - [Graphical Model(GM)](kmooc-advanced-ml/notes/lec01)
+  - [Bayesian Network Overview](kmooc-advanced-ml/notes/lec02)
+  - [Non-Linear SVM](kmooc-advanced-ml/notes/lec09)
+  - [Gaussian Process](kmooc-advanced-ml/notes/lec12)
+  - [Singular Value Decomposition(SVD)](kmooc-advanced-ml/notes/lec13/summary01)
+  - [Gaussian Mixture Model(GMM)](kmooc-advanced-ml/notes/lec14/summary01)
+  - [Expectation-Maximization(EM) Algorithm](kmooc-advanced-ml/notes/lec14/summary02)
