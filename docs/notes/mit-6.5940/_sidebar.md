@@ -20,6 +20,9 @@
   - [Distillation for Applications](MIT-Efficient-AI/notes/2022/lec10/summary02)
   - [MCUNet](MIT-Efficient-AI/notes/2022/lec11)
 - **Efficient Training and System Support**
+  - [On-device Training, Transfer Learning](MIT-Efficient-AI/notes/2022/lec15)
+  - [Tiny Training Engine](MIT-Efficient-AI/notes/2022/lec16/summary01)
+  - [Compilers, Graph-level Optimization](MIT-Efficient-AI/notes/2022/lec16/summary02)
   - [Microcontroller, Loop Optimization](MIT-Efficient-AI/notes/2022/lec17/summary01)
   - [Inference Optimization](MIT-Efficient-AI/notes/2022/lec17/summary02)
 - **Domain-Specific Optimizations**
@@ -34,5 +37,7 @@
   - [Long Context LLM](MIT-Efficient-AI/notes/2024/lec15/summary01)
   - [Efficient Attention, Beyond Transformers](MIT-Efficient-AI/notes/2024/lec15/summary02)
   - [Vision Transformer](MIT-Efficient-AI/notes/2023/lec14/summary01)
+  - [ViT Training, AR Image Generation](MIT-Efficient-AI/notes/2023/lec14/summary02)
   - [Efficient Video Understanding](MIT-Efficient-AI/notes/2022/lec19/summary01)
   - [Generative Adversarial Networks (GANs)](MIT-Efficient-AI/notes/2022/lec19/summary02)
+  - [Efficient Point Cloud Recognition](MIT-Efficient-AI/notes/2022/lec18/summary01)
