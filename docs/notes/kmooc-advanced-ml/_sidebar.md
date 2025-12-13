@@ -4,6 +4,7 @@
 - **Lecture Notes**
   - [Graphical Model(GM)](kmooc-advanced-ml/notes/lec01)
   - [Bayesian Network Overview](kmooc-advanced-ml/notes/lec02)
+  - [Hidden Markov Model Overview](kmooc-advanced-ml/notes/lec04)
   - [Non-Linear SVM](kmooc-advanced-ml/notes/lec09)
   - [Gaussian Process](kmooc-advanced-ml/notes/lec12)
   - [Singular Value Decomposition(SVD)](kmooc-advanced-ml/notes/lec13/summary01)
