@@ -4,9 +4,12 @@
 - **Lecture Notes**
   - [Graphical Model(GM)](kmooc-advanced-ml/notes/lec01)
   - [Bayesian Network Overview](kmooc-advanced-ml/notes/lec02)
+  - [Inference in Bayesian Networks](kmooc-advanced-ml/notes/lec03)
   - [Hidden Markov Model Overview](kmooc-advanced-ml/notes/lec04)
   - [Non-Linear SVM](kmooc-advanced-ml/notes/lec09)
+  - [Random Forest](kmooc-advanced-ml/notes/lec10)
   - [Gaussian Process](kmooc-advanced-ml/notes/lec12)
   - [Singular Value Decomposition(SVD)](kmooc-advanced-ml/notes/lec13/summary01)
+  - [Matrix Factorization](kmooc-advanced-ml/notes/lec13/summary02)
   - [Gaussian Mixture Model(GMM)](kmooc-advanced-ml/notes/lec14/summary01)
   - [Expectation-Maximization(EM) Algorithm](kmooc-advanced-ml/notes/lec14/summary02)
