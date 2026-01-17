@@ -10,3 +10,29 @@
 # My Github Repos Parser
 parse/*
 */token.yaml
+
+# Static mirror build artifacts
+scripts/__pycache__/
+scripts/.venv/
+
+# OMC tooling state
+.omc/
+
+# === Generated static SEO mirror ============================================
+# 산출물은 GitHub Actions 가 매 배포마다 새로 생성해 Pages CDN 으로 직접 보냅니다.
+# repo 에 commit 하지 않습니다. 새로운 외부 강의 저장소를 추가할 때는 아래
+# 디렉터리 목록에 추가해 주세요.
+/docs/sitemap.xml
+/docs/CMU-Advanced-NLP/
+/docs/COD-RISC-V/
+/docs/MIT-Efficient-AI/
+/docs/MicroC_OS-II/
+/docs/arm-system-developers-guide/
+/docs/kmooc-advanced-ml/
+/docs/modern-c/
+/docs/pro-cuda-c/
+/docs/python-tricks/
+/docs/udemy-speaker-recognition/
+# enroot-slurm: 소스 .md 와 생성 산출물이 같은 디렉터리에 공존하므로 한정 지정
+/docs/notes/enroot-slurm/index.html
+/docs/notes/enroot-slurm/*/

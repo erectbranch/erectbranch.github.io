@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erectbranch.github.io/sitemap.xml
