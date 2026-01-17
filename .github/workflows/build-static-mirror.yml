@@ -1,0 +1,58 @@
+name: Build & deploy to GitHub Pages
+
+# 소스 변경 시 빌드한 정적 산출물(`docs/` 트리)을 GitHub Pages CDN 으로 직접 배포.
+# 산출물을 master 에 commit 하지 않으므로 무한 루프나 working tree 오염이 없음.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# 동시에 두 배포가 겹치지 않게 직렬화 (Pages 공식 권장 패턴)
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build static SEO mirror
+        run: python scripts/build-static.py
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

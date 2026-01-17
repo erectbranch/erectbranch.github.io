@@ -1,0 +1,21 @@
+# Static mirror configuration for SEO indexing.
+#
+# 빌드 스크립트는 docs/notes/*/_sidebar.md 를 자동 스캔하여
+# 외부(GitHub raw) / 로컬 콘텐츠를 정적 HTML로 미러링합니다.
+# 모든 외부 라우트는 https://github.com/<github_user>/<repo>/blob/<default_branch>/...
+# 형태로 해석됩니다 (sidebar 링크의 첫 path segment 가 <repo>).
+
+base_url: https://erectbranch.github.io
+github_user: erectbranch
+default_branch: master
+
+# sitemap.xml 의 모든 <lastmod> 값에 사용할 ISO 8601 날짜.
+# 비워두면 매 빌드 시 그날의 UTC 날짜를 사용함.
+lastmod: "2026-01-17"
+
+# 미러링에서 제외할 사이드바 디렉터리 (필요 시 채워 사용)
+skip_sidebars: []
+
+# 미러링에서 제외할 sidebar 라벨/링크 키워드 (대소문자 무시 부분 일치)
+skip_label_keywords:
+  - 전체보기
