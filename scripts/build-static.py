@@ -16,6 +16,7 @@ redirected to the interactive SPA experience automatically.
 """
 
 import argparse
+import json
 import re
 import sys
 from datetime import datetime, timezone
@@ -30,6 +31,7 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DOCS_DIR = REPO_ROOT / "docs"
 CONFIG_PATH = Path(__file__).resolve().parent / "static-mirror.yaml"
+POSTS_JSON_PATH = DOCS_DIR / "metadata" / "posts.json"
 
 MD_LINK_RE = re.compile(
     r'(?<!!)\[([^\]]+)\]\(([^)#\s]+)(?:\s+"[^"]*")?\)'
@@ -43,6 +45,164 @@ SESSION.headers["User-Agent"] = "docsify-static-mirror/1.0 (+https://erectbranch
 
 def load_config() -> dict:
     return yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def load_posts_lookup() -> dict:
+    """Build clean_path → posts.json entry lookup.
+
+    SPA-side metadata (docs/metadata/posts.json) drives the dashboard cards
+    and per-page title block. Reusing the same source here keeps SEO and SPA
+    metadata in lockstep (same image, tags, date).
+    """
+    if not POSTS_JSON_PATH.is_file():
+        return {}
+    try:
+        data = json.loads(POSTS_JSON_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    lookup = {}
+    for entry in data:
+        href = entry.get("href", "")
+        if href.startswith("#/"):
+            lookup[href[2:].rstrip("/")] = entry
+    return lookup
+
+
+LECTURE_PATTERNS = [
+    (re.compile(r"^lec(\d+)$", re.I), lambda m: f"Lec {int(m.group(1)):02d}"),
+    (re.compile(r"^ch(\d+)$", re.I), lambda m: f"Ch {int(m.group(1)):02d}"),
+    (re.compile(r"^section(\d+)$", re.I), lambda m: f"Sec {int(m.group(1)):02d}"),
+    (re.compile(r"^summary(\d+)$", re.I), lambda m: f"Pt {int(m.group(1)):02d}"),
+    (re.compile(r"^(\d{4})$"), lambda m: m.group(0)),  # academic year
+    (re.compile(r"^(\d+)_.+$"), lambda m: f"#{int(m.group(1)):02d}"),  # enroot-style "01_UBAI"
+]
+
+
+def extract_lecture_label(clean_path: str) -> str:
+    """Compose a short, human-readable lecture/chapter marker from URL segments.
+
+    Walks the segments after `notes/` and applies pattern table. Unmatched
+    segments are skipped silently. Returns empty string when no markers found
+    (e.g., course landing page).
+    """
+    parts = clean_path.split("/")
+    try:
+        idx = parts.index("notes")
+    except ValueError:
+        return ""
+    labels = []
+    for seg in parts[idx + 1:]:
+        for pattern, formatter in LECTURE_PATTERNS:
+            m = pattern.match(seg)
+            if m:
+                labels.append(formatter(m))
+                break
+    return " ".join(labels)
+
+
+def build_seo_title(headline: str, clean_path: str, course_shorts: dict,
+                    site_name: str) -> str:
+    """Compose `<title>` text: `{headline} · {course_short} {lecture} — {site}`.
+
+    Falls back gracefully when course_shorts misses an entry or no lecture
+    pattern matches.
+    """
+    parts = clean_path.split("/")
+    if parts[0] == "notes" and len(parts) >= 2:
+        repo_key = parts[1]
+    else:
+        repo_key = parts[0]
+    course_short = course_shorts.get(repo_key, "")
+    lecture_label = extract_lecture_label(clean_path)
+
+    suffix_parts = []
+    if course_short and lecture_label:
+        suffix_parts.append(f"{course_short} {lecture_label}")
+    elif lecture_label:
+        suffix_parts.append(lecture_label)
+    elif course_short:
+        suffix_parts.append(course_short)
+
+    if suffix_parts:
+        body = f"{headline} · {' · '.join(suffix_parts)}"
+    else:
+        body = headline
+    return f"{body} — {site_name}"
+
+
+def normalize_pub_date(raw: str) -> str:
+    """Convert posts.json 'YYYY.MM.DD' → ISO 'YYYY-MM-DD' (schema.org datePublished)."""
+    if not raw:
+        return ""
+    m = re.match(r"(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})", raw.strip())
+    if not m:
+        return ""
+    y, mo, d = m.groups()
+    return f"{y}-{int(mo):02d}-{int(d):02d}"
+
+
+def build_breadcrumbs(clean_path: str, headline: str, course_names: dict, base_url: str):
+    """Return list of (name, url) for BreadcrumbList JSON-LD."""
+    crumbs = [("Branch Log", f"{base_url}/")]
+    parts = clean_path.split("/")
+    if parts[0] == "notes" and len(parts) >= 2:
+        repo_key = parts[1]
+        course_path = f"/notes/{repo_key}/"
+    else:
+        repo_key = parts[0]
+        course_path = f"/{repo_key}/notes/"
+    course_name = course_names.get(repo_key, repo_key)
+    course_url = f"{base_url}{course_path}"
+    page_url = f"{base_url}/{clean_path}/"
+    # Skip intermediate crumb when we're already on the course landing page.
+    if course_url.rstrip("/") != page_url.rstrip("/"):
+        crumbs.append((course_name, course_url))
+    crumbs.append((headline, page_url))
+    return crumbs
+
+
+def build_json_ld(*, headline, description, canonical, image, pub_date,
+                  tags, breadcrumbs, site, lang):
+    blog = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": headline,
+        "url": canonical,
+        "mainEntityOfPage": canonical,
+        "inLanguage": "ko-KR" if lang == "ko" else "en",
+        "author": {
+            "@type": "Person",
+            "name": site["author"],
+            "url": site["author_url"],
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": site["name"],
+            "url": canonical.split("/", 3)[0] + "//" + canonical.split("/")[2] + "/",
+        },
+    }
+    if description:
+        blog["description"] = description
+    if image:
+        blog["image"] = image
+    if pub_date:
+        blog["datePublished"] = pub_date
+        blog["dateModified"] = pub_date
+    if tags:
+        blog["keywords"] = ", ".join(tags) if isinstance(tags, list) else str(tags)
+
+    crumb_list = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": n, "item": u}
+            for i, (n, u) in enumerate(breadcrumbs)
+        ],
+    }
+    return (
+        json.dumps(blog, ensure_ascii=False, indent=2),
+        json.dumps(crumb_list, ensure_ascii=False, indent=2),
+    )
 
 
 def discover_sidebars(skip: set[str]) -> list[Path]:
@@ -164,7 +324,7 @@ def extract_title_desc(html: str, fallback_label: str):
 
 
 PAGE_TEMPLATE = """<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -177,6 +337,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:url" content="{canonical}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Branch Log">
+{og_image_tag}
+<script type="application/ld+json">
+{json_ld_blog}
+</script>
+<script type="application/ld+json">
+{json_ld_breadcrumb}
+</script>
 <style>
   body{{font-family:-apple-system,BlinkMacSystemFont,'Source Sans Pro',sans-serif;max-width:780px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222;visibility:hidden}}
   article img{{max-width:100%;height:auto}}
@@ -206,7 +373,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-def render_html_page(label, target, conf, md_engine):
+def render_html_page(label, target, conf, md_engine, posts_lookup, course_names):
     clean_path, kind, arg = normalize_route(target)
     if clean_path is None:
         return None, f"unparseable target: {target}"
@@ -225,17 +392,47 @@ def render_html_page(label, target, conf, md_engine):
 
     md_engine.reset()
     html = md_engine.convert(md_text)
-    title, description = extract_title_desc(html, label)
-    spa_url = f"/#/{clean_path}"
-    canonical = f"{conf['base_url'].rstrip('/')}/{clean_path}/"
+    h1_title, description = extract_title_desc(html, label)
 
-    import json
+    # SPA-side metadata (posts.json) takes precedence — keeps SEO in sync with dashboard.
+    post = posts_lookup.get(clean_path, {})
+    headline = post.get("title") or h1_title
+    image = post.get("image") or ""
+    tags = post.get("tag") or []
+    pub_date = normalize_pub_date(post.get("time") or "")
+
+    base_url = conf["base_url"].rstrip("/")
+    spa_url = f"/#/{clean_path}"
+    canonical = f"{base_url}/{clean_path}/"
+    lang = "ko" if re.search(r"[ㄱ-힝]", headline + " " + description) else "en"
+
+    breadcrumbs = build_breadcrumbs(clean_path, headline, course_names, base_url)
+    json_ld_blog, json_ld_crumb = build_json_ld(
+        headline=headline,
+        description=description,
+        canonical=canonical,
+        image=image,
+        pub_date=pub_date,
+        tags=tags,
+        breadcrumbs=breadcrumbs,
+        site=conf["site"],
+        lang=lang,
+    )
+
+    og_image_tag = (
+        f'<meta property="og:image" content="{xml_escape(image)}">' if image else ""
+    )
+
     page = PAGE_TEMPLATE.format(
-        title=xml_escape(title),
+        lang=lang,
+        title=xml_escape(headline),
         description=xml_escape(description),
         canonical=xml_escape(canonical),
         spa_url=xml_escape(spa_url),
         spa_url_json=json.dumps(spa_url),
+        og_image_tag=og_image_tag,
+        json_ld_blog=json_ld_blog,
+        json_ld_breadcrumb=json_ld_crumb,
         content=html,
     )
 
@@ -280,6 +477,8 @@ def main():
     conf = load_config()
     skip_dirs = set(conf.get("skip_sidebars") or [])
     skip_kw = list(conf.get("skip_label_keywords") or [])
+    posts_lookup = load_posts_lookup()
+    course_names = conf.get("course_names") or {}
 
     md_engine = markdown.Markdown(
         extensions=["fenced_code", "tables", "toc", "sane_lists", "attr_list"],
@@ -298,7 +497,9 @@ def main():
                 clean, kind, _ = normalize_route(target)
                 print(f"  [{kind:8}] {clean}  ←  {target}")
                 continue
-            clean, err = render_html_page(label, target, conf, md_engine)
+            clean, err = render_html_page(
+                label, target, conf, md_engine, posts_lookup, course_names
+            )
             if err:
                 failures.append((clean, target, err))
                 print(f"  FAIL  {target}: {err}", file=sys.stderr)

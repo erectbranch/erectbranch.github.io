@@ -13,6 +13,26 @@ default_branch: master
 # 비워두면 매 빌드 시 그날의 UTC 날짜를 사용함.
 lastmod: "2026-01-17"
 
+# 사이트 메타 (JSON-LD publisher / author 에 사용)
+site:
+  name: "Branch Log"
+  author: "Sungjae Jeon"
+  author_url: "https://github.com/erectbranch"
+
+# 외부 GitHub 저장소 → 표시용 코스명. breadcrumb 및 JSON-LD headline 보강용.
+course_names:
+  MIT-Efficient-AI: "TinyML and Efficient Deep Learning Computing"
+  udemy-speaker-recognition: "Speaker Recognition"
+  CMU-Advanced-NLP: "Advanced NLP"
+  kmooc-advanced-ml: "Advanced Machine Learning"
+  arm-system-developers-guide: "ARM System Developer's Guide"
+  COD-RISC-V: "Computer Organization and Design RISC-V"
+  MicroC_OS-II: "MicroC/OS-II The Real-Time Kernel"
+  modern-c: "Modern C"
+  python-tricks: "Python Tricks"
+  pro-cuda-c: "Professional CUDA C Programming"
+  enroot-slurm: "Enroot on Slurm for Distributed Deep Learning"
+
 # 미러링에서 제외할 사이드바 디렉터리 (필요 시 채워 사용)
 skip_sidebars: []
 
