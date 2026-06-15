@@ -1,25 +1,25 @@
 # Static mirror configuration for SEO indexing.
 #
-# 빌드 스크립트는 docs/notes/*/_sidebar.md 를 자동 스캔하여
-# 외부(GitHub raw) / 로컬 콘텐츠를 정적 HTML로 미러링합니다.
-# 모든 외부 라우트는 https://github.com/<github_user>/<repo>/blob/<default_branch>/...
-# 형태로 해석됩니다 (sidebar 링크의 첫 path segment 가 <repo>).
+# The build script auto-scans docs/notes/*/_sidebar.md and mirrors both
+# external (GitHub raw) and local content into static HTML. Every external
+# route resolves to https://github.com/<github_user>/<repo>/blob/<default_branch>/...
+# where <repo> is the first path segment of the sidebar link.
 
 base_url: https://erectbranch.github.io
 github_user: erectbranch
 default_branch: master
 
-# sitemap.xml 의 모든 <lastmod> 값에 사용할 ISO 8601 날짜.
-# 비워두면 매 빌드 시 그날의 UTC 날짜를 사용함.
+# ISO 8601 date applied as <lastmod> for every sitemap.xml entry.
+# Leave empty to use today's UTC date on each build.
 lastmod: "2026-01-17"
 
-# 사이트 메타 (JSON-LD publisher / author 에 사용)
+# Site metadata used by JSON-LD publisher / author blocks.
 site:
   name: "Branch Log"
   author: "Sungjae Jeon"
   author_url: "https://github.com/erectbranch"
 
-# 외부 GitHub 저장소 → 표시용 코스명. breadcrumb 및 JSON-LD headline 보강용.
+# External GitHub repo → display course name. Enriches breadcrumb and JSON-LD headline.
 course_names:
   MIT-Efficient-AI: "TinyML and Efficient Deep Learning Computing"
   udemy-speaker-recognition: "Speaker Recognition"
@@ -33,9 +33,10 @@ course_names:
   pro-cuda-c: "Professional CUDA C Programming"
   enroot-slurm: "Enroot on Slurm for Distributed Deep Learning"
 
-# 미러링에서 제외할 사이드바 디렉터리 (필요 시 채워 사용)
+# Sidebar directories to skip during mirroring (populate as needed).
 skip_sidebars: []
 
-# 미러링에서 제외할 sidebar 라벨/링크 키워드 (대소문자 무시 부분 일치)
+# Sidebar label/link keywords to skip (case-insensitive substring match).
+# NOTE: "전체보기" is intentional — matches the Korean "View all" entry in source sidebars.
 skip_label_keywords:
   - 전체보기

@@ -1,14 +1,15 @@
 name: Build & deploy to GitHub Pages
 
-# 소스 변경 시 빌드한 정적 산출물(`docs/` 트리)을 GitHub Pages CDN 으로 직접 배포.
-# 산출물을 master 에 commit 하지 않으므로 무한 루프나 working tree 오염이 없음.
+# On source changes, deploy the built static tree (`docs/`) straight to the
+# GitHub Pages CDN. Build artifacts are never committed to master, so this
+# avoids both auto-commit loops and working-tree pollution.
 
 on:
   push:
     branches: [master]
   workflow_dispatch:
 
-# 동시에 두 배포가 겹치지 않게 직렬화 (Pages 공식 권장 패턴)
+# Serialize concurrent deploys (the GitHub Pages-recommended pattern).
 concurrency:
   group: pages
   cancel-in-progress: false
