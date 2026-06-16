@@ -1,0 +1,249 @@
+/* ============================================================================
+ * Dark mode overrides for components that hardcode light colors in
+ * custom.css / overlay.css / cards.css / notes.css / clock.css.
+ *
+ * Activated when darkmode.js sets `data-theme="dark"` on <html>. The themeable
+ * dark stylesheet handles base CSS variables; this file patches the rest.
+ * ========================================================================== */
+
+html[data-theme="dark"] {
+  /* Dark palette — derived from themeable's --mono-base hsl(201, 18%, 19%). */
+  --dm-bg: #252c33;
+  --dm-bg-soft: #2c343b;
+  --dm-bg-muted: #1f252a;
+  --dm-text: #d3d3d3;
+  --dm-text-strong: #f1f3f5;
+  --dm-text-muted: #9aa4ad;
+  --dm-border: #3a444d;
+  --dm-border-soft: #2f383f;
+  --dm-accent: #1BA1EE;
+  --dm-code-bg: #1f252a;
+  --dm-tag-bg: #2f383f;
+  --dm-tag-fg: #5fd6ad;
+  --dm-link: #1BA1EE;
+
+  /* Themeable-aware variables that custom.css references via fallback. */
+  --link-color: var(--dm-link);
+  --sidebar-name-color: var(--dm-text-strong);
+  --sidebar-nav-link-color--active: var(--dm-link);
+  --sidebar-nav-link-border-color--active: var(--dm-link);
+  --navbar-root-color--active: var(--dm-link);
+  --blockquote-border-color: var(--dm-link);
+  --pagination-title-color: var(--dm-link);
+
+  /* docsify-dashboard plugin variables (homepage cards + tagboard). */
+  --dashboard-card-bg-color: var(--dm-bg-soft);
+  --dashboard-card-text-color: var(--dm-text);
+  --dashboard-card-subtitle-color: var(--dm-text-muted);
+  --dashboard-card-date-color: var(--dm-text-muted);
+  --dashboard-card-img-border: .1em solid var(--dm-border);
+  --dashboard-card-shadow: 0 .3em .3em rgba(0, 0, 0, 0.5);
+
+  /* Dashboard tagboard + sidebar tags. */
+  --tags-bg-color: var(--dm-tag-bg);
+  --tags-font-color: var(--dm-tag-fg);
+  --sidebar-tags-bg-color: var(--dm-tag-bg);
+  --sidebar-tags-font-color: var(--dm-tag-fg);
+
+  /* Notes-page title tags (notes.css variables, distinct from dashboard). */
+  --title-tags-bg-color: var(--dm-tag-bg);
+  --title-tags-font-color: var(--dm-tag-fg);
+}
+
+/* --- Body / sidebar / app shell ------------------------------------------- */
+html[data-theme="dark"] body {
+  background-color: var(--dm-bg);
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .sidebar {
+  background-color: var(--dm-bg-soft);
+  color: var(--dm-text);
+  border-right-color: rgba(255, 255, 255, 0.08);
+}
+html[data-theme="dark"] .sidebar ul li a {
+  color: var(--dm-text);
+}
+html[data-theme="dark"] .sidebar ul li.active > a,
+html[data-theme="dark"] .sidebar-nav > ul > li > ul > li[class].collapse > a {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+html[data-theme="dark"] .sidebar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+html[data-theme="dark"] .sidebar li > p,
+html[data-theme="dark"] .sidebar ul li .section-link {
+  color: var(--dm-text-muted);
+}
+html[data-theme="dark"] .sidebar-nav > ul > li > ul > li:last-child::after {
+  border-bottom-color: var(--dm-border-soft);
+}
+
+html[data-theme="dark"] .sidebar-toggle {
+  background-color: var(--dm-bg-soft);
+  border-color: var(--dm-border);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 1px 0, rgba(255, 255, 255, 0.04) 0 1px 0 inset;
+}
+html[data-theme="dark"] .sidebar-toggle:hover {
+  background-color: var(--dm-bg);
+}
+html[data-theme="dark"] .sidebar-toggle span {
+  background-color: var(--dm-text);
+}
+
+/* --- Search input --------------------------------------------------------- */
+html[data-theme="dark"] .sidebar .search input[type="search"] {
+  color: var(--dm-text);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='%239aa4ad' d='M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z'/%3E%3C/svg%3E");
+}
+html[data-theme="dark"] .search input::placeholder {
+  color: var(--dm-text-muted);
+}
+
+/* --- Markdown content ----------------------------------------------------- */
+html[data-theme="dark"] .markdown-section h1,
+html[data-theme="dark"] .markdown-section h2,
+html[data-theme="dark"] .markdown-section h3,
+html[data-theme="dark"] .markdown-section h4,
+html[data-theme="dark"] .markdown-section strong {
+  color: var(--dm-text-strong);
+}
+html[data-theme="dark"] .markdown-section h6 {
+  color: var(--dm-text-muted);
+}
+html[data-theme="dark"] .markdown-section em {
+  color: var(--dm-text-muted);
+}
+html[data-theme="dark"] .markdown-section a {
+  color: var(--dm-link);
+}
+html[data-theme="dark"] .anchor span {
+  color: var(--dm-text);
+}
+
+html[data-theme="dark"] .markdown-section blockquote {
+  border-left-color: var(--dm-border);
+  color: var(--dm-text-muted);
+  background-color: transparent;
+}
+html[data-theme="dark"] .markdown-section hr {
+  border-bottom-color: var(--dm-border);
+}
+
+/* Code blocks & inline code */
+html[data-theme="dark"] .markdown-section code,
+html[data-theme="dark"] .markdown-section pre {
+  background-color: var(--dm-code-bg);
+}
+html[data-theme="dark"] .markdown-section pre > code {
+  color: var(--dm-text);
+}
+
+/* Tables */
+html[data-theme="dark"] .markdown-section th,
+html[data-theme="dark"] .markdown-section td {
+  border-color: var(--dm-border);
+}
+html[data-theme="dark"] .markdown-section tr {
+  border-top-color: var(--dm-border);
+  background-color: transparent;
+}
+html[data-theme="dark"] .markdown-section tr:nth-child(2n) {
+  background-color: var(--dm-bg-soft);
+}
+
+/* Tip / Warn callouts */
+html[data-theme="dark"] .markdown-section p.tip,
+html[data-theme="dark"] .markdown-section p.warn {
+  color: var(--dm-text);
+}
+html[data-theme="dark"] .markdown-section p.tip code {
+  background-color: var(--dm-code-bg);
+}
+html[data-theme="dark"] .markdown-section p.tip em {
+  color: var(--dm-text-muted);
+}
+
+/* --- Section cover (homepage hero) --------------------------------------- */
+html[data-theme="dark"] section.cover.has-mask .mask {
+  background-color: var(--dm-bg);
+}
+
+/* --- Overlay (B.LOG splash screen) --------------------------------------- */
+html[data-theme="dark"] .overlay {
+  background: rgba(20, 24, 28, 0.98);
+}
+html[data-theme="dark"] .overlay .container h1 {
+  color: var(--dm-text-strong);
+}
+html[data-theme="dark"] .overlay .box {
+  color: #03e568;
+  background-color: #0f1418;
+}
+html[data-theme="dark"] .overlay .frame-controls button {
+  background: #1f252a;
+  color: var(--dm-text);
+}
+html[data-theme="dark"] .overlay .frame-controls button:hover {
+  background: #2c343b;
+}
+html[data-theme="dark"] .overlay-controls button {
+  background: #1f252a;
+  color: var(--dm-link);
+}
+html[data-theme="dark"] .overlay .close-overlay {
+  background: rgba(20, 24, 28, 0) !important;
+  border-color: var(--dm-link);
+}
+
+/* --- Cards (toc-page-display) -------------------------------------------- */
+html[data-theme="dark"] .toc-page-display-a#paper {
+  background-color: var(--dm-bg-soft);
+  color: var(--dm-text);
+  box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.5);
+}
+html[data-theme="dark"] .toc-page-display-title-div#paper {
+  color: var(--dm-text-strong);
+}
+html[data-theme="dark"] .toc-page-display-date-div#paper {
+  color: var(--dm-text-muted);
+}
+
+/* --- Notes title block --------------------------------------------------- */
+html[data-theme="dark"] .note-title {
+  color: var(--dm-text-strong) !important;
+}
+html[data-theme="dark"] .note-subtitle {
+  color: var(--dm-text-muted);
+}
+html[data-theme="dark"] .note-tag a {
+  background-color: var(--dm-tag-bg);
+  color: var(--dm-tag-fg);
+}
+html[data-theme="dark"] .title-options-wrapper {
+  color: var(--dm-text-muted);
+  border-top-color: var(--dm-border-soft);
+  border-bottom-color: var(--dm-border-soft);
+}
+html[data-theme="dark"] .title-options-wrapper a,
+html[data-theme="dark"] button.title-options-button {
+  color: var(--dm-text-muted);
+}
+
+/* --- Clock (sidebar widget) ---------------------------------------------- */
+html[data-theme="dark"] .clock-container {
+  --clock-container-bg-color: var(--dm-bg-soft);
+  --clock-days-font-color: var(--dm-text);
+  --clock-date-bg-color: var(--dm-text);
+  --clock-date-font-color: var(--dm-bg);
+}
+
+/* --- Nav theme-toggle hover treatment ------------------------------------ */
+html[data-theme="dark"] #theme-toggle:hover {
+  color: var(--dm-link);
+}
+
+/* --- KaTeX inline math: keep readable on dark bg ------------------------- */
+html[data-theme="dark"] .katex {
+  color: var(--dm-text);
+}

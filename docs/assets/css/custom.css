@@ -309,9 +309,8 @@ body .markdown-section {
   /* navbar dropdown */
   }
   .app-nav.no-badge {
-    /* margin-right: 25px; */
     max-width: calc(var(--content-max-width) + 200px);
-    margin-right: 25px;
+    margin-right: -10px;
   }
   .app-nav p {
     margin: 0;

@@ -639,6 +639,13 @@ body .docsify-pagination-container {
   border-top: 0px solid rgba(0, 0, 0, 0.07);
 }
 
+/* Dashboard ("전체보기") is a card index, not a sequential reading page —
+   suppress the NEXT/PREV pagination there. The route comes from
+   _sidebar.md's [전체보기](dashboard.md), exposed on <body> by doneEach. */
+body[data-page="dashboard"] .docsify-pagination-container {
+  display: none !important;
+}
+
 .progress {
   background-color: var(--blockquote-border-color);
 }

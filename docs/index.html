@@ -20,20 +20,34 @@
   <meta property="og:image" content="https://erectbranch.github.io/images/profile.png">
   <meta property="og:url" content="https://erectbranch.github.io/">
 
-  <!-- Docsify Themeable "develop" branch preview files -->
-  <link rel="stylesheet" href="assets/vendor/themeable/themes/theme-simple.css">
-
-  <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)"
-    href="assets/vendor/themeable/themes/theme-simple.css"> -->
-  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-    href="assets/vendor/themeable/themes/theme-simple-dark.css"> -->
+  <!-- Themeable: light + dark stylesheet pair, swapped via `disabled` from darkmode.js -->
+  <link rel="stylesheet" id="theme-light" href="assets/vendor/themeable/themes/theme-simple.css" title="light">
+  <link rel="stylesheet" id="theme-dark" href="assets/vendor/themeable/themes/theme-simple-dark.css" title="dark">
+  <script>
+    // Bootstrap: apply saved theme before render to avoid a flash of light content.
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        var light = document.getElementById('theme-light');
+        var dark = document.getElementById('theme-dark');
+        if (theme === 'dark') {
+          if (light) light.disabled = true;
+          if (dark) dark.disabled = false;
+        } else {
+          if (light) light.disabled = false;
+          if (dark) dark.disabled = true;
+        }
+      } catch (e) { /* localStorage may be blocked */ }
+    })();
+  </script>
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/overlay.css">
   <link rel="stylesheet" href="assets/css/clock.css">
   <link rel="stylesheet" href="assets/css/notes.css">
+  <link rel="stylesheet" href="assets/css/dark-overrides.css">
 
   <!-- Font Awesome Stylesheets -->
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
@@ -442,8 +456,22 @@
           });
 
           
+          // Expose current route on <body> for page-scoped CSS (e.g. hide
+          // pagination on the dashboard page).
+          function setBodyPage() {
+            var rawPath = (vm && vm.route && vm.route.path) ||
+              window.location.hash.replace(/^#/, '').split('?')[0] ||
+              '/';
+            var routePath = rawPath.replace(/^\//, '').replace(/\.md$/, '') || 'home';
+            document.body.dataset.page = routePath;
+          }
+          window.addEventListener('hashchange', setBodyPage);
+          setBodyPage();
+
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
+            setBodyPage();
+
             var hasEmbedly = document.getElementsByClassName('embedly-card');
             if (hasEmbedly.length > 0) {
               // elements with class "embedly-card" exist
@@ -641,6 +669,9 @@
 
   <!-- custom: clock 스크립트 -->
   <script src="./assets/plugins/clock.js"></script>
+
+  <!-- custom: dark mode toggle (binds to #theme-toggle in nav.md) -->
+  <script src="./assets/plugins/darkmode.js"></script>
 
   <!-- custom: 루트 경로(#)인 경우, 커버 페이지인 overlay를 표시. -->
   <script>
