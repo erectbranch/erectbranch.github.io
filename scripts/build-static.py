@@ -27,6 +27,7 @@ from xml.sax.saxutils import escape as xml_escape
 import markdown
 import requests
 import yaml
+from latex2mathml.converter import convert as latex2mathml_convert
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DOCS_DIR = REPO_ROOT / "docs"
@@ -66,6 +67,54 @@ def load_posts_lookup() -> dict:
         if href.startswith("#/"):
             lookup[href[2:].rstrip("/")] = entry
     return lookup
+
+
+INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
+BLOCK_MATH_RE = re.compile(r"\$\$([^$]+?)\$\$", re.S)
+INLINE_MATH_RE = re.compile(r"(?<!\$)\$([^$\n]+?)\$(?!\$)")
+
+
+def _latex_to_mathml(latex: str, *, display: str) -> str:
+    """Convert a LaTeX expression to MathML.
+
+    Falls back to escaped <code> on conversion failure so unsupported syntax
+    stays readable rather than crashing the build. docsify-katex renders the
+    same content in the SPA, so users still see proper math in the live app.
+    """
+    try:
+        return latex2mathml_convert(latex.strip(), display=display)
+    except Exception:
+        return f"<code>{xml_escape(latex.strip())}</code>"
+
+
+def render_math_in_markdown(md: str) -> str:
+    """Replace $...$ and $$...$$ LaTeX with semantic MathML, skipping code blocks.
+
+    Bots index MathML as structured math; raw `$\\sum$` characters would
+    otherwise leak into the body text and pollute topic classification.
+    """
+    fence_parts = re.split(r"(```[\s\S]*?```)", md)
+    out_pieces = []
+    for piece in fence_parts:
+        if piece.startswith("```"):
+            out_pieces.append(piece)
+            continue
+        # Within non-fenced text, also protect single-backtick inline code.
+        inline_parts = INLINE_CODE_RE.split(piece)
+        inline_codes = INLINE_CODE_RE.findall(piece)
+        rebuilt = []
+        for i, txt in enumerate(inline_parts):
+            txt = BLOCK_MATH_RE.sub(
+                lambda m: _latex_to_mathml(m.group(1), display="block"), txt
+            )
+            txt = INLINE_MATH_RE.sub(
+                lambda m: _latex_to_mathml(m.group(1), display="inline"), txt
+            )
+            rebuilt.append(txt)
+            if i < len(inline_codes):
+                rebuilt.append(inline_codes[i])
+        out_pieces.append("".join(rebuilt))
+    return "".join(out_pieces)
 
 
 LECTURE_PATTERNS = [
@@ -389,6 +438,9 @@ def render_html_page(label, target, conf, md_engine, posts_lookup, course_names)
     md_text = rewrite_relative_assets(md_text, base)
     # docsify-katex compatibility: ```math fences → $$ $$
     md_text = re.sub(r"```math([\s\S]*?)```", r"$$\1$$", md_text)
+    # Convert LaTeX math to MathML so bots index semantic structure instead
+    # of seeing raw `$\sum$` noise. docsify-katex still handles SPA rendering.
+    md_text = render_math_in_markdown(md_text)
 
     md_engine.reset()
     html = md_engine.convert(md_text)
