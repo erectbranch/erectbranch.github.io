@@ -275,7 +275,12 @@
         '/docsify-(.*)/_sidebar.md': '/#/demo/docsify-$1/_sidebar.md',
         '/docsify-(.*)/nav.md': '/nav.md',
         // notes
-        '/(.*)/notes/((?!.*_sidebar).*)': 'https://raw.githubusercontent.com/erectbranch/$1/master/$2/README.md',
+        // Repo root README (empty sub-path, trailing slash optional).
+        // Needed so the static SEO mirror's redirect target `/#/<repo>/notes`
+        // resolves to the repo's top-level README instead of 404.
+        '/(.*)/notes/?$': 'https://raw.githubusercontent.com/erectbranch/$1/master/README.md',
+        // Sub-paths within a repo's notes tree.
+        '/(.*)/notes/((?!.*_sidebar).+)': 'https://raw.githubusercontent.com/erectbranch/$1/master/$2/README.md',
         '/MIT-Efficient-AI/_sidebar.md': '/#/notes/mit-6.5940/_sidebar.md',
         '/MicroC_OS-II/_sidebar.md': '/#/notes/ucos2/_sidebar.md',
         '/COD-RISC-V/_sidebar.md': '/#/notes/cod/_sidebar.md',
