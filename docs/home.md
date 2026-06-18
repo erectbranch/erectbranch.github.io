@@ -14,7 +14,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
 </div>
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/mit-6s965/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/MIT-Efficient-AI/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -26,7 +26,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
   </div>
 </a>
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/udemy-speaker/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/udemy-speaker-recognition/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -40,7 +40,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
 <div style="clear: both;">
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/cs11-711/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/CMU-Advanced-NLP/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -52,7 +52,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
   </div>
 </a>
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/arm-system-guide/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/arm-system-developers-guide/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -66,7 +66,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
 <div style="clear: both;">
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/cod/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/COD-RISC-V/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -78,7 +78,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
   </div>
 </a>
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/ucos2/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/MicroC_OS-II/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -92,7 +92,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
 <div style="clear: both;">
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/modern-c/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/modern-c/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -104,7 +104,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
   </div>
 </a>
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/python-trick/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/python-tricks/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
@@ -118,7 +118,7 @@ I am an **Efficient AI** researcher, focusing on making <U>efficient algorithms 
 
 <div style="clear: both;">
 
-<a class="toc-page-display-a" id="no-img" href="#/notes/pro-cuda-c/README" target="_blank">
+<a class="toc-page-display-a" id="no-img" href="#/pro-cuda-c/notes/" target="_blank">
   <div class="toc-page-display-title-img" id="no-img"></div>
   <div class="toc-page-display-div">
       <div class="toc-page-display-title-div">
