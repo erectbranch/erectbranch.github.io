@@ -13,11 +13,16 @@ default_branch: master
 # Leave empty to use today's UTC date on each build.
 lastmod: "2026-01-17"
 
-# Site metadata used by JSON-LD publisher / author blocks.
+# Site metadata used by JSON-LD publisher / author blocks and RSS channel.
 site:
   name: "Branch Log"
+  description: "Study notes on Efficient AI, TinyML, MLSys, embedded systems, and HPC."
   author: "Sungjae Jeon"
   author_url: "https://github.com/erectbranch"
+
+# RSS feed (docs/rss.xml). 30 most-recent posts is the RSS 2.0 convention.
+rss:
+  max_items: 30
 
 # External GitHub repo → display course name. Enriches breadcrumb and JSON-LD headline.
 course_names:

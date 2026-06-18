@@ -520,6 +520,67 @@ def emit_sitemap(clean_paths: list[str], conf):
     (DOCS_DIR / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def _rfc822(time_str: str) -> str:
+    parts = re.split(r"[.\-/]", (time_str or "").strip())
+    try:
+        dt = datetime(int(parts[0]), int(parts[1]), int(parts[2]), tzinfo=timezone.utc)
+    except (ValueError, IndexError):
+        dt = datetime.now(timezone.utc)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+
+def emit_rss(successes: list[str], posts_lookup: dict, conf):
+    base = conf["base_url"].rstrip("/")
+    site = conf.get("site") or {}
+    site_name = site.get("name", "Branch Log")
+    site_desc = site.get("description", "")
+    max_items = (conf.get("rss") or {}).get("max_items", 30)
+
+    # Intersect with successes so the feed never links to a page we failed to render.
+    success_set = set(successes)
+    items = [
+        (post.get("time", ""), cp, post)
+        for cp, post in posts_lookup.items()
+        if cp in success_set and post.get("time")
+    ]
+    items.sort(reverse=True)
+    items = items[:max_items]
+
+    build_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        "  <channel>",
+        f"    <title>{xml_escape(site_name)}</title>",
+        f"    <link>{base}/</link>",
+        f"    <description>{xml_escape(site_desc)}</description>",
+        "    <language>ko</language>",
+        f'    <atom:link href="{base}/rss.xml" rel="self" type="application/rss+xml" />',
+        f"    <lastBuildDate>{build_date}</lastBuildDate>",
+    ]
+    for time_str, cp, post in items:
+        url = f"{base}/{cp}/"
+        title = post.get("title") or cp
+        tags = post.get("tag") or []
+        if isinstance(tags, str):
+            tags = [tags]
+        description = " · ".join(tags) if tags else title
+        lines += [
+            "    <item>",
+            f"      <title>{xml_escape(title)}</title>",
+            f"      <link>{xml_escape(url)}</link>",
+            f'      <guid isPermaLink="true">{xml_escape(url)}</guid>',
+            f"      <pubDate>{_rfc822(time_str)}</pubDate>",
+            f"      <description>{xml_escape(description)}</description>",
+        ]
+        for t in tags:
+            lines.append(f"      <category>{xml_escape(t)}</category>")
+        lines.append("    </item>")
+
+    lines += ["  </channel>", "</rss>"]
+    (DOCS_DIR / "rss.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("--dry-run", action="store_true", help="List routes without writing files")
@@ -561,6 +622,7 @@ def main():
 
     if not args.dry_run:
         emit_sitemap(sorted(successes), conf)
+        emit_rss(successes, posts_lookup, conf)
         print(f"\nGenerated {len(successes)} pages, {len(failures)} failures.")
         if failures:
             print("Failures:")

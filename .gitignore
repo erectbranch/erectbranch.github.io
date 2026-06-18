@@ -23,6 +23,7 @@ scripts/.venv/
 # shipped directly to the Pages CDN; they are never committed. When adding
 # a new external lecture repo, append its top-level directory to the list below.
 /docs/sitemap.xml
+/docs/rss.xml
 /docs/CMU-Advanced-NLP/
 /docs/COD-RISC-V/
 /docs/MIT-Efficient-AI/
